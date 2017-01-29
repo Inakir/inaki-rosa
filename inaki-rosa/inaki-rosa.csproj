@@ -131,6 +131,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\inaki-rosa.dll" />
+    <Content Include="bin\inaki-rosa.pdb" />
+    <Content Include="bin\Microsoft.AI.Agent.Intercept.dll" />
+    <Content Include="bin\Microsoft.AI.DependencyCollector.dll" />
+    <Content Include="bin\Microsoft.AI.DependencyCollector.xml" />
+    <Content Include="bin\Microsoft.AI.PerfCounterCollector.dll" />
+    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.dll" />
+    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.xml" />
+    <Content Include="bin\Microsoft.AI.Web.dll" />
+    <Content Include="bin\Microsoft.AI.Web.xml" />
+    <Content Include="bin\Microsoft.AI.WindowsServer.dll" />
+    <Content Include="bin\Microsoft.AI.WindowsServer.xml" />
+    <Content Include="bin\Microsoft.ApplicationInsights.dll" />
+    <Content Include="bin\Microsoft.ApplicationInsights.xml" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\System.Web.Http.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.Webpages.Deployment.dll" />
+    <Content Include="bin\System.Web.Webpages.Deployment.xml" />
+    <Content Include="bin\System.Web.Webpages.dll" />
+    <Content Include="bin\System.Web.Webpages.Razor.dll" />
+    <Content Include="bin\System.Web.Webpages.Razor.xml" />
+    <Content Include="bin\System.Web.Webpages.xml" />
     <Content Include="contact.html" />
     <Content Include="css\animate.css" />
     <Content Include="css\animated.css" />
@@ -138,6 +184,9 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\color.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\font-awesome\css\font-awesome.css" />
+    <Content Include="css\font-awesome\css\font-awesome.min.css" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="css\magnific-popup.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\orange.min.css" />
@@ -150,14 +199,56 @@
     <Content Include="css\slider-pro.css" />
     <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="font\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="default.aspx" />
     <Content Include="images\11.png" />
     <Content Include="images\12.png" />
     <Content Include="images\700.jpg" />
+    <Content Include="images\arrow_top.png" />
+    <Content Include="images\features.png" />
+    <Content Include="images\img-header\pattern.png" />
+    <Content Include="images\img-header\slider-img-1.jpg" />
+    <Content Include="images\img-header\slider-img-2.jpg" />
+    <Content Include="images\img-header\slider-img-3.jpg" />
+    <Content Include="images\img-portfolio\portfolio1.jpg" />
+    <Content Include="images\img-portfolio\portfolio10.jpg" />
+    <Content Include="images\img-portfolio\portfolio11.jpg" />
+    <Content Include="images\img-portfolio\portfolio12.jpg" />
+    <Content Include="images\img-portfolio\portfolio2.jpg" />
+    <Content Include="images\img-portfolio\portfolio3.jpg" />
+    <Content Include="images\img-portfolio\portfolio4.jpg" />
+    <Content Include="images\img-portfolio\portfolio5.jpg" />
+    <Content Include="images\img-portfolio\portfolio6.jpg" />
+    <Content Include="images\img-portfolio\portfolio7.jpg" />
+    <Content Include="images\img-portfolio\portfolio8.jpg" />
+    <Content Include="images\img-portfolio\portfolio9.jpg" />
+    <Content Include="images\img-team\team-img-1.png" />
+    <Content Include="images\img-team\team-img-2.png" />
+    <Content Include="images\img-team\team-img-3.png" />
+    <Content Include="images\img-team\team-img-4.png" />
+    <Content Include="images\img-testimonial\testimonial1.png" />
+    <Content Include="images\img-testimonial\testimonial2.png" />
+    <Content Include="images\img-testimonial\testimonial3.png" />
+    <Content Include="images\img-testimonial\testimonial4.png" />
+    <Content Include="images\img-work\work1.jpg" />
+    <Content Include="images\img-work\work2.jpg" />
+    <Content Include="images\img-work\work3.jpg" />
+    <Content Include="images\img-work\work4.jpg" />
+    <Content Include="images\img-work\work5.jpg" />
+    <Content Include="images\img-work\work6.jpg" />
+    <Content Include="images\img-work\work7.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\preloader.gif" />
     <Content Include="images\slide1-1.png" />
     <Content Include="images\slide1-2.png" />
     <Content Include="images\slide1-3.png" />
+    <Content Include="img\11.png" />
+    <Content Include="img\12.png" />
+    <Content Include="img\700.jpg" />
+    <Content Include="img\slide1-1.png" />
+    <Content Include="img\slide1-2.png" />
+    <Content Include="img\slide1-3.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom.js" />
@@ -184,6 +275,9 @@
     <Content Include="js\selectivizr.js" />
     <Content Include="js\smooth-scroll.min.js" />
     <Content Include="js\wow.min.js" />
+    <Content Include="obj\Debug\inaki-rosa.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\inaki-rosa.dll" />
+    <Content Include="obj\Debug\inaki-rosa.pdb" />
     <Content Include="temp_index.html" />
     <Content Include="portfolio.html" />
     <Content Include="portfolio2.html" />
@@ -203,6 +297,9 @@
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -217,6 +314,22 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
+    <Content Include="font\FontAwesome.otf" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\inaki-rosa.csprojResolveAssemblyReference.cache" />
+    <Content Include="bin\ApplicationInsights.config" />
+    <Content Include="bin\inaki-rosa.dll.config" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="css\font-awesome\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -228,6 +341,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
