@@ -134,7 +134,7 @@
     <Content Include="contact.html" />
     <Content Include="Global.asax" />
     <Content Include="default.aspx" />
-    <Content Include="adfsf.html" />
+    <Content Include="temp_index.html" />
     <Content Include="portfolio.html" />
     <Content Include="portfolio2.html" />
     <Content Include="pricing-table.html" />
