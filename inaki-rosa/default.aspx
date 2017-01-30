@@ -3,14 +3,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<![if !IE]>
+<link rel="icon" href="images/icon.ico" type="image/x-icon" />
+<![endif]>
+<!-- This is needed for IE -->
+<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+
 <head>
     <meta charset="UTF-8" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- Title -->
-    <title>Home</title>
+    <title>Iñaki Rosa</title>
     <!-- Favicon Ico -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="images/icon.ico" />
     <!-- =============================
                 stylesheets
     ================================== -->
@@ -59,17 +66,17 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- Logo -->
-                    <a class="navbar-brand" href="index.html"><img class="logo" id="logo" src="images/logo.png" alt="logo" /></a>
                 </div>
                 <!-- Navbar Toggle End -->
                 <!-- navbar-collapse start-->
                 <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
+                    <a class="nav-menu" href="default.aspx"><img class="logo" id="logo" src="images/logo.png" alt="logo" style="height: 70px"/></a>
                     <ul class="nav navbar-nav blete-menu-wrapper">
                         <li class="active">
-                            <a href="index.html">Home</a>
+                            <a href="default.aspx">Home</a>
                         </li>
                         <li>
-                            <a href="portfolio.html">Portfolio</a>
+                            <a href="portfolio.html">About</a>
                         </li>
                         <li>
                             <a href="portfolio2.html">Portfolio V2</a>
