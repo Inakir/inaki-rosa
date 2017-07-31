@@ -17,7 +17,8 @@
     <!-- Title -->
     <title>Iñaki Rosa</title>
     <!-- Favicon Ico -->
-    <link rel="shortcut icon" href="images/icon.ico" />
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">/>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">/>
     <!-- =============================
                 stylesheets
     ================================== -->
