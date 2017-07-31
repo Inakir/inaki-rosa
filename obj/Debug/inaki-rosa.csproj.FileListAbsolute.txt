@@ -52,3 +52,5 @@ C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\System.Net.Http.Format
 C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\System.Web.Http.xml
 C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\System.Web.Http.WebHost.xml
 C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\obj\Debug\inaki-rosa.csprojResolveAssemblyReference.cache
+C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Debug\inaki-rosa.dll
+C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Debug\inaki-rosa.pdb
