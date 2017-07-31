@@ -1,6 +1,0 @@
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\roslyn\csc.exe
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\inaki-rosa\bin\roslyn\VBCSCompiler.exe
