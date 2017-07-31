@@ -4,11 +4,14 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
+<!-- Favicon Ico -->
 <![if !IE]>
-<link rel="icon" href="images/icon.ico" type="image/x-icon" />
+<link rel="icon" href="~/images/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="~/images/favicon.png" type="image/x-icon" />
 <![endif]>
 <!-- This is needed for IE -->
-<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="~/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="~/images/favicon.png" type="image/x-icon" />
 
 <head>
     <meta charset="UTF-8" />
@@ -16,9 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- Title -->
     <title>Iñaki Rosa</title>
-    <!-- Favicon Ico -->
-    <link rel="icon" href="@Url.Content("~/images/icon.ico")" type="image/x-icon" />
-    <link rel="shortcut icon" href="@Url.Content("~/images/icon.ico")" type="image/x-icon" />
+
     <!-- =============================
                 stylesheets
     ================================== -->
