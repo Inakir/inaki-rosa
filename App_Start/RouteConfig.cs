@@ -13,11 +13,12 @@ namespace inaki_rosa
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
+            /*routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+                defaults: new { controller = "Home", action = "default", id = UrlParameter.Optional }
+            );*/
+            routes.MapPageRoute("default", "{page}", "~/{page}.aspx", false, new RouteValueDictionary(new { page = "default" }));
         }
     }
 }
