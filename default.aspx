@@ -70,26 +70,26 @@
                 </div>
                 <!-- Navbar Toggle End -->
                 <!-- navbar-collapse start-->
-                <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
+                <div id="nav-menu" class="navbar-collapse collapse" >
                     <!-- Logo -->
                     <!-- <a class="nav-menu" href="default.aspx"><img class="logo" id="logo" src="images/logo.png" alt="logo" style="height: 70px"/></a>-->
                     <ul class="nav navbar-nav blete-menu-wrapper">
-                        <li class="active">
+                        <li class="active" role="navigation">
                             <a href="/default.aspx">Home</a>
                         </li>
-                        <li>
+                        <li role="navigation">
                             <a href="/portfolio.html">About</a>
                         </li>
-                        <li>
+                        <li role="navigation">
                             <a href="/portfolio2.html">Portfolio V2</a>
                         </li>
-                        <li>
+                        <li role="navigation">
                             <a href="/pricing-table.html">Pricing Table</a>
                         </li>
-                        <li>
+                        <li role="navigation">
                             <a href="/progress.html">Progress Bar</a>
                         </li>
-                        <li role="main">
+                        <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
