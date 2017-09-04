@@ -177,6 +177,7 @@
     <Content Include="bin\System.Web.Webpages.Razor.dll" />
     <Content Include="bin\System.Web.Webpages.Razor.xml" />
     <Content Include="bin\System.Web.Webpages.xml" />
+    <Content Include="career_fair_app\default.aspx" />
     <Content Include="contact.html" />
     <Content Include="css\animate.css" />
     <Content Include="css\animated.css" />

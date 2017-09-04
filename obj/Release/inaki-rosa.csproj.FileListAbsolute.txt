@@ -20,3 +20,4 @@ C:\Users\Inaki\Documents\GitHub\inaki-rosa\bin\System.Web.Http.xml
 C:\Users\Inaki\Documents\GitHub\inaki-rosa\bin\System.Web.Http.WebHost.xml
 C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Release\inaki-rosa.dll
 C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Release\inaki-rosa.pdb
+C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Release\inaki-rosa.csprojResolveAssemblyReference.cache

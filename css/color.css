@@ -5,6 +5,10 @@ span.blete-highlight-text{
 	color: #500000;
 }
 
+span.blete-highlight-header-text{
+	color: #90caf9;
+}
+
 .blete-button-solid{
 	background-color: #500000;
 }

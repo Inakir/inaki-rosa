@@ -26,33 +26,33 @@
     ================================== -->
     
     <!-- Normalize And Bootstrap -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     
     <!-- Google Font  -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Raleway:600,700,400,300' rel='stylesheet' type='text/css' />
     
     <!-- Font Icons -->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" />
     
     <!-- Plugin Default Stylesheets -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/slider-pro.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl.theme.css" />
-    <link rel="stylesheet" href="css/owl.transitions.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/css/slider-pro.css" />
+    <link rel="stylesheet" href="/css/owl.carousel.css" />
+    <link rel="stylesheet" href="/css/owl.theme.css" />
+    <link rel="stylesheet" href="/css/owl.transitions.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
 
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/color.css" id="colors" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/css/color.css" id="colors" />
 
     <!--[if lt IE 9]>
-        <script src="js/html5shiv.min.js"></script>
-        <script src="js/respond.min.js"></script>
-        <script type="text/javascript" src="js/selectivizr.js"></script>
+        <script src="/js/html5shiv.min.js"></script>
+        <script src="/js/respond.min.js"></script>
+        <script type="text/javascript" src="/js/selectivizr.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -106,107 +106,72 @@
     </header>
     <!-- Header End -->
     <!-- =============================
-                Main Slider
+                    About Section
     ================================== -->
-    <div id="top" class="anchor"></div>
-    <section class="slider-pro blete-slider" id="blete-slider">
-        <div class="sp-slides">
-            <!-- Slides -->
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/images/img-header/mountain.jpg" alt="Slider 1" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Continental Divide
-                </h1>
-                <p class="sp-layer"
-                    data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-header-text">Keystone</span>, Colorado
-                </p>
+    <div id="title" class="anchor"></div>
+        <section id="Title" class="blete-even-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!-- Section Header -->
+
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                        <h2><span class="blete-highlight-text">Engineering Career Fair Mopbile App</span></h2>
+                    </div>
+                    <!-- What We Do End -->
+                </div>
             </div>
-            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-vertical="-40%" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Phillips 66 Internship
-                </h1>
-                <p class="sp-layer"
-                    data-position="center" data-vertical="-25%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-header-text">Bartlesville</span>, Oklahoma
-                </p>
-            </div>
-
-            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Texas Instruments Internship
-                </h1>
-                <p class="sp-layer"
-                    data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-header-text">Dallas</span>, Texas
-                </p>
-            </div>
-
-            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
-        </div>
-    </section>
-    <!-- Main Slider End -->
+        </section>
+    </div>
     <!-- =============================
                     About Section
     ================================== -->
     <div id="about" class="anchor"></div>
-    <section id="about" class="blete-custom-sec blete-odd-wrapper blete-description">
+    <section id="about" class="blete-odd-wrapper">
         <div class="container">
             <div class="row">
-            <!-- Section Header -->
+                <!-- Section Header -->
+
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                     <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
-                    <br><br><br>
-
-                    <!-- Section Header End -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                        <img src="images/logo.png" alt="Custom Image" />
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello! I am Iñaki Rosa. I am studying Computer Engineering at Texas A&M Uni</h4>
+                </div>
+                <!-- Section Header End -->
+                <!-- What We Do 
+                <div class="blete-what-we-do">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
+                        <div class="blete-icon">
+                            <i class="fa fa-key"></i>
+                        </div>
+                        <h3>WEB SECURITY</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla, porro nemo.</p>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
-                        <p>
-                        I am currently studying Computer Engineering at Texas A&M University. During my time at A&M I have been heavily involved in Campus organizations, with my two biggest organizations being the Student Engineers’ Council and Fish Camp. I served as the Systems Administration Committee Chair and an Executive Council member for the SEC and I was a counselor for two years in a row in Fish Camp. 
-                        </p>
-
-                        <p>
-                        I am the proud Father of a dog named Oreo. When I’m not on campus studying or with friends I’m likely hanging out with him. I love Outdoor activities and some of my hobbies including the game “Geocaching”, in which you set out to find hidden treasures in your immediate surroundings. 
-                        </p>
-
-                        <p>
-                        Since I was young, I have wanted to be an inventor. My inspiration was "Stu" from the Rugrats, who was always inventing wonderful and new machines. When I grew up I realized that what I wanted to do was engineering. Computers and machines always fascinated me so I started taking Computer Science courses as a freshman in High School. At that moment I knew I had found what I wanted to do for the rest of my life. Being a Computer Engineer is a dream come true, and I hope that my work can inspire someone to try out the discipline for themselves. 
-                        </p>
-
-                        <p><b>
-                        I encourage you to read the background section in which I go more into detail on what my responsibilities and impact has been in my community! 
-                        </b></p>
-
-                        <!--<ul>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        </ul> -->
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
+                        <div class="blete-icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <h3>WEB RESPONSIVE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat hic facilis dolores nam.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <h3>SEO OPTIMATION</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo nesciunt quas perferendis.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon">
+                            <i class="fa fa-html5"></i>
+                        </div>
+                        <h3>HTML5 TEMPLATE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sit, voluptate! Debitis sint ipsum ea aliquid.</p>
                     </div>
                 </div>
+                <!-- What We Do End -->
             </div>
+        </div>
     </section>
-    <!-- Custom Section End -->
-    
     <!-- About Section End -->
     <!-- =============================
                     Features Section
@@ -229,7 +194,7 @@
                     <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
                         <!--fa fa-plus    for plus--> 
                         <!------------------------------------------------------------------------------------>
-                        <a href="/career_fair_app" class="page_link">
+                        <a href="#top" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
                                     <i class="fa fa-mobile"></i>        
@@ -325,7 +290,7 @@
             </div>
         </div>
     </section>
-    <!-- Features Section End -->
+    <!-- Featuers Section End -->
     <!-- =============================
                     Team Section
     ================================== -->
@@ -344,7 +309,7 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="images/img-team/team-img-1.png" alt="Team Member 1" />
+                            <img src="/images/img-team/team-img-1.png" alt="Team Member 1" />
                         </div>
                         <div class="blete-member-details">
                             <h3>John Doe</h3>
@@ -367,7 +332,7 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="images/img-team/team-img-2.png" alt="Team Member 2" />
+                            <img src="/images/img-team/team-img-2.png" alt="Team Member 2" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Marthin Doe</h3>
@@ -413,7 +378,7 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="images/img-team/team-img-4.png" alt="Team Member 4" />
+                            <img src="/images/img-team/team-img-4.png" alt="Team Member 4" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Jordi Doe</h3>
@@ -512,70 +477,70 @@
                     <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
                         <!-- Work 1 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work1.jpg" alt="work" />
+                            <img src="/images/img-work/work1.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 1 End -->
                         <!-- Work 2 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work2.jpg" alt="work" />
+                            <img src="/images/img-work/work2.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 2 End -->
                         <!-- Work 3 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work3.jpg" alt="work" />
+                            <img src="/images/img-work/work3.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 3 End -->
                         <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work4.jpg" alt="work" />
+                            <img src="/images/img-work/work4.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 4 End -->
                         <!-- Work 5 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work5.jpg" alt="work" />
+                            <img src="/images/img-work/work5.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 5 End -->
                         <!-- Work 6 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work6.jpg" alt="work" />
+                            <img src="/images/img-work/work6.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work6.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work6.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 6 End -->
                         <!-- Work 7 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="images/img-work/work7.jpg" alt="work" />
+                            <img src="/images/img-work/work7.jpg" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="images/img-work/work7.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-work/work7.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -628,12 +593,12 @@
             <div class="blete-portfolio-items">
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-design app-development">
-                    <img src="images/img-portfolio/portfolio1.jpg" />
+                    <img src="/images/img-portfolio/portfolio1.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -642,12 +607,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-development app-development">
-                    <img src="images/img-portfolio/portfolio2.jpg" />
+                    <img src="/images/img-portfolio/portfolio2.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -656,12 +621,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-design">
-                    <img src="images/img-portfolio/portfolio3.jpg" />
+                    <img src="/images/img-portfolio/portfolio3.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -670,12 +635,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-design web-development photography">
-                    <img src="images/img-portfolio/portfolio4.jpg" />
+                    <img src="/images/img-portfolio/portfolio4.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -684,12 +649,12 @@
                 <!-- Portfolio Items -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-designapp-development photography">
-                    <img src="images/img-portfolio/portfolio5.jpg" />
+                    <img src="/images/img-portfolio/portfolio5.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -698,12 +663,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item photography">
-                    <img src="images/img-portfolio/portfolio6.jpg" />
+                    <img src="/images/img-portfolio/portfolio6.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio6.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio6.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -711,12 +676,12 @@
                 </div>
                 <!-- Portfolio Items End -->
                 <div class="item blete-portfolio-item web-development app-development">
-                    <img src="images/img-portfolio/portfolio7.jpg" />
+                    <img src="/images/img-portfolio/portfolio7.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio7.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio7.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -725,12 +690,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-design web-development app-development photography">
-                    <img src="images/img-portfolio/portfolio8.jpg" />
+                    <img src="/images/img-portfolio/portfolio8.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio8.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio8.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -739,12 +704,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item app-development">
-                    <img src="images/img-portfolio/portfolio9.jpg" />
+                    <img src="/images/img-portfolio/portfolio9.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio9.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio9.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -753,12 +718,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item photography">
-                    <img src="images/img-portfolio/portfolio10.jpg" />
+                    <img src="/images/img-portfolio/portfolio10.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio10.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio10.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -767,12 +732,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item photography app-development">
-                    <img src="images/img-portfolio/portfolio11.jpg" />
+                    <img src="/images/img-portfolio/portfolio11.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio11.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio11.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -781,12 +746,12 @@
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item web-design">
-                    <img src="images/img-portfolio/portfolio12.jpg" />
+                    <img src="/images/img-portfolio/portfolio12.jpg" />
                     <div class="blete-portfolio-details-wrapper">
                         <div class="blete-portfolio-details">
                             <div class="blete-portfolio-meta-btn">
                                 <ul>
-                                    <li class="blete-lighbox"><a href="images/img-portfolio/portfolio12.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio12.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -802,11 +767,42 @@
     <!-- =============================
                 Custom Section
     ================================== -->
-    
+    <section class="blete-custom-sec blete-section-wrapper blete-description">
+        <div class="container">
+            <div class="row">
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
+                    <h2>ADDITIONAL <span class="blete-highlight-text">FEATURES</span></h2>
+                    <div class="blete-section-divider"></div>
+                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magnam, atque adipisci dignissimos voluptas libero ipsa nulla perferendis ipsam maxime tenetur eaque, odio labore voluptatum sapiente minus provident voluptate corporis!</p>
+                </div>
+                <!-- Section Header End -->
+                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                    <img src="/images/features.png" alt="Custom Image" />
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sit, numquam amet voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum ipsum. Rem ea ducimus quos quae quo.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi cumque porro sapiente temporibus, recusandae mollitia, reiciendis tenetur quo natus ab ex quisquam reprehenderit, veniam eius doloremque minus possimus minima.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus at natus praesentium, ea sequi qui facilis odio accusantium ad sit, porro, laborum corporis perspiciatis a earum vel ipsa delectus voluptatem.</p>
+                    <ul>
+                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Custom Section End -->
     <!-- =============================
             Testimonial Section
     ================================== -->
     <section id="testimonials" class="blete-testimonial-section">
+
         <div class="blete-parallax-overlay"></div>
         <div class="blete-testimonial-wrapper wow bounceIn">
             <div class="container">
@@ -815,28 +811,28 @@
                     <div id="blete-testimonial" class="owl-carousel blete-testimonial">
                         <!-- Slides -->
                         <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="images/img-testimonial/testimonial1.png" alt="" />
+                            <img src="/images/img-testimonial/testimonial1.png" alt="" />
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ratione consequatur, id ex beatae libero velit alias quibusdam dolorem asperiores aspernatur in, doloribus sint officiis ullam quisquam rem reprehenderit explicabo!</p>
                             <p class="blete-client-info">Joeli Doe</p>
                         </div>
                         <!-- Slides End -->
                         <!-- Slides -->
                         <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="images/img-testimonial/testimonial2.png" alt="" />
+                            <img src="/images/img-testimonial/testimonial2.png" alt="" />
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus maiores cum culpa corrupti rem itaque in nam, ullam quis possimus eligendi dolorum soluta, aliquid error a nesciunt quam dolor nisi.</p>
                             <p class="blete-client-info">Mata Doe</p>
                         </div>
                         <!-- Slides End -->
                         <!-- Slides -->
                         <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="images/img-testimonial/testimonial3.png" alt="" />
+                            <img src="/images/img-testimonial/testimonial3.png" alt="" />
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolorum cum iure. Excepturi ducimus temporibus neque esse quibusdam veritatis debitis, pariatur id qui distinctio, laborum commodi eligendi aspernatur hic consequatur!</p>
                             <p class="blete-client-info">John Doe</p>
                         </div>
                         <!-- Slides End -->
                         <!-- Slides -->
                         <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="images/img-testimonial/testimonial4.png" alt="" />
+                            <img src="/images/img-testimonial/testimonial4.png" alt="" />
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quos rerum, aliquid velit atque, a ducimus iusto consectetur quis, veniam perferendis eum dolores! Temporibus voluptatem corporis natus sunt, soluta, est.</p>
                             <p class="blete-client-info">Juni Doe</p>
                         </div>
@@ -848,10 +844,9 @@
         </div>
     </section>
     <!-- Testimonial End -->
-
     <!-- =============================
             Pricing Section
-    ================================== 
+    ================================== --
     <section id="pricing" class="blete-pricing-section">
         <div class="container">
             <div class="row">
@@ -927,7 +922,7 @@
             </div>
         </div>
     </section>
-     Pricing End -->
+    <-- Pricing End -->
     <!-- =============================
                  Footer Section
      ================================= -->
@@ -987,25 +982,25 @@
     <!-- =============================
                 SCRIPTS
     ================================== -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/modernizr.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/jquery.easypiechart.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!--<script src="js/jflickrfeed.min.js"></script>-->
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.sliderPro.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/modernizr.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.scrollUp.min.js"></script>
+    <script src="/js/jquery.easypiechart.js"></script>
+    <script src="/js/jquery.countTo.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <!--<script src="/js/jflickrfeed.min.js"></script>-->
+    <script src="/js/jquery.fitvids.js"></script>
+    <script src="/js/jquery.stellar.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/jquery.nav.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/smooth-scroll.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.sliderPro.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/custom.js"></script>
 </body>
 </html>
