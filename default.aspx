@@ -67,12 +67,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!-- Logo -->
                 </div>
                 <!-- Navbar Toggle End -->
                 <!-- navbar-collapse start-->
                 <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
-                    <a class="nav-menu" href="default.aspx"><img class="logo" id="logo" src="images/logo.png" alt="logo" style="height: 70px"/></a>
+                    <!-- Logo -->
+                    <!-- <a class="nav-menu" href="default.aspx"><img class="logo" id="logo" src="images/logo.png" alt="logo" style="height: 70px"/></a>-->
                     <ul class="nav navbar-nav blete-menu-wrapper">
                         <li class="active">
                             <a href="default.aspx">Home</a>
@@ -90,7 +90,7 @@
                             <a href="progress.html">Progress Bar</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.html">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -108,62 +108,67 @@
             <!-- Slides -->
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="images/img-header/slider-img-1.jpg" alt="Slider 1" />
+                <img class="sp-image" src="images/img-header/mountain.jpg" alt="Slider 1" />
                 <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Responsive
+                    Continental Divide
                 </h1>
                 <p class="sp-layer"
                    data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-text">Creative</span> lorem ipsum dolor
+                    <span class="blete-highlight-text">Keystone</span>, Colorado
                 </p>
             </div>
-            <!-- Slides End -->
-            <!-- Slides -->
+            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
+
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="images/img-header/slider-img-2.jpg" alt="Slider 2" />
+                <img class="sp-image" src="images/img-header/p66.jpeg" alt="Slider 2" />
+                <h1 class="sp-layer blete-slider-text-big"
+                    data-position="center" data-vertical="-45%" data-show-transition="left" data-hide-transition="right" data-show-delay="1000" data-hide-delay="200">
+                    Phillips 66 Internship
+                </h1>
+                <p class="sp-layer"
+                   data-position="center" data-vertical="-30%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                    <span class="blete-highlight-text">Bartlesville</span>, Oklahoma
+                </p>
+            </div>
+
+            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
+
+            <div class="sp-slide blete-main-slides">
+                <div class="blete-img-overlay"></div>
+                <img class="sp-image" src="images/img-header/ti.jpg" alt="Slider 3" />
                 <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Clean Design
+                    Texas Instruments Internship
                 </h1>
                 <p class="sp-layer"
                    data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-text">Clean</span>lorem ipsum dolor
+                    <span class="blete-highlight-text">Dallas</span>, Texas
                 </p>
             </div>
-            <!-- Slides End -->
-            <!-- Slides -->
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="images/img-header/slider-img-3.jpg" alt="Slider 3" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1000" data-hide-delay="200">
-                    Amazing
-                </h1>
-                <p class="sp-layer"
-                   data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-text">Amazing</span> lorem ipsum dolor
-                </p>
-            </div>
-            <!-- Slides End -->
+
+            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
+
+
         </div>
     </section>
     <!-- Main Slider End -->
     <!-- =============================
                     About Section
     ================================== -->
-    <section id="about" class="blete-section-wrapper">
+    <section id="about" class="blete-odd-wrapper">
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>ABOUT <span class="blete-highlight-text">SERVICE</span></h2>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente veniam, rerum provident repudiandae, ducimus beatae voluptatem ullam delectus eum excepturi quaerat, molestias accusamus. Repellendus, laboriosam recusandae! Illo quod voluptates corrupti!</p>
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello! I am Iñaki Rosa. I am studying Computer Engineering at Texas A&M Uni</h4>
                 </div>
                 <!-- Section Header End -->
-                <!-- What We Do -->
+                <!-- What We Do 
                 <div class="blete-what-we-do">
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
                         <div class="blete-icon">
@@ -200,17 +205,17 @@
     </section>
     <!-- About Section End -->
     <!-- =============================
-                    Featuers Section
+                    Features Section
     ================================== -->
-    <section id="features" class="blete-section-wrapper blete-features-section" data-stellar-background-ratio="0.5">
+    <section id="features" class="blete-even-wrapper blete-features-section" data-stellar-background-ratio="0.5">
         <div class="blete-parallax-overlay"></div>
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header blete-section-header-parallax wow slideInDown">
-                    <h2>OUR <span class="blete-highlight-text">FEATURES</span></h2>
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
+                    <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quibusdam debitis earum voluptas autem error incidunt aspernatur non placeat obcaecati possimus sequi, labore et rem alias, cupiditate vitae provident veritatis.</p>
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These are my projects</h4>
                 </div>
                 <!-- Section Header End -->
                 <!-- Features -->

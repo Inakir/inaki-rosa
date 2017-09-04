@@ -60,7 +60,7 @@ $('.blete-counter-section').waypoint(function(direction) {
 /* -------- Skill Chart -------- */
 $('.blete-skills-wrapper').waypoint(function(direction) {
     $('.chart').easyPieChart({
-        barColor: '#90caf9',
+        barColor: '#500000',
         trackColor: '#dadada',
         scaleColor: false,
         easing: 'ease',

@@ -367,6 +367,19 @@ a:active{
 
 
 /* ------ Section Header Style ------ */
+.blete-even-wrapper{
+	padding: 120px 0;
+	overflow: hidden;
+    background-color: #D6D3C4;
+    color: #332C2C;
+}
+
+.blete-odd-wrapper{
+	padding: 120px 0;
+	overflow: hidden;
+    background-color: #332C2C;
+    color: #D6D3C4;
+}
 .blete-section-wrapper{
 	padding: 120px 0;
 	overflow: hidden;
@@ -377,21 +390,42 @@ a:active{
 	margin-bottom: 80px;
 }
 
+.blete-odd-header{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
 .blete-section-header h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
-	color: #313131;
+}
+
+.blete-odd-header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
 }
 
 .blete-section-header h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
-	color: #313131;
+}
+
+.blete-odd-header h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
 }
 
 .blete-section-header h1 span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-odd-header h1 span{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
@@ -493,7 +527,7 @@ a:active{
     border-radius: 0;
     position: fixed;
     width: 100%;
-    padding: 10px 0 20px !important;
+    padding: 5px 0 5px !important;
     margin-bottom: 0;
     z-index: 10;
     -webkit-transition: all .35s;
@@ -510,14 +544,14 @@ header.blete-page-header .blete-main-menu{
 
 .blete-main-menu .navbar-nav{
     float: right;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .blete-main-menu .navbar-nav li a{
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #333;
+    color: #fff;
     padding-top: 6px;
     padding-bottom: 0;
     -webkit-transition: all .3s;
@@ -538,7 +572,7 @@ header.blete-page-header .blete-main-menu{
 
 /* ------ Minified Menu ------ */
 .blete-main-menu.minified{
-	background-color: #ffffff;
+	background-color: #500000;
 	padding: 0;
 	position: fixed;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.43);
