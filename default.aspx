@@ -89,7 +89,7 @@
                         <li>
                             <a href="/progress.html">Progress Bar</a>
                         </li>
-                        <li>
+                        <li role="main">
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
@@ -1060,7 +1060,7 @@
     <script src="js/jquery.easypiechart.js"></script>
     <script src="js/jquery.countTo.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jflickrfeed.min.js"></script>
+    <!--<script src="js/jflickrfeed.min.js"></script>-->
     <script src="js/jquery.fitvids.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
