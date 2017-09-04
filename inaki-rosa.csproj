@@ -334,6 +334,7 @@
     <Content Include="css\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="css\font-awesome\fonts\FontAwesome.otf" />
     <Content Include="images\logo edit.pptx" />
+    <Content Include="inaki-rosa-resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
