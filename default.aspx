@@ -90,7 +90,7 @@
                             <a href="progress.html">Progress Bar</a>
                         </li>
                         <li>
-                            <a href="resume.html">Resume</a>
+                            <a href="resume.pdf">Resume</a>
                         </li>
                     </ul>
                 </div>
