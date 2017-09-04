@@ -75,22 +75,22 @@
                     <!-- <a class="nav-menu" href="default.aspx"><img class="logo" id="logo" src="images/logo.png" alt="logo" style="height: 70px"/></a>-->
                     <ul class="nav navbar-nav blete-menu-wrapper">
                         <li class="active">
-                            <a href="default.aspx">Home</a>
+                            <a href="/default.aspx">Home</a>
                         </li>
                         <li>
-                            <a href="portfolio.html">About</a>
+                            <a href="/portfolio.html">About</a>
                         </li>
                         <li>
-                            <a href="portfolio2.html">Portfolio V2</a>
+                            <a href="/portfolio2.html">Portfolio V2</a>
                         </li>
                         <li>
-                            <a href="pricing-table.html">Pricing Table</a>
+                            <a href="/pricing-table.html">Pricing Table</a>
                         </li>
                         <li>
-                            <a href="progress.html">Progress Bar</a>
+                            <a href="/progress.html">Progress Bar</a>
                         </li>
                         <li>
-                            <a href="inaki-rosa-resume.pdf" download>Resume</a>
+                            <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -108,7 +108,7 @@
             <!-- Slides -->
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="images/img-header/mountain.jpg" alt="Slider 1" />
+                <img class="sp-image" src="/images/img-header/mountain.jpg" alt="Slider 1" />
                 <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
                     Continental Divide
@@ -122,7 +122,7 @@
 
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="images/img-header/p66.jpeg" alt="Slider 2" />
+                <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
                 <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-vertical="-45%" data-show-transition="left" data-hide-transition="right" data-show-delay="1000" data-hide-delay="200">
                     Phillips 66 Internship
@@ -137,7 +137,7 @@
 
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="images/img-header/ti.jpg" alt="Slider 3" />
+                <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
                 <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
                     Texas Instruments Internship
