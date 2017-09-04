@@ -70,23 +70,23 @@
                 </div>
                 <!-- Navbar Toggle End -->
                 <!-- navbar-collapse start-->
-                <div id="nav-menu" class="navbar-collapse collapse" >
+                <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
                     <!-- Logo -->
                     <!-- <a class="nav-menu" href="default.aspx"><img class="logo" id="logo" src="images/logo.png" alt="logo" style="height: 70px"/></a>-->
                     <ul class="nav navbar-nav blete-menu-wrapper">
-                        <li class="active" role="navigation">
-                            <a href="/default.aspx">Home</a>
+                        <li class="active">
+                            <a href="#top">Home</a>
                         </li>
-                        <li role="navigation">
-                            <a href="/portfolio.html">About</a>
+                        <li>
+                            <a href="#about">About</a>
                         </li>
-                        <li role="navigation">
-                            <a href="/portfolio2.html">Portfolio V2</a>
+                        <li>
+                            <a href="#projects">Portfolio V2</a>
                         </li>
-                        <li role="navigation">
+                        <li>
                             <a href="/pricing-table.html">Pricing Table</a>
                         </li>
-                        <li role="navigation">
+                        <li>
                             <a href="/progress.html">Progress Bar</a>
                         </li>
                         <li>
@@ -103,215 +103,221 @@
     <!-- =============================
                 Main Slider
     ================================== -->
-    <section class="slider-pro blete-slider" id="blete-slider">
-        <div class="sp-slides">
-            <!-- Slides -->
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/images/img-header/mountain.jpg" alt="Slider 1" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Continental Divide
-                </h1>
-                <p class="sp-layer"
-                   data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-text">Keystone</span>, Colorado
-                </p>
+    <div id="top" class="anchor">
+        <section class="slider-pro blete-slider" id="blete-slider">
+            <div class="sp-slides">
+                <!-- Slides -->
+                <div class="sp-slide blete-main-slides">
+                    <div class="blete-img-overlay"></div>
+                    <img class="sp-image" src="/images/img-header/mountain.jpg" alt="Slider 1" />
+                    <h1 class="sp-layer blete-slider-text-big"
+                        data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
+                        Continental Divide
+                    </h1>
+                    <p class="sp-layer"
+                       data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                        <span class="blete-highlight-text">Keystone</span>, Colorado
+                    </p>
+                </div>
+                <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
+
+                <div class="sp-slide blete-main-slides">
+                    <div class="blete-img-overlay"></div>
+                    <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
+                    <h1 class="sp-layer blete-slider-text-big"
+                        data-position="center" data-vertical="-45%" data-show-transition="left" data-hide-transition="right" data-show-delay="1000" data-hide-delay="200">
+                        Phillips 66 Internship
+                    </h1>
+                    <p class="sp-layer"
+                       data-position="center" data-vertical="-30%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                        <span class="blete-highlight-text">Bartlesville</span>, Oklahoma
+                    </p>
+                </div>
+
+                <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
+
+                <div class="sp-slide blete-main-slides">
+                    <div class="blete-img-overlay"></div>
+                    <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
+                    <h1 class="sp-layer blete-slider-text-big"
+                        data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
+                        Texas Instruments Internship
+                    </h1>
+                    <p class="sp-layer"
+                       data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                        <span class="blete-highlight-text">Dallas</span>, Texas
+                    </p>
+                </div>
+
+                <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
+
+
             </div>
-            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-vertical="-45%" data-show-transition="left" data-hide-transition="right" data-show-delay="1000" data-hide-delay="200">
-                    Phillips 66 Internship
-                </h1>
-                <p class="sp-layer"
-                   data-position="center" data-vertical="-30%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-text">Bartlesville</span>, Oklahoma
-                </p>
-            </div>
-
-            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
-            <div class="sp-slide blete-main-slides">
-                <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
-                <h1 class="sp-layer blete-slider-text-big"
-                    data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Texas Instruments Internship
-                </h1>
-                <p class="sp-layer"
-                   data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-                    <span class="blete-highlight-text">Dallas</span>, Texas
-                </p>
-            </div>
-
-            <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
-
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- Main Slider End -->
     <!-- =============================
                     About Section
     ================================== -->
-    <section id="about" class="blete-odd-wrapper">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
+    <div id="about" class="anchor">
+        <section id="about" class="blete-odd-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!-- Section Header -->
 
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                    <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello! I am Iñaki Rosa. I am studying Computer Engineering at Texas A&M Uni</h4>
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                        <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
+                        <div class="blete-section-divider"></div>
+                        <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello! I am Iñaki Rosa. I am studying Computer Engineering at Texas A&M Uni</h4>
+                    </div>
+                    <!-- Section Header End -->
+                    <!-- What We Do 
+                    <div class="blete-what-we-do">
+                        <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
+                            <div class="blete-icon">
+                                <i class="fa fa-key"></i>
+                            </div>
+                            <h3>WEB SECURITY</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla, porro nemo.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
+                            <div class="blete-icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <h3>WEB RESPONSIVE</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat hic facilis dolores nam.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
+                            <div class="blete-icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <h3>SEO OPTIMATION</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo nesciunt quas perferendis.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
+                            <div class="blete-icon">
+                                <i class="fa fa-html5"></i>
+                            </div>
+                            <h3>HTML5 TEMPLATE</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sit, voluptate! Debitis sint ipsum ea aliquid.</p>
+                        </div>
+                    </div>
+                    <!-- What We Do End -->
                 </div>
-                <!-- Section Header End -->
-                <!-- What We Do 
-                <div class="blete-what-we-do">
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
-                        <div class="blete-icon">
-                            <i class="fa fa-key"></i>
-                        </div>
-                        <h3>WEB SECURITY</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla, porro nemo.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
-                        <div class="blete-icon">
-                            <i class="fa fa-laptop"></i>
-                        </div>
-                        <h3>WEB RESPONSIVE</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat hic facilis dolores nam.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <h3>SEO OPTIMATION</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo nesciunt quas perferendis.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
-                            <i class="fa fa-html5"></i>
-                        </div>
-                        <h3>HTML5 TEMPLATE</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sit, voluptate! Debitis sint ipsum ea aliquid.</p>
-                    </div>
-                </div>
-                <!-- What We Do End -->
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- About Section End -->
     <!-- =============================
                     Features Section
     ================================== -->
-    <section id="features" class="blete-even-wrapper blete-features-section" data-stellar-background-ratio="0.5">
-        <div class="blete-parallax-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
-                    <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These are my projects</h4>
+    <div id="projects" class="anchor">
+        <section id="features" class="blete-even-wrapper blete-features-section" data-stellar-background-ratio="0.5">
+            <div id="projects" class="blete-parallax-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <!-- Section Header -->
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
+                        <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
+                        <div class="blete-section-divider"></div>
+                        <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These are my projects</h4>
+                    </div>
+                    <!-- Section Header End -->
+                    <!-- Features -->
+                    <div class="blete-features">
+                        <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Free Update</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Clean Design</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing Voluptatum.</p>
+                                </div>
+                            </div>
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-smile-o"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Free Smile Support</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing At.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-file-code-o"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Clean Code</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.</p>
+                                </div>
+                            </div>
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-font"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Font Awesome</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitItaque.</p>
+                                </div>
+                            </div>
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-mobile"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Mobile Responsive</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight">
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Material Design</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-comments"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>24/7 Free Chat Support</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-edit"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Easy Edit</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Features End -->
                 </div>
-                <!-- Section Header End -->
-                <!-- Features -->
-                <div class="blete-features">
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-plus"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Free Update</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Clean Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing Voluptatum.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-smile-o"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Free Smile Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing At.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-file-code-o"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Clean Code</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-font"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Font Awesome</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitItaque.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-mobile"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Mobile Responsive</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Material Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-comments"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>24/7 Free Chat Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-edit"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Easy Edit</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Features End -->
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- Featuers Section End -->
     <!-- =============================
                     Team Section
