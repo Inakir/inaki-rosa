@@ -90,7 +90,7 @@
                             <a href="progress.html">Progress Bar</a>
                         </li>
                         <li>
-                            <a href="resume.pdf">Resume</a>
+                            <a href="inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
                 </div>
