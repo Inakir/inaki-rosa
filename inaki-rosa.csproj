@@ -206,10 +206,13 @@
     <Content Include="images\11.png" />
     <Content Include="images\12.png" />
     <Content Include="images\700.jpg" />
+    <Content Include="images\abouths.jpg" />
     <Content Include="images\arrow_top.png" />
     <Content Include="images\favicon.png" />
     <Content Include="images\features.png" />
+    <Content Include="images\gvscreen.png" />
     <Content Include="images\headshot.JPG" />
+    <Content Include="images\headshotsquare.jpg" />
     <Content Include="images\icon.ico" />
     <Content Include="images\img-header\mountain.jpg" />
     <Content Include="images\img-header\p66.jpeg" />
@@ -253,6 +256,7 @@
     <Content Include="images\slide1-1.png" />
     <Content Include="images\slide1-2.png" />
     <Content Include="images\slide1-3.png" />
+    <Content Include="images\team\inaki.jpg" />
     <Content Include="images\texas_instruments.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -346,6 +350,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="images\career_fair_app\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
