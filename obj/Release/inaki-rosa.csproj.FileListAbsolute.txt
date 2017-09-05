@@ -1,6 +1,0 @@
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\bin\ApplicationInsights.config
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\bin\inaki-rosa.dll.config
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\bin\inaki-rosa.dll
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\bin\inaki-rosa.pdb
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Release\inaki-rosa.dll
-C:\Users\Inaki\Documents\GitHub\inaki-rosa\obj\Release\inaki-rosa.pdb
