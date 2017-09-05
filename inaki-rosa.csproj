@@ -280,9 +280,6 @@
     <Content Include="js\selectivizr.js" />
     <Content Include="js\smooth-scroll.min.js" />
     <Content Include="js\wow.min.js" />
-    <Content Include="obj\Debug\inaki-rosa.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\inaki-rosa.dll" />
-    <Content Include="obj\Debug\inaki-rosa.pdb" />
     <Content Include="portfolio.html" />
     <Content Include="portfolio2.html" />
     <Content Include="pricing-table.html" />
@@ -319,8 +316,6 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\inaki-rosa.csprojResolveAssemblyReference.cache" />
     <Content Include="bin\ApplicationInsights.config" />
     <Content Include="bin\inaki-rosa.dll.config" />
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
@@ -344,7 +339,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
