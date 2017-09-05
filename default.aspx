@@ -173,27 +173,32 @@
                     <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
                     <br><br><br>
 
-                    <!-- Section Header End -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                    <!-- Section Header End 
+                    <div class="col-md-1 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
                         <img src="images/logo.png" alt="Custom Image" />
+                    </div>-->
+                    <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: left"><h2>Developer</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInDown"  style="text-align: center"><h2>Computer Engineer</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"  style="text-align: right"><h2>Aggie</h2></div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
-                        <p>
-                        I am currently studying Computer Engineering at Texas A&M University. During my time at A&M I have been heavily involved in Campus organizations, with my two biggest organizations being the Student Engineers’ Council and Fish Camp. I served as the Systems Administration Committee Chair and an Executive Council member for the SEC and I was a counselor for two years in a row in Fish Camp. 
-                        </p>
-
-                        <p>
-                        I am the proud Father of a dog named Oreo. When I’m not on campus studying or with friends I’m likely hanging out with him. I love Outdoor activities and some of my hobbies including the game “Geocaching”, in which you set out to find hidden treasures in your immediate surroundings. 
-                        </p>
-
-                        <p>
-                        Since I was young, I have wanted to be an inventor. My inspiration was "Stu" from the Rugrats, who was always inventing wonderful and new machines. When I grew up I realized that what I wanted to do was engineering. Computers and machines always fascinated me so I started taking Computer Science courses as a freshman in High School. At that moment I knew I had found what I wanted to do for the rest of my life. Being a Computer Engineer is a dream come true, and I hope that my work can inspire someone to try out the discipline for themselves. 
-                        </p>
-
-                        <p><b>
-                        I encourage you to read the background section in which I go more into detail on what my responsibilities and impact has been in my community! 
-                        </b></p>
-
+                    <br /><br /> 
+                    <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"><h2>Geocacher</h2></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight"><h2>Father to a Dog</h2>  </div>
+                    </div>
+                    <br /> <br />
+                    <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: left"><h2>Software Engineer</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInDown"  style="text-align: center"><h2>Counselor</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"  style="text-align: right"><h2>Artist</h2></div>
+                    </div>
+                    <br /><br /> 
+                    <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"><h2>Runner</h2></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight"><h2>Bilengual</h2>  </div>
+                    </div>
+                    <br /> <br />
                         <!--<ul>
                             <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                             <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
