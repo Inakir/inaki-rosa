@@ -695,6 +695,8 @@ header.blete-page-header .blete-main-menu.minified{
 
 .blete-member-details p{
 	margin-bottom: 20px;
+	text-align: left;
+    padding: 8px;
 }
 
 .blete-member-details ul li{

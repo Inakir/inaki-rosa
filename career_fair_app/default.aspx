@@ -60,9 +60,8 @@
     <div class="preloader">
         <div class="status"></div>
     </div>
-    <!-- =============================
-                    Header
-    ================================== -->
+
+    <!-- =========   Header   ========= -->
     <header>
         <!-- Navigation Menu start-->
         <nav class="navbar blete-main-menu" role="navigation">
@@ -80,19 +79,22 @@
                 <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
                     <ul class="nav navbar-nav blete-menu-wrapper">
                         <li class="active">
-                            <a href="#top">Home</a>
+                            <a href="../" style="text-align: left">Main Page</a>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#title">Top</a>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a href="#overview">Overview</a>
                         </li>
                         <li>
-                            <a href="/pricing-table.html">Pricing Table</a>
+                            <a href="#summary">Summary</a>
                         </li>
                         <li>
-                            <a href="/progress.html">Progress Bar</a>
+                            <a href="#photos">Photos</a>
+                        </li>
+                        <li>
+                            <a href="#team">Team</a>
                         </li>
                         <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
@@ -105,366 +107,115 @@
         <!-- Navigation Menu end-->
     </header>
     <!-- Header End -->
-    <!-- =============================
-                    About Section
-    ================================== -->
+
+    <!-- =========   Title Section   ========= -->
     <div id="title" class="anchor"></div>
-        <section id="Title" class="blete-even-wrapper">
+    <section id="Title" class="blete-section-wrapper blete-section-work">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
 
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                        <h2><span class="blete-highlight-text">Engineering Career Fair Mopbile App</span></h2>
+                        <h2>Engineering<span class="blete-highlight-text"> Career </span> Fair <span class="blete-highlight-text"> Mobile </span>App</h2>
                     </div>
-                    <!-- What We Do End -->
                 </div>
             </div>
         </section>
-    </div>
-    <!-- =============================
-                    About Section
-    ================================== -->
-    <div id="about" class="anchor"></div>
+
+    <!-- =========   Overview Section   ========= -->
+    <div id="overview" class="anchor"></div>
     <section id="about" class="blete-odd-wrapper">
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
 
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                    <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown" style="padding-bottom: 24px">
+                    <h2>APPLICATION <span class="blete-highlight-text">OVERVIEW</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello! I am Iñaki Rosa. I am studying Computer Engineering at Texas A&M Uni</h4>
+                    <h4 class="col-md-12 col-sm-10 col-xs-12">Texas A&M has one of the largest Career Fairs in the nation. More than 10,000 engineers attend the Engineering Career Fair every year looking to get hired by a company. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands.</h4>
                 </div>
                 <!-- Section Header End -->
-                <!-- What We Do 
+                <!-- What We Do -->
                 <div class="blete-what-we-do">
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
                         <div class="blete-icon">
-                            <i class="fa fa-key"></i>
+                            <i class="fa fa-mobile"></i>
                         </div>
-                        <h3>WEB SECURITY</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla, porro nemo.</p>
+                        <h3>MOBILE</h3>
+                        <p>Students can look up companies live while they’re at the career fair and make notes on the phone after they’ve talked to them. </p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
                         <div class="blete-icon">
                             <i class="fa fa-laptop"></i>
                         </div>
-                        <h3>WEB RESPONSIVE</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat hic facilis dolores nam.</p>
+                        <h3>WEBSITE COMMUNICATION</h3>
+                        <p>The app communicates with the SEC Website through an API, thus the information app is always up to date.</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
                         <div class="blete-icon">
                             <i class="fa fa-search"></i>
                         </div>
-                        <h3>SEO OPTIMATION</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo nesciunt quas perferendis.</p>
+                        <h3>RECRUITING INFORMATION</h3>
+                        <p>Students will be able to easily find where companies are located on the floor, an issue we faced previously with paper booklets. Students can selectively show companies based on majors and positions they’re hiring for.</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
                         <div class="blete-icon">
-                            <i class="fa fa-html5"></i>
+                            <i class="fa fa-smile-o"></i>
                         </div>
-                        <h3>HTML5 TEMPLATE</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sit, voluptate! Debitis sint ipsum ea aliquid.</p>
+                        <h3>STUDENTS</h3>
+                        <p>This app was created to help students find a job after College. I took no monetary proceeds in making this app and it is a service that I provided to the students of the A&M College of Engineering</p>
                     </div>
                 </div>
                 <!-- What We Do End -->
             </div>
         </div>
     </section>
-    <!-- About Section End -->
-    <!-- =============================
-                    Features Section
-    ================================== -->
-    <div id="projects" class="anchor"></div>
-    <section id="features" class="blete-even-wrapper blete-features-section" data-stellar-background-ratio="0.5">
-        <div id="projects" class="blete-parallax-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
-                    <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These are my projects</h4>
-                </div>
-                <!-- Section Header End -->
-                
-                <!-- Features -->
-                <div class="blete-features">
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
-                        <!--fa fa-plus    for plus--> 
-                        <!------------------------------------------------------------------------------------>
-                        <a href="#top" class="page_link">
-                            <div class="blete-blurb-icon-left-square">
-                                <div class="blete-icon">
-                                    <i class="fa fa-mobile"></i>        
-                                </div>
-                                <div class="blete-blurb-text">
-                                    <h3>Engineering Career Fair App</h3>
-                                    <p>
-                                        Texas A&M has one of the largest Career Fairs in the nation. More than 10,000 engineers attend the Engineering Career Fair every year looking to get hired by a company. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands. Click on the icon for more info!
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                        <!------------------------------------------------------------------------------------>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Clean Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing Voluptatum.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-smile-o"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Free Smile Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing At.</p>
-                            </div>
-                        </div>
+    
+    <!-- =========   Summary Section   ========= -->
+    <div id="summary" class="anchor"></div>
+    <section id="summary" class="blete-even-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!-- Section Header -->
+
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                        <h2><span class="blete-highlight-text">Engineering Career Fair Mobile App</span></h2>
+                        <div class="blete-section-divider"></div>
+                        <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magnam, atque adipisci dignissimos voluptas libero ipsa nulla perferendis ipsam maxime tenetur eaque, odio labore voluptatum sapiente minus provident voluptate corporis!</p>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-file-code-o"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Clean Code</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-font"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Font Awesome</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitItaque.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-mobile"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Mobile Responsive</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
+                    <!-- Section Header End -->
+                    <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                        <img src="/images/career_fair_app/first.jpg" alt="Custom Image" />
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Material Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-comments"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>24/7 Free Chat Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-edit"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Easy Edit</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sit, numquam amet voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum ipsum. Rem ea ducimus quos quae quo.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi cumque porro sapiente temporibus, recusandae mollitia, reiciendis tenetur quo natus ab ex quisquam reprehenderit, veniam eius doloremque minus possimus minima.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus at natus praesentium, ea sequi qui facilis odio accusantium ad sit, porro, laborum corporis perspiciatis a earum vel ipsa delectus voluptatem.</p>
+                        <ul>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
                     </div>
                 </div>
-                <!-- Features End -->
             </div>
-        </div>
-    </section>
-    <!-- Featuers Section End -->
-    <!-- =============================
-                    Team Section
-    ================================== -->
-    <section id="team" class="blete-section-wrapper blete-team-section">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>OUR <span class="blete-highlight-text">SOLID</span> TEAM</h2>
-                    <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore culpa hic illo consequuntur at iusto, suscipit, maiores nihil vero obcaecati sunt delectus deleniti atque, labore laborum magni tempore id alias!</p>
-                </div>
-                <!-- Section Header End -->
-                <!-- Team Slider -->
-                <div id="team-slider" class="owl-carousel blete-team-carousal col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="2s">
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/img-team/team-img-1.png" alt="Team Member 1" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>John Doe</h3>
-                            <span class="blete-member-desg">Web Development</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, impedit ducimus illo, minus nemo iste ut sint dolorum magnam nam in, dolorem veritatis. Ipsum voluptatibus, rem fuga nesciunt. In, totam..</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-gplus">
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/img-team/team-img-2.png" alt="Team Member 2" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>Marthin Doe</h3>
-                            <span class="blete-member-desg">Web Designer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolorem repellendus animi veritatis iure odio laudantium, molestiae. Recusandae quisquam sed laudantium et veritatis, blanditiis ad fugiat aperiam quia tempora.</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-gplus">
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/img-team/team-img-1.png" alt="Team Member 3" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>Lucas Doe</h3>
-                            <span class="blete-member-desg">Marketing</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste earum blanditiis doloribus sapiente officiis incidunt vitae aliquam, nulla eos optio fuga possimus, voluptatum impedit omnis? Doloremque ut aliquam unde officiis.</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-gplus">
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/img-team/team-img-4.png" alt="Team Member 4" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>Jordi Doe</h3>
-                            <span class="blete-member-desg">Web Development</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quae, id cumque reprehenderit est. Facere quaerat reprehenderit maxime distinctio blanditiis laudantium nesciunt ratione cumque pariatur illum eius, non dignissimos eveniet!</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-gplus">
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                </div>
-                <!-- Team Slider End -->
-            </div>
-        </div>
-    </section>
-    <!-- Team Section End -->
-    <!-- =============================
-                    Skill Section
-    ================================== -->
-    <section id="skill" class="blete-our-skills blete-section-wrapper">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>OUR <span class="blete-highlight-text">SKILLS</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, magnam, voluptatem. Eveniet placeat ad, eligendi, sit corporis quo nostrum, soluta tenetur ducimus quis nesciunt repellat explicabo alias est praesentium sapiente.</p>
-                </div>
-                <!-- Section Header End -->
-                <!-- Skills -->
-                <div class="blete-skills-wrapper">
-                    <div class="col-md-3 col-sm-6 col-xs-12 blete-skill-item">
-                        <div class="chart chart-ps" data-percent="95">
-                            <span class="percent"></span>
-                            <h3>HTML5</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, nisi hic sapientem.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 blete-skill-item">
-                        <div class="chart chart-php" data-percent="90">
-                            <span class="percent"></span>
-                            <h3>CSS3</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 blete-skill-item">
-                        <div class="chart chart-js" data-percent="80">
-                            <span class="percent"></span>
-                            <h3>Javascript</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 blete-skill-item">
-                        <div class="chart chart-wp" data-percent="80">
-                            <span class="percent"></span>
-                            <h3>PHP</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum assumenda.</p>
-                    </div>
-                </div>
-                <!-- Skills End -->
-            </div>
-        </div>
-    </section>
-    <!-- Skill seciton End -->
-    <!-- =============================
-                Featured Work Section
-    ================================== -->
+        </section>
+    
+    <!-- =========   Photos Section   ========= -->
+    <div id="photos" class="anchor"></div>
     <section id="featured-works" class="blete-section-wrapper blete-section-work">
         <!-- Container -->
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>OUR <span class="blete-highlight-text">RECENTS</span> WORKS</h2>
+                    <h2>APP <span class="blete-highlight-text">PHOTOS</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptatibus vel natus, deserunt ratione debitis.</p>
+                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Here are more photos of the application!</p>
                 </div>
                 <!-- Section Header End -->
             </div>
@@ -552,417 +303,123 @@
         <!-- Featured Works Slider -->
     </section>
     <!-- Featured Work End -->
-    <!-- =============================
-                Portfolio Section
-    ================================== -->
-    <section id="portfolio" class="blete-portfolio-section">
+
+    <!-- =========   Team Section   ========= -->
+    <div id="team" class="anchor"></div>
+    <section id="team" class="blete-section-wrapper blete-team-section">
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>OUR <span class="blete-highlight-text">PORTFOLIO</span></h2>
+                    <h2>THE <span class="blete-highlight-text">TEAM</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, tempora totam qui.</p>
+                    <b class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">This project could not have been completed without the help of the Student Engineers' Council and the Systems Administration team. Below is a description of the roles of the team members that worked on this project.</b>
                 </div>
                 <!-- Section Header End -->
+                <!-- Team Slider -->
+                <div id="team-slider" class="owl-carousel blete-team-carousal col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="2s">
+                    <!-- Slides -->
+                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
+                        <div class="blete-member-img-wrapper">
+                            <img src="/images/team/inaki.jpg" alt="Team Member 1" />
+                        </div>
+                        <div class="blete-member-details">
+                            <h3>Reed Hampton</h3>
+                            <span class="blete-member-desg">Systems Administration</span>
+                            <p> Reed Hampton is the current Systems Administration Chair of the Student Engineers' Council. As such, he was in charge of gathering and testing the application internally. He also served as the liaison between the SEC and the companies when it came to gathering information for the application that was needed.</p>
+                            <ul class="blete-team-social-icon">
+                                <li class="social-facebook">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slides End -->
+                    <!-- Slides -->
+                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
+                        <div class="blete-member-img-wrapper">
+                            <img src="/images/team/inaki.jpg" alt="Team Member 2" />
+                        </div>
+                        <div class="blete-member-details">
+                            <h3>Iñaki Rosa</h3>
+                            <span class="blete-member-desg">Project Lead / Lead Developer</span>
+                            <p>    I was the project lead as well as the lead developer of this project. I was in charge of translating the needs of the students into requirements for the application. I also was able to be the primary coder and architect of the project. I started this project during my tenure as Systems Administration Chair of the Student Engineers’ Council and got to continue the project after my tenure ended.</p>
+                            <ul class="blete-team-social-icon">
+                                <li class="social-facebook">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slides End -->
+                    <!-- Slides -->
+                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
+                        <div class="blete-member-img-wrapper">
+                            <img src="/images/team/inaki.jpg" alt="Team Member 3" />
+                        </div>
+                        <div class="blete-member-details">
+                            <h3>Derek Warren</h3>
+                            <span class="blete-member-desg">Administrator</span>
+                            <p>    Derek was the System Administration Chair that served the year before I did. Derek served to get all of our apple certifications and hardware prepared for the project. Derek also had a heavy hand in getting our AWS resources that were necessary for the project.</p>
+                            <ul class="blete-team-social-icon">
+                                <li class="social-facebook">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slides End -->
+                </div>
+                <!-- Team Slider End -->
             </div>
         </div>
-        <!-- Works -->
-        <div class="blete-portfolio-works wow fadeIn" data-wow-duration="2s">
-            <!-- Filter Button Start -->
-            <div id="blete-portfolio-filter" class="blete-portfolio-filter-btn-group">
-                <ul>
-                    <li>
-                        <a href="#" class="selected" data-filter="*">ALL</a>
-                        <!--
-                        -->
-                        <a href="#" data-filter=".web-design">Web Design</a>
-                        <!--
-                        -->
-                        <a href="#" data-filter=".web-development">Web Responsive</a>
-                        <!--
-                        -->
-                        <a href="#" data-filter=".app-development">PSD</a>
-                        <!--
-                        -->
-                        <a href="#" data-filter=".photography">Clean Design</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Filter Button End -->
-            <div class="blete-portfolio-items">
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-design app-development">
-                    <img src="/images/img-portfolio/portfolio1.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-development app-development">
-                    <img src="/images/img-portfolio/portfolio2.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-design">
-                    <img src="/images/img-portfolio/portfolio3.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-design web-development photography">
-                    <img src="/images/img-portfolio/portfolio4.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-designapp-development photography">
-                    <img src="/images/img-portfolio/portfolio5.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item photography">
-                    <img src="/images/img-portfolio/portfolio6.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio6.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <div class="item blete-portfolio-item web-development app-development">
-                    <img src="/images/img-portfolio/portfolio7.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio7.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-design web-development app-development photography">
-                    <img src="/images/img-portfolio/portfolio8.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio8.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item app-development">
-                    <img src="/images/img-portfolio/portfolio9.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio9.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item photography">
-                    <img src="/images/img-portfolio/portfolio10.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio10.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item photography app-development">
-                    <img src="/images/img-portfolio/portfolio11.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio11.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item web-design">
-                    <img src="/images/img-portfolio/portfolio12.jpg" />
-                    <div class="blete-portfolio-details-wrapper">
-                        <div class="blete-portfolio-details">
-                            <div class="blete-portfolio-meta-btn">
-                                <ul>
-                                    <li class="blete-lighbox"><a href="/images/img-portfolio/portfolio12.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Items End -->
-            </div>
-        </div>
-        <!-- Works End -->
+    </section>
+    <!-- Team Section End -->
 
-    </section>
-    <!-- Portfolio Section End -->
-    <!-- =============================
-                Custom Section
-    ================================== -->
-    <section class="blete-custom-sec blete-section-wrapper blete-description">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>ADDITIONAL <span class="blete-highlight-text">FEATURES</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magnam, atque adipisci dignissimos voluptas libero ipsa nulla perferendis ipsam maxime tenetur eaque, odio labore voluptatum sapiente minus provident voluptate corporis!</p>
-                </div>
-                <!-- Section Header End -->
-                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                    <img src="/images/features.png" alt="Custom Image" />
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sit, numquam amet voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum ipsum. Rem ea ducimus quos quae quo.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi cumque porro sapiente temporibus, recusandae mollitia, reiciendis tenetur quo natus ab ex quisquam reprehenderit, veniam eius doloremque minus possimus minima.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus at natus praesentium, ea sequi qui facilis odio accusantium ad sit, porro, laborum corporis perspiciatis a earum vel ipsa delectus voluptatem.</p>
-                    <ul>
-                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Custom Section End -->
-    <!-- =============================
-            Testimonial Section
-    ================================== -->
-    <section id="testimonials" class="blete-testimonial-section">
-
-        <div class="blete-parallax-overlay"></div>
-        <div class="blete-testimonial-wrapper wow bounceIn">
-            <div class="container">
-                <div class="row">
-                    <!-- Testimonial Slider -->
-                    <div id="blete-testimonial" class="owl-carousel blete-testimonial">
-                        <!-- Slides -->
-                        <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="/images/img-testimonial/testimonial1.png" alt="" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ratione consequatur, id ex beatae libero velit alias quibusdam dolorem asperiores aspernatur in, doloribus sint officiis ullam quisquam rem reprehenderit explicabo!</p>
-                            <p class="blete-client-info">Joeli Doe</p>
-                        </div>
-                        <!-- Slides End -->
-                        <!-- Slides -->
-                        <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="/images/img-testimonial/testimonial2.png" alt="" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus maiores cum culpa corrupti rem itaque in nam, ullam quis possimus eligendi dolorum soluta, aliquid error a nesciunt quam dolor nisi.</p>
-                            <p class="blete-client-info">Mata Doe</p>
-                        </div>
-                        <!-- Slides End -->
-                        <!-- Slides -->
-                        <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="/images/img-testimonial/testimonial3.png" alt="" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolorum cum iure. Excepturi ducimus temporibus neque esse quibusdam veritatis debitis, pariatur id qui distinctio, laborum commodi eligendi aspernatur hic consequatur!</p>
-                            <p class="blete-client-info">John Doe</p>
-                        </div>
-                        <!-- Slides End -->
-                        <!-- Slides -->
-                        <div class="blete-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <img src="/images/img-testimonial/testimonial4.png" alt="" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quos rerum, aliquid velit atque, a ducimus iusto consectetur quis, veniam perferendis eum dolores! Temporibus voluptatem corporis natus sunt, soluta, est.</p>
-                            <p class="blete-client-info">Juni Doe</p>
-                        </div>
-                        <!-- Slides End -->
-                    </div>
-                    <!-- Testimonial Slider End -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial End -->
-    <!-- =============================
-            Pricing Section
-    ================================== --
-    <section id="pricing" class="blete-pricing-section">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header --
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2><span class="blete-highlight-text">PRICING</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, nesciunt, placeat esse officia eaque blanditiis nulla explicabo.</p>
-                </div>
-                <!-- Section Header End --
-                <div class="blete-pricing-wrapper">
-                    <!-- Plans --
-                    <div class="col-md-4 col-sm-4 col-xs-12 blete-pricing-plans wow bounceInLeft pricing-plan-one">
-                        <div class="blete-pricing-titles">
-                            <h2>Simple</h2>
-                            <p><span>$50/</span>Month</p>
-                        </div>
-                        <div class="blete-pricing-service-name">
-                            <ul>
-                                <li>Free Setup</li>
-                                <li>Free Domain 1 Year</li>
-                                <li>6 Sub Domain</li>
-                                <li>Free 5 Theme</li>
-                                <li>Free Support / Week</li>
-                                <li>Free Update Theme</li>
-                                <li>Free 5 PSD</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="blete-signup-btn">SIGN UP</a>
-                    </div>
-                    <!-- Plans End --
-                    <!-- Plans --
-                    <div class="col-md-4 col-sm-4 col-xs-12 blete-pricing-plans blete-recommended-pricing wow fadeInUp" data-wow-duration="1s">
-                        <div class="blete-pricing-titles">
-                            <h2>Standard</h2>
-                            <p><span>$80/</span>Month</p>
-                        </div>
-                        <div class="blete-pricing-service-name">
-                            <ul>
-                                <li>Free Setup</li>
-                                <li>Free Domain 2 Year</li>
-                                <li>12 Sub Domain</li>
-                                <li>Free 10 Theme</li>
-                                <li>24/7 Free Support</li>
-                                <li>Free Update Theme</li>
-                                <li>Free 10 PSD</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="blete-signup-btn">SIGN UP</a>
-                    </div>
-                    <!-- Plans End --
-                    <!-- Plans --
-                    <div class="col-md-4 col-sm-4 col-xs-12 blete-pricing-plans wow bounceInRight">
-                        <div class="blete-pricing-titles">
-                            <h2>Ultimate</h2>
-                            <p><span>$150/</span>Month</p>
-                        </div>
-                        <div class="blete-pricing-service-name">
-                            <ul>
-                                <li>Free Setup</li>
-                                <li>Free Domain 4 Year</li>
-                                <li>Unlimited Sub Domain</li>
-                                <li>Unlimited Theme</li>
-                                <li>24/7 Free Support</li>
-                                <li>Free Update Theme</li>
-                                <li>Unlimited PSD</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="blete-signup-btn">SIGN UP</a>
-                    </div>
-                    <!-- Plans End --
-                </div>
-            </div>
-        </div>
-    </section>
-    <-- Pricing End -->
-    <!-- =============================
-                 Footer Section
-     ================================= -->
+    <!-- =========   Footer Section   ========= -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <h3>About</h3>
                     <ul>
-                        <li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum vitae nihil, culpa nemo dolore explicabo ipsa? Qui, et, porro. Nemo officiis possimus assumenda quia reiciendis asperiores aliquam quae minima, eos.</span></li>
+                        <li><span>
+                            This website was created to document all my hobbies and passions. I hope that you can get something out of being in my website. Please feel free to contact me if you have any questions or ideas. 
+                         </span></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h3>Related Post</h3>
                     <ul>
-                        <li><a href="">lorem ipsum</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem dolor</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3>Page</h3>
-                    <ul>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem sit eta</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem lorem ipsum</a></li>
-                        <li><a href="">lorem ipsumlor</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3>Featured Post</h3>
-                    <ul>
-                        <li><a href="">lorem meta tag</a></li>
-                        <li><a href="">lorem intan sipsum</a></li>
-                        <li><a href="">lorem ipsum</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem mata</a></li>
+                        <li><a href="/">Main Page</a></li>
+                        <li><a href="/career_fair_app">Career Fair Mobile App</a></li>
                     </ul>
                 </div>
             </div>
@@ -979,9 +436,7 @@
         </div>
     </div>
 
-    <!-- =============================
-                SCRIPTS
-    ================================== -->
+    <!-- =========   SCRIPTS   ========= -->
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/modernizr.min.js"></script>
