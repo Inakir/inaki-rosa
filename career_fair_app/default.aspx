@@ -321,23 +321,17 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/images/team/inaki.jpg" alt="Team Member 1" />
+                            <img src="/images/team/reed.jpg" alt="Team Member 1" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Reed Hampton</h3>
                             <span class="blete-member-desg">Systems Administration</span>
                             <p> Reed Hampton is the current Systems Administration Chair of the Student Engineers' Council. As such, he was in charge of gathering and testing the application internally. He also served as the liaison between the SEC and the companies when it came to gathering information for the application that was needed.</p>
                             <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-twitter">
+                                <li class="social-linkedin">
                                     <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
-                                <li class="social-twitter">
+                                <li class="social-github">
                                     <a href="#"><i class="fa fa-github"></i></a>
                                 </li>
                             </ul>
@@ -354,16 +348,10 @@
                             <span class="blete-member-desg">Project Lead / Lead Developer</span>
                             <p>    I was the project lead as well as the lead developer of this project. I was in charge of translating the needs of the students into requirements for the application. I also was able to be the primary coder and architect of the project. I started this project during my tenure as Systems Administration Chair of the Student Engineers’ Council and got to continue the project after my tenure ended.</p>
                             <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-twitter">
+                                <li class="social-linkedin">
                                     <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
-                                <li class="social-twitter">
+                                <li class="social-github">
                                     <a href="#"><i class="fa fa-github"></i></a>
                                 </li>
                             </ul>
@@ -373,23 +361,17 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/images/team/inaki.jpg" alt="Team Member 3" />
+                            <img src="/images/team/derek.jpg" alt="Team Member 3" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Derek Warren</h3>
                             <span class="blete-member-desg">Administrator</span>
                             <p>    Derek was the System Administration Chair that served the year before I did. Derek served to get all of our apple certifications and hardware prepared for the project. Derek also had a heavy hand in getting our AWS resources that were necessary for the project.</p>
                             <ul class="blete-team-social-icon">
-                                <li class="social-facebook">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="social-twitter">
+                                <li class="social-linkedin">
                                     <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
-                                <li class="social-twitter">
+                                <li class="social-github">
                                     <a href="#"><i class="fa fa-github"></i></a>
                                 </li>
                             </ul>

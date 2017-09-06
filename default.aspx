@@ -89,12 +89,6 @@
                             <a href="#projects">Projects</a>
                         </li>
                         <li>
-                            <a href="/pricing-table.html">Pricing Table</a>
-                        </li>
-                        <li>
-                            <a href="/progress.html">Progress Bar</a>
-                        </li>
-                        <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
