@@ -181,7 +181,6 @@
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                         <h2><span class="blete-highlight-text">Engineering Career Fair Mobile App</span></h2>
                         <div class="blete-section-divider"></div>
-                        <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1"></p>
                     </div>
                     <!-- Section Header End -->
                     <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
