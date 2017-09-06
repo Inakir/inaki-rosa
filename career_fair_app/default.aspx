@@ -181,7 +181,7 @@
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                         <h2><span class="blete-highlight-text">Engineering Career Fair Mobile App</span></h2>
                         <div class="blete-section-divider"></div>
-                        <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">The SEC Engineering Career Fair helps more than 10,000 engineers find employment every year. This app was designed to help students find companies that are looking for candidates that fit their profile. </p>
+                        <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1"></p>
                     </div>
                     <!-- Section Header End -->
                     <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
@@ -189,6 +189,8 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
                         <p>
+                            The SEC Engineering Career Fair helps more than 10,000 engineers find employment every year. This app was designed to help students find companies that are looking for candidates that fit their profile. 
+                            <br /><br />
                             The app has several features that make it useful to student. The most useful feature is the ability to favorite companies and see them on the Reed Arena Map. One of the biggest issues in previous fairs was that students had a hard time finding the companies that they wanted to apply to. Now students can immediately know where the companies that they want to talk to are. 
                             <br /><br />
                             The app allows students to filter the companies that are shown based on the majors, degrees, and positions that the companies are hiring. This makes students able to find companies that they might not otherwise look for easier than before. There was no way previously for students to see what companies where offering the positions they wanted previously and this is a big improvement over that.
