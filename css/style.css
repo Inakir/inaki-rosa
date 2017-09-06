@@ -254,7 +254,7 @@ a:active{
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 30px;
-	border: 1px solid #dadada;
+	border: 1px solid #ffffff;
 	-webkit-border-radius: 50%;
 		moz-border-radius: 50%;
 		 -o-border-radius: 50%;
@@ -264,7 +264,7 @@ a:active{
 .blete-blurb-round-icon .blete-icon i{
 	line-height: 100px;
 	font-size: 36px;
-	color: #dadada;
+	color: #ffffff;
 }
 
 .blete-blurb-round-icon .blete-icon{
@@ -378,7 +378,7 @@ a:active{
 	padding: 120px 0;
 	overflow: hidden;
     background-color: #332C2C;
-    color: #D6D3C4;
+    color: #FFFFFF;
 	padding-bottom: 30px;
 }
 .blete-section-wrapper{

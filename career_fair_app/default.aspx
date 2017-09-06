@@ -181,18 +181,21 @@
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                         <h2><span class="blete-highlight-text">Engineering Career Fair Mobile App</span></h2>
                         <div class="blete-section-divider"></div>
-                        <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magnam, atque adipisci dignissimos voluptas libero ipsa nulla perferendis ipsam maxime tenetur eaque, odio labore voluptatum sapiente minus provident voluptate corporis!</p>
+                        <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">The SEC Engineering Career Fair helps more than 10,000 engineers find employment every year. This app was designed to help students find companies that are looking for candidates that fit their profile. </p>
                     </div>
                     <!-- Section Header End -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                        <img src="/images/career_fair_app/first.jpg" alt="Custom Image" />
+                    <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                        <iframe width="325" height="525" src="https://www.youtube.com/embed/oQ2BzFb-MM0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sit, numquam amet voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum ipsum. Rem ea ducimus quos quae quo.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi cumque porro sapiente temporibus, recusandae mollitia, reiciendis tenetur quo natus ab ex quisquam reprehenderit, veniam eius doloremque minus possimus minima.
+                            The app has several features that make it useful to student. The most useful feature is the ability to favorite companies and see them on the Reed Arena Map. One of the biggest issues in previous fairs was that students had a hard time finding the companies that they wanted to apply to. Now students can immediately know where the companies that they want to talk to are. 
+                            <br /><br />
+                            The app allows students to filter the companies that are shown based on the majors, degrees, and positions that the companies are hiring. This makes students able to find companies that they might not otherwise look for easier than before. There was no way previously for students to see what companies where offering the positions they wanted previously and this is a big improvement over that.
+                            <br /><br />
+                            The app communicates with the SEC Career Fair Website through an API that I created. Since companies are always being dropped and added to the fair it’s important that students know exactly what companies are present at the fair. Since we were previously handing out booklets with the company locations, there are many companies that are left out of the booklet if they join the fair early. 
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus at natus praesentium, ea sequi qui facilis odio accusantium ad sit, porro, laborum corporis perspiciatis a earum vel ipsa delectus voluptatem.</p>
+                        
                         <ul>
                             <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                             <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
