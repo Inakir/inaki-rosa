@@ -164,6 +164,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                     <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
+                    <p style="text-align: center; color: red"> Website will be completed by 09/07 afternoon </p>
                     <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
                     <br><br><br>
 
