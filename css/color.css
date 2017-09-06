@@ -9,6 +9,10 @@ span.blete-highlight-header-text{
 	color: #90caf9;
 }
 
+span.blete-odd-highlight-text{
+	color: firebrick;
+}
+
 .blete-button-solid{
 	background-color: #500000;
 }

@@ -130,7 +130,7 @@
                 <!-- Section Header -->
 
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown" style="padding-bottom: 24px">
-                    <h2>APPLICATION <span class="blete-highlight-text">OVERVIEW</span></h2>
+                    <h2>APPLICATION <span class="blete-odd-highlight-text">OVERVIEW</span></h2>
                     <div class="blete-section-divider"></div>
                     <h4 class="col-md-12 col-sm-10 col-xs-12">Texas A&M has one of the largest Career Fairs in the nation. More than 10,000 engineers attend the Engineering Career Fair every year looking to get hired by a company. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands.</h4>
                 </div>
@@ -196,13 +196,13 @@
                             The app communicates with the SEC Career Fair Website through an API that I created. Since companies are always being dropped and added to the fair it’s important that students know exactly what companies are present at the fair. Since we were previously handing out booklets with the company locations, there are many companies that are left out of the booklet if they join the fair early. 
                         </p>
                         
-                        <ul>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        </ul>
+                        <!--<ul>
+                            <li><i class="fa fa-check"></i></li>
+                            <li><i class="fa fa-check"></i></li>
+                            <li><i class="fa fa-check"></i></li>
+                            <li><i class="fa fa-check"></i></li>
+                            <li><i class="fa fa-check"></i></li>
+                        </ul>-->
                     </div>
                 </div>
             </div>
@@ -231,70 +231,70 @@
                     <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
                         <!-- Work 1 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work1.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img1.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img1.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 1 End -->
                         <!-- Work 2 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work2.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img2.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img2.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 2 End -->
                         <!-- Work 3 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work3.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img3.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img3.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 3 End -->
                         <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work4.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img4.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img4.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 4 End -->
                         <!-- Work 5 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work5.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img5.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img5.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 5 End -->
                         <!-- Work 6 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work6.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img6.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work6.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img6.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Work 6 End -->
                         <!-- Work 7 -->
                         <div class="blete-portfolio-work-item">
-                            <img src="/images/img-work/work7.jpg" alt="work" />
+                            <img src="/images/career_fair_app/img7.png" alt="work" />
                             <div class="blete-port-work-details">
                                 <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/img-work/work7.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
+                                    <li class="blete-lighbox"><a href="/images/career_fair_app/img7.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>

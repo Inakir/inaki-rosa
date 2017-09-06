@@ -286,7 +286,7 @@ a:active{
 .blete-blurb-round-icon h3{
 	text-align: center;
 	font-size: 18px;
-	color: #616161;
+	color: #ffffff;
 	margin-top: 0;
 	margin-bottom: 15px;
 	-webkit-transition: all .3s linear;
@@ -786,7 +786,7 @@ header.blete-page-header .blete-main-menu.minified{
 	background-color: #D3D7D7
 }
 .blete-portfolio-work-item{
-	height: 280px;
+	height: 500px;
 	position: relative;
 }
 
