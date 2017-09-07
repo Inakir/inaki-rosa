@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>three.js / cannon.js example</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<script src="../js/three.min.js"></script>
+<script src="../js/threex.planets.js"></script>
+<script src="../js/cannon.js"></script>
+<script src="three.js-master%20files/js/controls/OrbitControls.js"></script>
+<script>
+
+    var world, timeStep = 20 / 60, camera, scene, renderer;
+    var loader = new THREE.JSONLoader();
+
+    //moon variables
+    var moonPhys, moonMesh;
+    var moonSize = 4;
+    var moonMass = 7.34767309 * Math.pow(10,22); //assuming density of 1
+    var moonVelocity = 1;
+    var moonDistance = 40;
+
+    //earth variables
+    var earthPhys, earthMesh;
+    var earthSize = 10;
+    var t = 0; //time
+
+    //izzy variables
+    var izzyPhys, izzyMesh;
+    var izzySize = 1;
+    var izzyMass = 1;
+    var izzyVelocity = .1;
+    var izzyDistance = 12;
+
+    //arklet variables
+    var arkPhys, arkMesh;
+    var arkSize = 1;
+    var arkMass = 1;
+    var arkVelocity = .1;
+    var arkDistance = izzyDistance;
+
+    //arklets
+    var arklets= [];
+    var arkletcount=35;
+    var arkletPhys;
+    var arkletSize =.0675, arkletMass=izzyMass/40;
+    var arkletVelocity =izzyVelocity, arkletDistance =izzyDistance;
+
+    //IZZYandtheArks
+    var IZZYandtheArks = new THREE.Object3D();
+    IZZYandtheArks.position.set(0,0,0);
+    var IZZYandtheArksPhys;
+    var IZZYandtheArksSize =.0675, IZZYandtheArksMass=1;
+    var IZZYandtheArksVelocity =1, IZZYandtheArksDistance =izzyDistance;
+
+    initThree();
+    initCannon();
+
+    initEarth();
+    initMoon();
+    initIZZY();
+    initArklets();
+    initIZZYandtheArks();
+
+    animate();
+
+    //setup camera controls
+    var controls;
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+    function initArklets(){
+        var arklet_geo = new THREE.MeshPhongMaterial();
+
+            loader.load( '../models/arklet.json', function( geometry, materials )
+            {
+                var arkMat = new THREE.MeshPhongMaterial();
+
+                for(var i =0 ; i < arkletcount; i++) {
+                    arklets[i]= new THREE.Mesh(geometry, arkMat);
+                    arkMat.map = THREE.ImageUtils.loadTexture('../images/ark_texture.png');
+
+                    arklets[i].receiveShadow = true;
+                    arklets[i].castShadow = true;
+                    arklets[i].scale.set(.1, .1, .1);
+                    arklets[i].position.set(Math.random(),Math.random(),Math.random());
+//                scene.add(arkMesh);
+                    IZZYandtheArks.add(arklets[i]);
+                }
+            });
+    }
+
+    function initIZZY(){
+        loader = new THREE.JSONLoader();
+        loader.load('../models/issTest5.json', function (geometry, materials) {
+            var izzyMat = new THREE.MeshPhongMaterial();
+
+            izzyMesh = new THREE.Mesh(
+                    geometry,
+                    izzyMat
+            );
+
+            izzyMat.map = THREE.ImageUtils.loadTexture('../images/izzy_test.png');
+
+            izzyMesh.receiveShadow = true;
+            izzyMesh.castShadow = true;
+            izzyMesh.scale.set(.1,.1,.1);
+//            izzyMesh.position.set(izzyDistance,0,0);
+            IZZYandtheArks.add(izzyMesh);
+            //izzyMesh.rotation.y = -Math.PI/5;
+        });
+    }
+
+    function initIZZYandtheArks(){
+        var IZZYandtheArksshape = new CANNON.Sphere(2);
+        IZZYandtheArksMass= izzyMass+arkletMass*arkletcount;
+        IZZYandtheArksPhys = new CANNON.Body({
+            mass: IZZYandtheArksMass,
+            position: new CANNON.Vec3(IZZYandtheArksDistance, 0, 0)
+        });
+        IZZYandtheArksPhys.linearDamping = 0.0;
+        IZZYandtheArksPhys.addShape(IZZYandtheArksshape);
+        IZZYandtheArksPhys.velocity.set(0, 0, izzyVelocity);
+        world.addBody(IZZYandtheArksPhys);
+        IZZYandtheArksPhys.preStep = function () {
+            this.mass = izzyMass+arkletMass*arkletcount;
+            // Get the vector pointing from the moon to the planetPhys center
+            var IzzyandTheArklets_to_earth = new CANNON.Vec3();
+            this.position.negate(IzzyandTheArklets_to_earth);
+
+            // Get distance from planet to moon
+            var distance = IzzyandTheArklets_to_earth.norm();
+
+            // Now apply force on moon
+            // Fore is pointing in the moon-planet direction
+            IzzyandTheArklets_to_earth.normalize();
+            //todo this constant (5000) is not right and causes the moon
+            //to not have stable orbit
+            IZZYandtheArks.rotation.y += 100;
+            //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+            IzzyandTheArklets_to_earth.mult(IZZYandtheArksMass*Math.pow(IZZYandtheArksVelocity,2) / distance, this.force);
+
+        };
+        scene.add(IZZYandtheArks);
+    }
+
+    function initEarth(){
+        var earthShape = new CANNON.Sphere(earthSize);
+        earthPhys = new CANNON.Body({mass: 5.972 * Math.pow(10,24) });
+        earthPhys.addShape(earthShape);
+        earthPhys.angularVelocity.set(10,0,0);
+
+        world.addBody(earthPhys);
+
+        var earth_geo = new THREE.SphereGeometry(earthSize, 32, 32);
+
+        var earth_mat = new THREE.MeshPhongMaterial();
+        earthMesh = new THREE.Mesh(earth_geo, earth_mat);
+
+        //todo change this so it's compatible with Chrome!
+        earth_mat.map = THREE.ImageUtils.loadTexture('earthmap1k.jpg');
+        earth_mat.bumpMap = THREE.ImageUtils.loadTexture('earthbump1k.jpg');
+        earth_mat.bumpScale = 20;
+        earthMesh.rotateOnAxis(new THREE.Vector3(0,1,0),23.5);
+        scene.add(earthMesh);
+    }
+
+    function initMoon(){
+        //create moon
+        var moonShape = new CANNON.Sphere(moonSize);
+
+        moonPhys = new CANNON.Body({
+            mass: moonMass,
+            position: new CANNON.Vec3(moonDistance, 0, 0)
+        });
+        moonPhys.linearDamping = 0.0;
+        moonPhys.addShape(moonShape);
+        moonPhys.velocity.set(0, 0, moonVelocity);
+
+        world.addBody(moonPhys);
+
+        //           Use the preStep callback to apply the gravity force on the moon.
+//           This callback is evoked each time step.
+        moonPhys.preStep = function () {
+
+            // Get the vector pointing from the moon to the planetPhys center
+            var moon_to_earth = new CANNON.Vec3();
+            this.position.negate(moon_to_earth);
+
+            // Get distance from planet to moon
+            var distance = moon_to_earth.norm();
+
+            // Now apply force on moon
+            // Fore is pointing in the moon-planet direction
+            moon_to_earth.normalize();
+            //todo this constant (5000) is not right and causes the moon
+            //to not have stable orbit
+
+            //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+            moon_to_earth.mult(moonMass*Math.pow(moonVelocity,2) / distance, this.force);
+
+        };
+
+        moonMesh = new THREEx.Planets.createMoon();
+        moonMesh.scale.set(moonSize, moonSize, moonSize);
+
+        scene.add(moonMesh);
+    }
+
+
+    function initCannon() {
+        world = new CANNON.World();
+        world.gravity.set(0, 0, 0);
+        world.broadphase = new CANNON.NaiveBroadphase();
+        world.solver.iterations = 10;
+    }
+    function initThree() {
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 100);
+        camera.position.z = 50;
+        scene.add(camera);
+
+        var light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(50, 50, 50);
+        scene.add(light);
+
+        amb = new THREE.AmbientLight(0xffffff, .5);
+        scene.add(amb);
+
+        renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        window.addEventListener( 'resize', onWindowResize, false );
+
+    }
+    function animate() {
+        requestAnimationFrame(animate);
+        updatePhysics();
+        render();
+    }
+    function updatePhysics() {
+        // Step the physics world
+        world.step(timeStep);
+
+
+        //earth update
+        earthMesh.position.copy(earthPhys.position);
+//        earthMesh.quaternion.copy(earthPhys.quaternion);
+        earthMesh.rotation.y += .005; //since there is no need for earth's
+        //quaternion data, use this instead (because I couldn't figure out
+        //how to get the angular velocity working....)
+//        arklet.position.copy(arkletPhys.position);
+
+        //moon update
+        moonMesh.position.copy(moonPhys.position);
+        moonMesh.quaternion.copy(moonPhys.quaternion);
+
+
+        IZZYandtheArks.rotateY(Math.pi);
+        //IZZYandtheArks update
+        IZZYandtheArks.position.copy(IZZYandtheArksPhys.position);
+        IZZYandtheArks.quaternion.copy(IZZYandtheArksPhys.quaternion);
+
+
+
+
+    }
+    function render() {
+        renderer.render(scene, camera);
+    }
+
+    function onWindowResize() {
+
+        windowHalfX = window.innerWidth / 2;
+        windowHalfY = window.innerHeight / 2;
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+    }
+</script>
+</body>
+</html>

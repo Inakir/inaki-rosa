@@ -1,0 +1,5 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="EjsConsole" value="C:/Users/John Ansted/WebstormProjects/TestForBlizzard/EjsS_5.2/EjsConsole.jar" />
+  </component>
+</application>

@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Blizzard</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            overflow: hidden;
+        }
+    </style>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<audio autoplay loop>
+    <source src="../audio/dark_cell_free_audio.mp3" type="audio/mpeg">
+</audio>
+<script src="../js/three.min.js"></script>
+<script src="../js/threex.planets.js"></script>
+<script src="../js/cannon.js"></script>
+<script src="../js/stats.min.js"></script>
+<script src="three.js-master%20files/js/controls/OrbitControls.js"></script>
+<script>
+
+    var showStartScreen = true; // should the start screen be displayed?
+    var paused = false; // press p to toggle TODO: display controls on screen
+
+    var debug = false; // debug mode; currently just decides whether or not to display fps stats
+
+    var world, timeStep = 1 / 60, camera, scene, renderer, stats, statsContainer, light, ambLight;
+
+    var t = 0; //time, used for time dependent events, such as the moon exploding
+    var explosionTime = 3; //time that the moon explodes. explosion lasts for 5 seconds
+
+    //izzy variables
+    var playerMesh, playerPhys;
+    var playerScale = 1/3;
+    var playerAngularVelocity = .01; //same ask arkAngularVelocity
+    var playerDistance = 50;
+    var playerVelocity = .06;
+    var playerZYAngle = 0;
+    var playerZXAngle = 0;
+    var up = false;
+    var down = false;
+    var lost = false;
+    var playerTotalScore = 0;
+
+    //izzy variables
+    var izzyPhys, izzyMesh;
+    var izzyScale = 1/3;
+    var izzySize = 1.5;
+    var izzyMass = 1;
+    var izzyAngularVelocity = .01; //same ask arkAngularVelocity
+    var izzyDistance = 20;
+    var izzyVelocity = izzyDistance * izzyAngularVelocity;
+    var izzyDegreesAheadOfArklets = 20;
+
+    //ark variables
+    var arkPhys = [];
+    var arkMesh = [];
+    var arkScale = .3;
+    var arkSize = .05;
+    var arkMass = .1;
+    var arkVelocity = .5;
+    var arkDistance = 3;
+    var arkAngularVelocity = .01; //using this so they all orbit at same angular velocity regardless of distance
+    var arkletcount = 25;
+
+    //moon variables
+    var moonPhys, moonMesh, halfMoonMesh;
+    var moonSize = 4;
+    var moonMass = 15; //assuming density of 1
+    var moonVelocity = 1;
+    var moonDistance = 40;
+
+    //moon explosion
+    var moonExplosionMesh;
+    var moonExplosionSize=.5;
+
+    //moon fragments
+    var moonFrag = [];
+
+    var meteorPhys = [];
+    var meteorMesh = [];
+    var meteorScale = 2;
+    var meteorSize =3;
+    var meteorMass = 1;
+    var meteorVelocity = 5;
+    var meteorDistance = 50;
+    var meteorCount = 0;
+    var addMeteor = true;
+    var meteorType = true;
+    //earth variables
+    var earthPhys, earthMesh, cloudMesh;
+    var earthSize = 10;
+
+    //setup camera controls
+    var controls;
+
+    // start screen vars
+    var rotateClockwise = false;
+
+    // clickable objects
+    var raycaster;
+    var mouse; // 2d vector representing mouse coords
+    var clickableMeshes = []; // meshes in this array can respond to user clicks
+    var clickedMesh = null;
+
+    // initialize engine vars
+    initThree();
+    initCannon();
+
+    // initialize models
+    initPlayer();
+    initStars();
+    initEarth();
+    initMoon();
+    initIZZY();
+    initArklets();
+
+    // start simulation
+    animate();
+
+    document.addEventListener( 'keydown', onKeyDown );
+    document.addEventListener( 'keyup', onKeyUp );
+
+    document.addEventListener('keypress',onKeyPress );
+
+    if(showStartScreen) {
+        displayStartScreen();
+    } else {
+        //controls = new THREE.OrbitControls(camera, renderer.domElement); // give the user control of the camera
+        //controls.maxDistance = 200;
+        //if you have a minDistance, it stops you from zooming in when you are trying to look
+        //at the arklets
+//        controls.minDistance = earthSize + 1;
+    }
+
+    function initCannon() {
+        world = new CANNON.World();
+        world.gravity.set(0, 0, 0);
+        world.broadphase = new CANNON.NaiveBroadphase();
+        world.solver.iterations = 10;
+    }
+
+    function initThree() {
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
+        camera.position.x = 0;
+        camera.position.y = 1.25;
+        camera.position.z = 52.5;
+        scene.add(camera);
+
+        raycaster = new THREE.Raycaster();
+        mouse = new THREE.Vector2();
+
+        light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(50, 50, 50);
+        scene.add(light);
+
+        amb = new THREE.AmbientLight(0xffffff, .5);
+        scene.add(amb);
+
+        //clickableObjs.push(earthMesh);
+
+        //moon fireball
+        var moonExplosionGeo = new THREE.SphereGeometry(moonSize, 32, 32);
+        var moonExplosionMat = new THREE.MeshPhongMaterial();
+        moonExplosionMat.map = THREE.ImageUtils.loadTexture('../images/explosionGIF.gif');
+        moonExplosionMesh = new THREE.Mesh(moonExplosionGeo, moonExplosionMat);
+        moonExplosionMesh.position.x = 500000;//place this off the screen at first
+        moonExplosionMesh.scale.set(moonExplosionSize, moonExplosionSize, moonExplosionSize);
+        scene.add(moonExplosionMesh);
+
+        renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        if(debug) { // put helpful debug stuff here
+            // displays current fps
+            statsContainer = document.createElement('div'); // container to display three.js stats
+            document.body.appendChild(statsContainer);
+
+            stats = new Stats();
+            stats.domElement.style.position = 'absolute';
+            stats.domElement.style.top = '0px';
+
+            statsContainer.appendChild(stats.domElement);
+            statsContainer.appendChild(renderer.domElement);
+        }
+        window.addEventListener( 'resize', onWindowResize, false );
+    }
+
+    function initPlayer()
+    {
+        //Player Mesh
+        var player_geo = new THREE.MeshPhongMaterial();
+
+        loader = new THREE.JSONLoader(); // JSON 3D Model loader
+        loader.load('../models/arklet.json', function (geometry, materials) {
+        var playerMat = new THREE.MeshPhongMaterial();
+
+        playerMesh = new THREE.Mesh(geometry, playerMat);
+
+        playerMat.map = THREE.ImageUtils.loadTexture('../images/ark_texture.png');
+
+        playerMesh.receiveShadow = true;
+        playerMesh.castShadow = true;
+        playerMesh.scale.set(playerScale*10, playerScale*10, playerScale*10);
+        playerMesh.position.set(0, 0, playerDistance);
+        scene.add(playerMesh);
+        });
+
+        ///physics only used to detect collisions
+        var playerShape = new CANNON.Sphere(playerScale*7);
+        playerPhys = new CANNON.Body({
+            mass: arkMass, //pos.length() / (playerVelocity*playerVelocity)
+            position : new CANNON.Vec3(0,0,playerDistance)
+        });
+        playerPhys.linearDamping = 0.0;
+        playerPhys.addShape(playerShape);
+
+        world.addBody(playerPhys);
+        ////
+    }
+
+    function initStars(){
+        // create the geometry sphere
+        var star_geo = new THREE.SphereGeometry(200, 32, 32);
+
+        // create the material, using a texture of startfield
+        var star_mat = new THREE.MeshBasicMaterial();
+        star_mat.map = THREE.ImageUtils.loadTexture('../images/galaxy_starfield.png');
+        star_mat.side = THREE.BackSide;
+        star_mat.ambient = 20;
+
+        // create the mesh based on star_geo and star_mat
+        var m = new THREE.Mesh(star_geo, star_mat);
+        scene.add(m);
+    }
+
+    function initEarth(){
+        //create earth physics
+        var earthShape = new CANNON.Sphere(earthSize);
+        earthPhys = new CANNON.Body({mass: 0});
+        earthPhys.addShape(earthShape);
+        earthPhys.angularVelocity.set(10,0,0);
+        world.addBody(earthPhys);
+
+        //create Earth three mesh
+        var earth_geo = new THREE.SphereGeometry(earthSize, 32, 32);
+
+        var earth_mat = new THREE.MeshPhongMaterial();
+        earthMesh = new THREE.Mesh(earth_geo, earth_mat);
+
+        earth_mat.map = THREE.ImageUtils.loadTexture('../images/earthmap1k.jpg');
+        earth_mat.bumpMap = THREE.ImageUtils.loadTexture('../images/earthbump1k.jpg');
+        earth_mat.bumpScale = 20;
+        earth_mat.needsUpdate = true;
+        earth_mat.map.needsUpdate = true;
+
+        cloudMesh =  THREEx.Planets.createEarthCloud();
+        cloudMesh.scale.set(1.99*earthSize, 1.99*earthSize, 1.99*earthSize);
+        scene.add(cloudMesh);
+        scene.add(earthMesh);
+    }
+
+    function initMoon(){
+        //create moon physics
+        var moonShape = new CANNON.Sphere(moonSize*moonSize);
+
+        moonPhys = new CANNON.Body({
+            mass: moonMass,
+            position: new CANNON.Vec3(moonDistance, 0, 0)
+        });
+        moonPhys.linearDamping = 0.0;
+        moonPhys.addShape(moonShape);
+        moonPhys.velocity.set(0, 0, moonVelocity);
+
+        world.addBody(moonPhys);
+
+        //           Use the preStep callback to apply the gravity force on the moon.
+//           This callback is evoked each time step.
+        moonPhys.preStep = function () {
+
+            // Get the vector pointing from the moon to the planetPhys center
+            var moon_to_earth = new CANNON.Vec3();
+            this.position.negate(moon_to_earth);
+
+            // Get distance from planet to moon
+            var distance = moon_to_earth.norm();
+
+            // Now apply force on moon
+            // Fore is pointing in the moon-planet direction
+            moon_to_earth.normalize();
+
+            //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+            moon_to_earth.mult(moonMass*Math.pow(moonVelocity,2) / distance, this.force);
+
+        };
+        //moon
+        moonMesh = new THREEx.Planets.createMoon();
+        moonMesh.scale.set(moonSize, moonSize, moonSize);
+        scene.add(moonMesh);
+
+        loader = new THREE.JSONLoader();
+        loader.load('../models/halfmoon.json', function (geometry, materials)
+        {
+            var halfMoonMat = new THREE.MeshPhongMaterial(); // base material
+            halfMoonMesh = new THREE.Mesh(geometry, halfMoonMat);
+            halfMoonMat.map = THREE.ImageUtils.loadTexture('../images/moonbump1k.jpg'); // load texture
+
+            halfMoonMesh.scale.set(moonSize, moonSize, moonSize);
+            //halfMoonMesh.receiveShadow = true;
+            //halfMoonMesh.castShadow = true;
+            //halfMoonMesh.rotation.z = -Math.PI/5;
+            halfMoonMesh.position.set(moonPhys.position.x, moonPhys.position.y, moonPhys.position.z);
+        });
+
+        clickableMeshes.push(moonMesh);
+    }
+
+    function initIZZY() {
+
+        var radiansAheadOfArklets = izzyDegreesAheadOfArklets * (Math.PI /180);
+
+        // IZZY Physics
+        var izzyShape = new CANNON.Sphere(izzySize*izzyScale);
+
+        izzyPhys = new CANNON.Body({
+            mass: izzyMass,
+            position: new CANNON.Vec3(Math.cos(radiansAheadOfArklets)*izzyDistance, 0, Math.sin(radiansAheadOfArklets)*izzyDistance)
+        });
+        izzyPhys.linearDamping = 0.0;
+        izzyPhys.addShape(izzyShape);
+
+        //need izzy to start out ahead of the arklets
+        izzyPhys.velocity.set(-Math.sin(radiansAheadOfArklets)*izzyVelocity, 0, Math.cos(radiansAheadOfArklets)*izzyVelocity);
+
+        world.addBody(izzyPhys);
+
+        izzyPhys.preStep = function () {
+
+            // Get the vector pointing from the moon to the planetPhys center
+            var izzy_to_earth = new CANNON.Vec3();
+            this.position.negate(izzy_to_earth);
+
+            // Get distance from planet to moon
+            var distance = izzy_to_earth.norm();
+
+            // Now apply force on moon, force is pointing in the moon-planet direction
+            izzy_to_earth.normalize();
+
+            //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+            izzy_to_earth.mult(izzyMass*Math.pow(izzyVelocity,2) / distance, this.force);
+
+        };
+
+        // IZZY Mesh
+        loader = new THREE.JSONLoader(); // JSON 3D Model loader
+        // load model TODO: this is executed on a diff thread. Might need to delay rendering until these are done loading.
+        loader.load('../models/issTest5.json', function (geometry, materials) {
+            var izzyMat = new THREE.MeshPhongMaterial(); // base material
+
+            izzyMesh = new THREE.Mesh(geometry, izzyMat); // create mesh
+
+            izzyMat.map = THREE.ImageUtils.loadTexture('../images/izzy_texture2.png'); // load texture
+
+            izzyMesh.scale.set(izzyScale, izzyScale, izzyScale);
+            //izzyMesh.receiveShadow = true;
+            //izzyMesh.castShadow = true;
+            //izzyMesh.rotation.z = -Math.PI/5;
+
+            scene.add(izzyMesh); // render izzy
+            clickableMeshes.push(izzyMesh);
+        });
+
+    }
+
+    function initArklets() {
+        for(var i = 0; i < arkletcount; i++) {
+            //ark physics
+            var arkShape = new CANNON.Sphere(arkSize*arkScale);
+
+            var tempArkPhys;
+            var tempArkMesh;
+
+
+            //placement of the Arklets
+            var degree = Math.random()*Math.PI*2;
+            var degree2 = Math.random()*Math.PI*2;
+            var xpos = Math.sin(degree)*(arkDistance) + (.5*arkDistance);
+            var ypos = Math.cos(degree2)*(arkDistance) + (.5*arkDistance);
+            var zpos = Math.cos(degree)*(arkDistance) + (.5*arkDistance);
+
+            var pos = new CANNON.Vec3(izzyDistance + xpos, ypos,  zpos);
+            tempArkPhys = new CANNON.Body({
+                position: pos,
+                mass: arkMass //pos.length() / (arkVelocity*arkVelocity)
+                //position : new CANNON.Vec3(Math.random()*3+16,Math.random()*2,Math.random()*2)
+            });
+            tempArkPhys.linearDamping = 0.0;
+            tempArkPhys.addShape(arkShape);
+
+            tempArkPhys.velocity.set(0, 0, arkAngularVelocity*tempArkPhys.position.length());
+
+            world.addBody(tempArkPhys);
+
+            tempArkPhys.preStep = function () {
+
+                // Get the vector pointing from the moon to the planetPhys center
+                var ark_to_earth = new CANNON.Vec3();
+                this.position.negate(ark_to_earth);
+
+                // Get distance from planet to moon
+                var distance = ark_to_earth.length();
+
+                // Now apply force on moon, force is pointing in the moon-planet direction
+                ark_to_earth.normalize();
+
+//                console.log(i," This.mass = ", this.mass, " while arkletMass = ", arkMass);
+                //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+                //this specific formula (for arklets) is modified to use angular velocity
+                ark_to_earth.mult(this.mass * Math.pow(arkAngularVelocity, 2) * distance, this.force);
+
+            };
+            arkPhys.push(tempArkPhys);
+
+            //Arklet Mesh
+            var arklet_geo = new THREE.MeshPhongMaterial();
+
+            loader.load('../models/arklet.json', function (geometry, materials) {
+                var arkMat = new THREE.MeshPhongMaterial();
+
+                tempArkMesh = new THREE.Mesh(geometry, arkMat);
+
+                arkMat.map = THREE.ImageUtils.loadTexture('../images/ark_texture.png');
+
+                tempArkMesh.receiveShadow = true;
+                tempArkMesh.castShadow = true;
+                tempArkMesh.scale.set(arkScale, arkScale, arkScale);
+                tempArkMesh.position.set(izzyPhys.position.x + xpos, izzyPhys.position.y + ypos,izzyPhys.position.z + zpos);
+                arkMesh.push(tempArkMesh);
+                scene.add(tempArkMesh);
+                clickableMeshes.push(tempArkMesh);
+            });
+        }
+    }
+
+    function generateOrthogonalVector(AVec){
+        //orthogonal vector is one such that A dot B = 0.
+        //the input vector is A.
+        //we will randomly choose x and y of B, the output vector.
+        //we will compute z of B s.t. A dot B = 0.
+        Ax = AVec.x;
+        Ay = AVec.y;
+        Az = AVec.z;
+        var Bx = Math.random()*4+1;
+        var By = Math.random()*4+1;
+        var Bz = -(Ax * Bx) - (Ay * By);
+        Bz = Bz / Az; //now we have Bz
+//        console.log("Ax, Ay, Az = ", Ax, Ay, Az, " Bx, By, Bz = ", Bx, By, Bz);
+        var vec = new CANNON.Vec3(Bx, By, Bz);
+        return vec;
+
+    }
+
+    function initMeteor() {
+        // if (t > explosionTime) {
+        // meteor Physics
+        var meteorShape = new CANNON.Sphere(meteorSize*meteorScale);
+
+        var tempMeteorPhys;
+        var tempMeteorMesh;
+
+        tempMeteorPhys= new CANNON.Body({
+            mass: meteorMass,
+            position: new CANNON.Vec3(moonPhys.position.x-20, moonPhys.position.y, moonPhys.position.z)
+        });
+        tempMeteorPhys.linearDamping = 0.0;
+        tempMeteorPhys.addShape(meteorShape);
+//      need the velocity to be tangent so that it will orbit, rather than just go straight
+        //into the earth or away from the earth
+        var velocityVec = generateOrthogonalVector(tempMeteorPhys.position);
+        velocityVec.normalize();
+        velocityVec.scale(meteorVelocity, tempMeteorPhys.velocity);
+//        console.log(tempMeteorPhys.velocity);
+
+        world.addBody(tempMeteorPhys);
+
+        tempMeteorPhys.preStep = function ()
+        {
+            // Get the vector pointing from the moon to the planetPhys center
+            var meteor_to_earth = new CANNON.Vec3();
+            this.position.negate(meteor_to_earth);
+
+            // Get distance from planet to moon
+            var distance = meteor_to_earth.norm();
+
+            // Now apply force on moon, force is pointing in the moon-planet direction
+            meteor_to_earth.normalize();
+
+            //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+            meteor_to_earth.mult(meteorMass * Math.pow(meteorVelocity, 2) / distance, this.force);
+        };
+        meteorPhys.collisionResponse = 0; // no impact on other bodys
+//        meteorPhys.addEventListener("collide", function(e){ console.log("sphere collided"); } );
+        meteorPhys.push(tempMeteorPhys);
+
+        //json file for moon fragment
+        loader = new THREE.JSONLoader();
+
+        loader.load('../models/meteor.json', function (geometry, materials)
+        {
+            var meteorMat = new THREE.MeshPhongMaterial(); // base material
+
+            tempMeteorMesh = new THREE.Mesh(geometry, meteorMat); // create mesh
+            meteorMat.map = THREE.ImageUtils.loadTexture('../images/meteor_texture.png'); // load texture
+
+            tempMeteorMesh.scale.set(meteorScale, meteorScale, meteorScale);
+            //tempMeteorMesh.receiveShadow = true;
+            //tempMeteorMesh.castShadow = true;
+            //tempMeteorMesh.rotation.z = -Math.PI/5;
+            tempMeteorMesh.position.set(moonPhys.position.x, moonPhys.position.y, moonPhys.position.z);
+            meteorMesh.push(tempMeteorMesh);
+            scene.add(tempMeteorMesh); // render meteor
+            clickableMeshes.push(tempMeteorMesh);
+        });
+        meteorCount++;
+    }
+
+    function newMeteor() {
+        // if (t > explosionTime) {
+        // meteor Physics
+        var meteorShape = new CANNON.Sphere(meteorSize*meteorScale);
+
+        var tempMeteorPhys;
+        var tempMeteorMesh;
+
+        // spawn new meteor on a random side of the hit meteor
+        var randomAxis = Math.floor((Math.random() * 3) + 1); // random number [1,3]; [x, y,or z]
+        var positiveOrNegative = Math.floor((Math.random() * 2) + 1); // random number [1,2]; if 1 -> pos, 2 -> neg
+        var meteorPos;
+        var offset;
+
+        if(positiveOrNegative == 1){ // the offset is positive
+            offset =  meteorSize * 2; // offset by the meteor's diameter
+        } else { // the offset is negative
+            offset = meteorSize * -2;
+        }
+
+        if( randomAxis == 1 ) // add offset to x
+            meteorPos =  new CANNON.Vec3(meteorPhys[meteorCount-1].position.x + offset, meteorPhys[meteorCount-1].position.y, meteorPhys[meteorCount-1].position.z);
+        else if (randomAxis == 2) // to y
+            meteorPos =  new CANNON.Vec3(meteorPhys[meteorCount-1].position.x, meteorPhys[meteorCount-1].position.y + offset, meteorPhys[meteorCount-1].position.z);
+        else // to z
+            meteorPos =  new CANNON.Vec3(meteorPhys[meteorCount-1].position.x, meteorPhys[meteorCount-1].position.y, meteorPhys[meteorCount-1].position.z + offset);
+
+        tempMeteorPhys= new CANNON.Body({
+            mass: meteorMass,
+            position: meteorPos
+        });
+
+        tempMeteorPhys.linearDamping = 0.0;
+        tempMeteorPhys.addShape(meteorShape);
+
+        //need the velocity to be tangent so that it will orbit!
+        var velocityVec = generateOrthogonalVector(tempMeteorPhys.position);
+        velocityVec.normalize();
+        //velocityVec.scale(meteorVelocity, tempMeteorPhys.velocity);
+
+        tempMeteorPhys.velocity.set(0, 0, meteorVelocity);
+//        console.log(tempMeteorPhys.velocity);
+        world.addBody(tempMeteorPhys);
+
+        tempMeteorPhys.preStep = function ()
+        {
+            // Get the vector pointing from the moon to the planetPhys center
+            var meteor_to_earth = new CANNON.Vec3();
+            this.position.negate(meteor_to_earth);
+
+            // Get distance from planet to moon
+            var distance = meteor_to_earth.norm();
+
+            // Now apply force on moon, force is pointing in the moon-planet direction
+            meteor_to_earth.normalize();
+
+            //this is centripetal force formula, F=mass*velocity^2 / radius. credit: BK
+            meteor_to_earth.mult(meteorMass * Math.pow(meteorVelocity, 2) / distance, this.force);
+        };
+        meteorPhys.push(tempMeteorPhys);
+
+        //json file for moon fragment
+        loader = new THREE.JSONLoader();
+        var model;
+        if(meteorType)
+        {
+            model = '../models/meteor.json';
+        }
+        else
+        {
+            model = '../models/meteor2.json';
+        }
+        loader.load(model, function (geometry, materials)
+        {
+            var meteorMat = new THREE.MeshPhongMaterial(); // base material
+
+            tempMeteorMesh = new THREE.Mesh(geometry, meteorMat); // create mesh
+            meteorMat.map = THREE.ImageUtils.loadTexture('../images/meteor_texture.png'); // load texture
+
+            tempMeteorMesh.scale.set(meteorScale, meteorScale, meteorScale);
+            //tempMeteorMesh.receiveShadow = true;
+            //tempMeteorMesh.castShadow = true;
+            //tempMeteorMesh.rotation.z = -Math.PI/5;
+            tempMeteorMesh.position.set(tempMeteorPhys.position.x, tempMeteorPhys.position.y, tempMeteorPhys.position.z);
+            meteorMesh.push(tempMeteorMesh);
+            scene.add(tempMeteorMesh); // render meteor
+            clickableMeshes.push(tempMeteorMesh);
+        });
+        meteorCount++;
+    }
+
+    function displayScore() {
+        var playerScore = document.createElement('div');
+        playerScore.style.position = 'absolute';
+        playerScore.style.width = 100;
+        playerScore.style.height = 100;
+        playerScore.style.backgroundColor = "black";
+        playerScore.style.color = "white";
+
+        playerScore.innerHTML = "Speed: " + playerVelocity.toFixed(2) + " Score: " + Math.floor(playerTotalScore);
+        playerScore.style.top = 0+ 'px';
+        playerScore.style.left = 100+ 'px';
+        document.body.appendChild(playerScore);
+    }
+
+    function animate() {
+        requestAnimationFrame(animate);
+        if(!lost)
+        {
+            displayScore();
+        }
+        if(!paused){
+            updatePhysics();
+            if(typeof playerMesh !== 'undefined'){
+                cameraFollow(playerMesh);
+            }
+        }
+
+        render();
+
+        if(debug) { // show debug info
+            stats.update(); // updates fps display
+        }
+    }
+
+    function updatePhysics() {
+        // Step the physics world
+        if(typeof playerMesh !== 'undefined') {
+            if (t > explosionTime)
+            {
+                var playerOutofBounds = Math.sqrt( playerPhys.position.x * playerPhys.position.x + playerPhys.position.y * playerPhys.position.y + playerPhys.position.z * playerPhys.position.z );
+                if(playerOutofBounds>200) {
+                    scene.remove(playerMesh);
+                    if (!lost) {
+                        window.alert("You went out of bounds, you have lost!");
+                    }
+                    lost = true;
+
+                }
+                if(!up && playerZYAngle<0)
+                {
+                    playerZYAngle += 5 * (Math.PI / 180);
+                }
+                if(!down && playerZYAngle>0)
+                {
+                    playerZYAngle -= 5 * (Math.PI / 180);
+                }
+
+                playerMesh.position.x -= Math.sin(playerZXAngle) * playerVelocity;
+                playerMesh.position.y -= Math.sin(playerZYAngle) * playerVelocity*2;
+                playerMesh.position.z -= Math.cos(playerZXAngle) * playerVelocity;
+
+
+                //playerMesh.rotation.x = -playerZYAngle;
+                playerMesh.rotation.y = playerZXAngle;
+                playerPhys.position.copy(playerMesh.position);
+            }
+        }
+
+        world.step(timeStep);
+
+        if(!showStartScreen)
+            t = t + .01; //increment time, for use in things like when to explode the moon
+
+        if (t > explosionTime)
+            playerTotalScore += playerVelocity;
+        //earth update
+        earthMesh.position.copy(earthPhys.position);
+//        earthMesh.quaternion.copy(earthPhys.quaternion);
+        earthMesh.rotation.y += .001; //since there is no need for earth's quaternion data
+        cloudMesh.rotation.y += .0017; //rotate clouds
+
+        var moonDistance = Math.sqrt( moonPhys.position.x * moonPhys.position.x + moonPhys.position.y * moonPhys.position.y + moonPhys.position.z * moonPhys.position.z );
+        if(moonDistance>75)
+        {
+            if(moonPhys.position.x > 0) {
+                moonPhys.velocity.x -= .1;
+            }
+            else {
+                moonPhys.velocity.x += .1;
+            }
+            if(moonPhys.position.y > 0) {
+                moonPhys.velocity.y -= .1;
+            }
+            else {
+                moonPhys.velocity.y += .1;
+            }
+            if(moonPhys.position.z > 0) {
+                moonPhys.velocity.z -= .1;
+            }
+            else {
+                moonPhys.velocity.z += .1;
+            }
+        }
+
+        if (t < explosionTime) {
+            //moon update
+            moonMesh.position.copy(moonPhys.position);
+            moonMesh.quaternion.copy(moonPhys.quaternion);
+            if (t > 2){
+                light.intensity = light.intensity+.2*t;
+            }
+
+        }
+        else if (t < (explosionTime + explosionTime)) { //while moon is on fire
+            //moon update
+            scene.remove(moonMesh);
+            moonExplosionMesh.position.copy(moonPhys.position);
+            moonExplosionMesh.quaternion.copy(moonPhys.quaternion);
+            light.intensity = 1;
+            light.color.setHex( 0xff6666 );
+            amb.color.setHex(0xff6666);
+
+        }
+        else { //no moon, just asteroids!
+            light.color.setHex(0xffffff);
+            amb.color.setHex(0xffffff);
+            scene.remove(moonExplosionMesh);
+            halfMoonMesh.position.copy(moonPhys.position);
+            halfMoonMesh.quaternion.copy(moonPhys.quaternion);
+            scene.add(halfMoonMesh);
+            clickableMeshes.push(halfMoonMesh);
+            if(addMeteor)
+            {
+                initMeteor();
+                addMeteor = false;
+            }
+            //world.removeBody(moonPhys);
+        }
+        var mod = t%.1;
+        if(!addMeteor && (0.0 < mod && mod < 0.001))
+        {
+            meteorType = !meteorType;
+            newMeteor();
+            if(meteorSize>2)
+            {
+                meteorMesh[meteorCount-2].scale.set( meteorScale * .8, meteorScale * .8, meteorScale * .8);
+                meteorPhys[meteorCount-2].radius = (meteorSize*.8);
+                meteorPhys[meteorCount-2].mass = (meteorMass*.8);
+                meteorScale = meteorScale*3/5;
+                meteorSize = meteorSize*3/5;
+            }
+        }
+
+
+        //izzy update
+        if(typeof izzyMesh !== 'undefined') { // if izzy has loaded
+
+            var distance = Math.sqrt( izzyMesh.position.x * izzyMesh.position.x + izzyMesh.position.y * izzyMesh.position.y + izzyMesh.position.z * izzyMesh.position.z );
+            if(distance>izzyDistance+5)
+            {
+                if(izzyPhys.position.x > 0) {
+                    izzyPhys.velocity.x = -izzyVelocity*izzyVelocity;
+                }
+                else {
+                    izzyPhys.velocity.x = izzyVelocity*izzyVelocity;
+                }
+                if(izzyPhys.position.y > 0) {
+                    izzyPhys.velocity.y = -izzyVelocity*izzyVelocity;
+                }
+                else {
+                    izzyPhys.velocity.y = izzyVelocity*izzyVelocity;
+                }
+                if(izzyPhys.position.z > 0) {
+                    izzyPhys.velocity.z = -izzyVelocity*izzyVelocity;
+                }
+                else {
+                    izzyPhys.velocity.z = izzyVelocity*izzyVelocity;
+                }
+            }
+            else {
+                var vel = Math.sqrt( izzyPhys.velocity.x * izzyPhys.velocity.x + izzyPhys.velocity.y * izzyPhys.velocity.y + izzyPhys.velocity.z * izzyPhys.velocity.z );
+                if(vel<izzyVelocity*.5)
+                {
+                    var izangle = Math.atan(izzyPhys.position.z/izzyPhys.position.x);
+                    izzyPhys.velocity.x = -Math.sin(izangle)*izzyVelocity;
+                    izzyPhys.velocity.z = Math.cos(izangle)*izzyVelocity;
+                }
+
+            }
+            
+            izzyMesh.position.copy(izzyPhys.position); // move izzy to physics generated location
+            izzyMesh.quaternion.copy(izzyPhys.quaternion);
+
+            izzyMesh.rotation.y += 20;
+        }
+
+        for(var i = 0; i < meteorCount; i++)
+        {
+            //meteor update
+
+            if (typeof meteorMesh[i] !== 'undefined') {
+                var distance = Math.sqrt( meteorMesh[i].position.x * meteorMesh[i].position.x + meteorMesh[i].position.y * meteorMesh[i].position.y + meteorMesh[i].position.z * meteorMesh[i].position.z );
+                if(distance>225)                {
+                    if(meteorPhys[i].position.x > 0) {
+                        meteorPhys[i].velocity.x = -meteorVelocity*meteorVelocity;
+                    }
+                    else {
+                        meteorPhys[i].velocity.x = meteorVelocity*meteorVelocity;
+                    }
+                    if(meteorPhys[i].position.y > 0) {
+                        meteorPhys[i].velocity.y = -meteorVelocity*meteorVelocity;
+                    }
+                    else {
+                        meteorPhys[i].velocity.y = meteorVelocity*meteorVelocity;
+                    }
+                    if(meteorPhys[i].position.z > 0) {
+                        meteorPhys[i].velocity.z = -meteorVelocity*meteorVelocity;
+                    }
+                    else {
+                        meteorPhys[i].velocity.z = meteorVelocity*meteorVelocity;
+                    }
+                }
+                else {
+                    if (meteorPhys[i].velocity.x*meteorPhys[i].velocity.x < 16) {
+                        meteorPhys[i].velocity.x = meteorVelocity*meteorVelocity;
+                    }
+                    if (meteorPhys[i].velocity.y*meteorPhys[i].velocity.y < 16) {
+                        meteorPhys[i].velocity.y = meteorVelocity*meteorVelocity;
+                    }
+                    if (meteorPhys[i].velocity.z*meteorPhys[i].velocity.z < 16) {
+                        meteorPhys[i].velocity.z = meteorVelocity*meteorVelocity;
+                    }
+                }
+                //adds in a random element to all meteors so that they are unpredictable
+                var degree = Math.random()*Math.PI*2;
+                var xvel = Math.sin(degree)*.5;
+                var zvel = Math.cos(degree)*.5;
+
+                meteorPhys[i].velocity.x += xvel;
+                meteorPhys[i].velocity.z += zvel;
+
+                meteorMesh[i].position.copy(meteorPhys[i].position);
+                meteorMesh[i].quaternion.copy(meteorPhys[i].quaternion);
+
+                meteorMesh[i].rotation.y += 20;
+            }
+        }
+
+        //ark update
+        for(var i = 0; i < arkletcount; i++)
+        {
+            if(typeof arkMesh[i] !== 'undefined') { // if ark has loaded
+                arkMesh[i].position.copy(arkPhys[i].position); // move ark to physics generated location
+                arkMesh[i].quaternion.copy(arkPhys[i].quaternion);
+
+                arkMesh[i].rotation.y += 20;
+
+            }
+        }
+
+    }
+
+    function findit( objectA , worldObject){
+        for(var i =0; i< arkPhys.length; i++){
+            if(worldObject == arkPhys[i]) {
+                objectA.name = "Arklet";
+                objectA.index = i;
+                return true;
+            }
+        }
+        for(var i =0; i< meteorPhys.length; i++){
+            if(worldObject == meteorPhys[i]) {
+                objectA.name = "Meteor";
+                objectA.index = i;
+                return true;
+            }
+        }
+        if(worldObject == izzyPhys) {
+            objectA.name = "izzy";
+            objectA.index = -1;
+            return true;
+        }
+        if(worldObject == earthPhys) {
+            objectA.name = "Earth";
+            objectA.index = -1;
+            return true;
+        }
+        if(worldObject == playerPhys) {
+            objectA.name = "Player";
+            objectA.index = -1;
+            return true;
+        }
+
+        return false;
+    }
+
+    function performMeteorAction(objectA, objectB){
+        if(objectA.name == "Arklet"){
+            scene.remove(arkMesh[objectA.index]);
+            arkMesh.splice(objectA.index,1);
+            arkPhys.splice(objectA.index,1);
+//            console.log("removed Arklet: "+objectA.index);
+        }
+        else if(objectA.name == "izzy"){
+            // do something not sure at this point in time
+        }
+        else if(objectA.name == "Player")
+        {
+
+        }
+    }
+
+    function collisionDetected(objectA, objectB){
+        if(objectA.name == "Player" || objectB.name == "Player") {
+            scene.remove(playerMesh);
+            if (!lost) {
+            window.alert("You crashed into "+objectB.name +" , you have lost!");
+            }
+            lost = true;
+        }
+        else if(objectA.name == "Meteor" || objectB.name == "Meteor"){
+            if(objectA.name == "Meteor" && objectB.name == "Meteor") {
+//                console.log("performed no action since both are meteors");
+                return;
+            }
+            else if(objectA.name == "Meteor"){
+//                console.log("performed a meteor action");
+                performMeteorAction(objectB, objectA);
+
+            }
+            else if(objectB.name == "Meteor") {
+//                console.log("performed a meteor action");
+                performMeteorAction(objectA, objectB);
+            }
+        }
+
+    }
+
+    function render() {
+        renderer.render(scene, camera);
+        if(world.contacts.length > 0) {
+            var objectA = { var :index =0 , war :name = "" };
+            var objectB = { var :index =0 , war :name = "" };
+            if (world.contacts.length > 0) {
+                for (var i = 0; i < world.contacts.length; i++) {
+                    var c = world.contacts[i];
+                    if(findit(objectA,c.bi))
+                            if(findit(objectB, c.bj)) {
+                                if (debug){
+//                                    console.log(objectA.name + " index:" + objectA.index + " collided with "
+//                                            + objectB.name + " index:" + objectB.index);
+                                }
+                                collisionDetected(objectA, objectB);
+                            }
+                }
+            }
+        }
+    }
+
+    function cameraFollow( aMesh ){ // positions the camera at aMesh, and pans camera
+
+        if (t > explosionTime)
+        {
+            camera.position.copy(aMesh.position);
+            camera.rotation.y = playerZXAngle;
+            //camera.rotation.x = -playerZYAngle;
+
+            camera.position.x += Math.sin(playerZXAngle) * (playerScale+playerVelocity)*5;
+            camera.position.z += Math.cos(playerZXAngle) * (playerScale+playerVelocity)*5;
+
+            camera.position.y +=1.25;
+            //camera.position.z +=2 - Math.cos(playerZYAngle) * (playerScale+playerVelocity);
+
+        }
+    }
+
+    function onKeyDown( event ) { // detects click. If a mesh is already selected, this unselects it. Otherwise, if a mesh was clicked it is assigned to 'clickedMesh'
+        if( !showStartScreen ) { // if not showing the start screen
+            switch(event.keyCode) { // switch just so we can add more keys if we need
+                case 40: //down
+                    if (playerZYAngle < 60 *(Math.PI/180)) {
+                        playerZYAngle += 10 * (Math.PI / 180);
+                        down = true;
+                    }
+                    break;
+                case 38: //up
+                    if (playerZYAngle > -60 *(Math.PI/180)) {
+                        playerZYAngle -= 10 * (Math.PI / 180);
+                        up = true;
+                    }
+                    break;
+                case 39: //right
+                        playerZXAngle -= 5 * (Math.PI / 180); //right
+                    break;
+                case 37: //left
+                        playerZXAngle += 5 * (Math.PI / 180); //left
+                    break;
+                case 83: //s, slow down
+                    playerVelocity = playerVelocity - .01;
+                    break;
+                case 32: //space bar, increases speed of space ship
+                    playerVelocity = playerVelocity + .01;
+                    break;
+            }
+            if(playerZXAngle >= 360*(Math.PI/180) || playerZXAngle >= -360*(Math.PI/180))
+            {
+                playerZXAngle -= 360*(Math.PI/180);
+            }
+            if(playerZXAngle < 0)
+            {
+                playerZXAngle += 360*(Math.PI/180);
+            }
+        }
+    }
+
+    function onKeyUp( event ) { // detects click. If a mesh is already selected, this unselects it. Otherwise, if a mesh was clicked it is assigned to 'clickedMesh'
+        if( !showStartScreen ) { // if not showing the start screen
+            switch (event.keyCode) { // switch just so we can add more keys if we need
+                case 40: //down
+                    down = false;
+                    break;
+                case 38: //up
+                    if (playerZYAngle < 0 * (Math.PI / 180)) {
+                        up = false;
+                    }
+                    break;
+            }
+        }
+    }
+
+    function onKeyPress ( event ){
+        if(event.keyCode){
+            switch(event.keyCode){ // switch just so we can add more keys if we need
+                case 112: // p key pressed
+                    if(paused) {
+                        paused = false;
+                        var pauseMenuDiv = document.getElementById("pauseMenu"); // find pause menu
+                        pauseMenuDiv.parentNode.removeChild(pauseMenuDiv); // remove pause menu
+                    } else {
+                        paused = true;
+                        showPauseScreen()
+                    }
+                    break;
+            }
+        }
+    }
+
+    function startSimulation(){ // called when the user presses the Start Screen's start button
+        showStartScreen = false; // TODO: make the moon explode only ater showStartScreen == False
+
+        var startMenuDiv = document.getElementById("startMenu"); // find start menu
+
+        startMenuDiv.parentNode.removeChild(startMenuDiv); // remove start menu
+
+        camera.position.z = 60; // zoom out so simulation can begin
+
+        //controls = new THREE.OrbitControls(camera, renderer.domElement); // give the user control of the camera
+
+    }
+
+    function showPauseScreen(){
+        var startDiv = document.createElement('div');
+
+        // Setting CSS properties
+        startDiv.style.position = 'absolute'; // lets the window float on top of the renderer
+
+        startDiv.style.width = "250px";
+        startDiv.style.height = "75px";
+
+        startDiv.style.color = 'black';
+        startDiv.style.backgroundColor = 'rgba(256, 256, 256, .5)'; // white at 50% transparency
+        startDiv.style.borderStyle = 'solid';
+
+        startDiv.id = 'pauseMenu';
+
+        startDiv.style.top = (window.innerHeight*.90 - 75) + 'px'; // 90% down
+        startDiv.style.left = (window.innerWidth/2 - 250/2) + 'px'; // centered horizontally
+
+        // startpage Content
+        startDiv.innerHTML = "<body> <center> <h3>Paused</h3> </center>";
+
+        // add pause screen to document
+        document.body.appendChild(startDiv);
+    }
+
+    function updateSliderVal( num ){ // displays current slider val on start screen
+        document.getElementById('arkletInput').textContent = "Number of Arklets: " + num;
+    }
+
+    function displayStartScreen(){ // generates html code and displays start screen on top of render
+        var startDiv = document.createElement('div');
+
+        // Setting CSS properties
+        startDiv.style.position = 'absolute'; // lets the window float on top of the renderer
+
+        startDiv.style.width = "400px";
+        startDiv.style.height = "300px";
+
+        startDiv.style.paddingTop = '0px';
+        startDiv.style.paddingBottom = '0px';
+        startDiv.style.paddingLeft = '27px';
+        startDiv.style.paddingRight = '27px';
+
+        startDiv.style.color = 'black';
+        startDiv.style.backgroundColor = 'rgba(256, 256, 256, .5)';
+        startDiv.style.borderStyle = 'solid';
+
+        startDiv.id = 'startMenu';
+
+        startDiv.style.top = (window.innerHeight/2 - 200/2) + 'px'; // centers the screen vertically
+        startDiv.style.left = 100 + 'px';
+
+        // startpage Content
+        startDiv.innerHTML =
+                "<body> <center>" +
+                "<h2>- - - Blizzard Survival - - -</h2>" +
+                "</center> <br/><b>" +
+                "Third-Person arklet survival game.<br/> Get more points by staying alive longer.<br/><br/>Controls:<br/>- arrow keys: control your spacecraft <br/>- spacebar/s: increase/decrease game speed, larger score bonus the faster you go." +
+                "<br/><br/> <center>"+
+                "<button type='button' onclick='startSimulation();'>Start Game</button>" +
+                "</center> </body>";
+
+        // add startpage to document
+        document.body.appendChild(startDiv);
+    }
+
+    function onWindowResize() {
+
+        windowHalfX = window.innerWidth / 2;
+        windowHalfY = window.innerHeight / 2;
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+    }
+</script>
+</body>
+</html>

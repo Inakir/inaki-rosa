@@ -164,7 +164,6 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                     <h2>ABOUT <span class="blete-odd-highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p style="text-align: center; color: red"> Website will be completed by 09/07 afternoon </p>
                     <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
                     <br><br><br>
 
@@ -238,16 +237,20 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
                     <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These are my projects</h4>
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These the projects that I am passionate about</h4>
+                    <br /><br />
+                    <p style="text-align: center; color: red"> Currently in the process of documenting and adding all my projects, keep checking up to see the details of all the projects I'm passionate about! In the meantime, feel free to look at all these projects I do have ready. </p>
+
                 </div>
                 <!-- Section Header End -->
                 
                 <!-- Features -->
                 <div class="blete-features">
+                    
+                    <!-------------------------------Left Group----------------------------------------------------->
+                    
                     <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
-                        <!--fa fa-plus    for plus--> 
-                        <!------------------------------------------------------------------------------------>
-                        <a href="/career_fair_app" class="page_link">
+                        <a href="/career-fair-app" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
                                     <i class="fa fa-mobile"></i>        
@@ -255,92 +258,50 @@
                                 <div class="blete-blurb-text">
                                     <h3>Engineering Career Fair App</h3>
                                     <p>
-                                        Texas A&M has one of the largest Career Fairs in the nation. More than 10,000 engineers attend the Engineering Career Fair every year looking to get hired by a company. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands. Click on the icon for more info!
+                                        Texas A&M has one of the largest Career Fairs in the nation. Yearly we help more than 10,000 engineers get hired through the fair. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands. Click on the icon for more info!
                                     </p>
                                 </div>
                             </div>
                         </a>
-                        <!------------------------------------------------------------------------------------>
+                    </div>
+
+                    <!---------------------------------- Middle Group ---------------------------------------->
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
+                        
                         <a href="/blockchain" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
-                                    <i class="fa fa-laptop"></i>
+                                    <i class="fa fa-link"></i>
                                 </div>
                                 <div class="blete-blurb-text">
                                     <h3>Blockchain</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing Voluptatum.</p>
+                                    <p>
+                                        I did research over the Blockchain, the technology behind the phenomenon of bitcoin. I had the privilege to present to a group of developers located in Bartlesville, Oklahoma about my research. Click for more information!
+                                    </p>
                                 </div>
                             </div>
                         </a>
 
-                        <!-- 
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-smile-o"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Free Smile Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing At.</p>
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-file-code-o"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Clean Code</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-font"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Font Awesome</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitItaque.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-mobile"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Mobile Responsive</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
+
+                    <!---------------------------------- Right Group ---------------------------------------->
+
                     <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight">
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-laptop"></i>
+
+                        <a href="/space-simulation/index.html" class="page_link">
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-space-shuttle"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Space Simulation</h3>
+                                    <p>
+                                        This project involves making a space simulation of the moon exploding using JavaScript libraries. The simulation features the moon exploding and fragmenting across the galaxy as well as a space station with survival pods. Click for more info!
+                                    </p>
+                                </div>
                             </div>
-                            <div class="blete-blurb-text">
-                                <h3>Material Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-comments"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>24/7 Free Chat Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-edit"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Easy Edit</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Features End -->
@@ -365,7 +326,7 @@
                     <h3>Related Post</h3>
                     <ul>
                         <li><a href="/">Main Page</a></li>
-                        <li><a href="/career_fair_app">Career Fair Mobile App</a></li>
+                        <li><a href="/career-fair-app">Career Fair Mobile App</a></li>
                     </ul>
                 </div>
             </div>

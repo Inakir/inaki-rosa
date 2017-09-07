@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Blizzard" content="Texas A&M Com Sci 315 Project.">
+    <meta name="Colin Gibbons" content="">
+
+    <title>Project Blizzard</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index_style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- I.E. Compatibility -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Project Blizzard</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="#background">Background</a> </li>
+                    <li> <a href="#features">Features</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="mainDisplay"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Project Blizzard</h1>
+                        <h3>3D physics simulator and game by Team Avalanche</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-buttons">
+                            <li>
+                                <a href="src/simulation.html" class="btn btn-default btn-lg"><i class="fa fa-youtube-play fa-fw"></i> <span class="network-name">3D Simulator</span></a>
+                            </li>
+                            <li>
+                                <a href="src/SpriteSimulation.html" class="btn btn-default btn-lg"><i class="fa fa-youtube-play fa-fw"></i> <span class="network-name">Sprite Simulator</span></a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.tamu.edu/wesmoncrief/Blizzard" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="src/SurvivorGame.html" class="btn btn-default btn-lg"><i class="fa fa-youtube-play fa-fw"></i> <span class="network-name">Survivor Game</span></a>
+                            </li>
+                            <li>
+                                <a href="src/DestroyerGame.html" class="btn btn-default btn-lg"><i class="fa fa-youtube-play fa-fw"></i> <span class="network-name">Destroyer Game</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+    <a  name="background"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">General Background</h2>
+                    <p class="lead">The moon has exploded, and its fragments are quickly approaching Earth.
+                        In a last-ditch effort to survive, 305 Arklet spacecraft launch themselves into orbit from nations worldwide.
+                        These ships, controlled by the Parambulator AI, fly to Izzy (the I.S.S.) where they will attempt to ride out the storm.
+                        Could anyone survive?<br/><br/>
+                        <a href="docs/ParambulatorSevenEves.pdf">Based on the Book: <i>SevenEves</i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="images/seveneves.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <!--Game-->
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Third-Person Arklet Survivor Game</h2>
+                    <p class="lead">We built a Third-person Arklet game on top of our simulation engine. The user tries to avoid the oncoming asteroids for as long as possible, prolonging their life and increasing their score, until they inevitably collide with the asteroid that takes their final breath.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/gameImage.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+    <a  name="background"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Third-Person Arklet Destroyer Game</h2>
+                    <p class="lead">In this version of the game, the Arklet you are pilot is invincible. It will destroy any asteroid, moon fragment, or other arklet that it touches. Every time you destroy an object, you gain points. Points slowly decrease and you must contiue destroying objects to stay in the game.<br/>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="images/destroyerImage.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <!--Game-->
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Sprite Simulation</h2>
+                    <p class="lead">We built a Third-person Arklet game on top of our simulation engine. The user tries to avoid the oncoming asteroids for as long as possible, prolonging their life and increasing their score, until they inevitably collide with the asteroid that takes their final breath.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/spriteImage.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <!-- /.content-section-a -->
+    <a  name="features"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">3D Rendering<br>using Three.js</h2>
+                    <p class="lead">Using the Three.js rendering library and Blender (3D Modeling software), the simulator uses OpenGL to render highly detailed models to the screen with full 3D movement.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="images/blenderImage.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Realtime Physics Simulation<br>using Cannon.js</h2>
+                    <p class="lead">Using the Cannon.js physics library, all orbits and asteroid movements/collisions model the real world; all calculations being performed in real time.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/physicsImage.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Arklet AI</h2>
+                    <p class="lead">100s of tiny spacecraft, called Arklets, are controlled by our AI implementation. This AI attempts to coordinate the ships using a flocking algorithm, and guides them around the incoming asteroids.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="images/aiImage.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+
+    <a  name="about"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">About Us<br>Team Avalanche</h2>
+                    <p class="lead">Team Members:</p>
+                    <ui>
+                        <li>Colin Gibbons</li>
+                        <li>Wesley Moncrief</li>
+                        <li>Iñaki Rosa</li>
+                        <li>John Ansted</li>
+                    </ui>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="http://brandguide.tamu.edu/downloads/logos/TAMU-logos-rgb/TAM-Logo/TAM-Logo.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#background">Background</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#features">Features</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About Us</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; AVALANCHE 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
