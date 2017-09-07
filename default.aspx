@@ -261,16 +261,19 @@
                             </div>
                         </a>
                         <!------------------------------------------------------------------------------------>
+                        <a href="/blockchain" class="page_link">
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Blockchain</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing Voluptatum.</p>
+                                </div>
+                            </div>
+                        </a>
+
                         <!-- 
-                        <div class="blete-blurb-icon-left-square">
-                            <div class="blete-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="blete-blurb-text">
-                                <h3>Clean Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing Voluptatum.</p>
-                            </div>
-                        </div>
                         <div class="blete-blurb-icon-left-square">
                             <div class="blete-icon">
                                 <i class="fa fa-smile-o"></i>
