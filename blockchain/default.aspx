@@ -88,7 +88,7 @@
                             <a href="#overview">Overview</a>
                         </li>
                         <li>
-                            <a href="#summary">Summary</a>
+                            <a href="#videos">Videos</a>
                         </li>
                         <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
@@ -165,9 +165,9 @@
         </div>
     </section>
     
-    <!-- =========   Summary Section   ========= -->
-    <div id="summary" class="anchor"></div>
-    <section id="summary" class="blete-even-wrapper">
+    <!-- =========   Videos Section   ========= -->
+    <div id="videos" class="anchor"></div>
+    <section id="videos" class="blete-even-wrapper">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
