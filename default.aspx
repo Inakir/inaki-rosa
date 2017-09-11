@@ -89,6 +89,9 @@
                             <a href="#projects">Projects</a>
                         </li>
                         <li>
+                            <a href="#work">Work</a>
+                        </li>
+                        <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
@@ -153,9 +156,7 @@
         </div>
     </section>
     <!-- Main Slider End -->
-    <!-- =============================
-                    About Section
-    ================================== -->
+    <!-- ===========   About Section   =========== -->
     <div id="about" class="anchor"></div>
     <section id="about" class="blete-custom-sec blete-odd-wrapper blete-description">
         <div class="container">
@@ -222,9 +223,8 @@
                 </div> 
             </div>
     </section>
-    <!-- Custom Section End -->
-    
     <!-- About Section End -->
+    
     <!-- =============================
                     Features Section
     ================================== -->
@@ -309,6 +309,31 @@
         </div>
     </section>
     <!-- Features Section End -->
+
+        <!-- ===========   About Section   =========== -->
+    <div id="work" class="anchor"></div>
+    <section id="work" class="blete-custom-sec blete-odd-wrapper blete-description">
+        <div class="container">
+            <div class="row">
+            <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <h2>PREVIOUS <span class="blete-odd-highlight-text">WORK</span></h2>
+                    <div class="blete-section-divider"></div>
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">In this section I’m going to go over what my past work has been. I’ve had the opportunity to intern for two great companies as a Software Developer. </h4>
+                    <br><br><br>
+
+                    <p style="text-align: left">
+                    My most recent internship was at Phillips 66 in Bartlesville Oklahoma. Phillips 66 is a midstream energy company with pipelines and midstream facilities all across the United States. During my internship I was able to gain an in depth knowledge over the energy value chain, something that I never thought I would do as a Computer Engineer. I was able to do several projects while I interned here. The most exciting part of the internship was getting the ability to research Blockchain technology and how it can impact not just Phillips 66, but the energy industry as a whole. My official title was Operational Development under Application Services. The role saw me developing and maintain the applications used by the company internally. My first project was to rewrite the batch job that notifies users when an account they manage is about to expire. I was able to significantly improve the time that it took to run from ~20 minutes to 3 minutes. I was also able to reduce the total lines of code from ~800 to ~300 lines. This was an exciting project and I got to see the impact it had almost immediately. Lastly, I created an application that allowed the Lubrication R&D team to submit data they received from research into a database. This data needed to be formatted specifically and fit numerous amounts of tests so that it could be formatted correctly by the analyzing software. 
+                    </p>
+
+                    <p style="text-align: left">
+                    My first internship ever was Texas Instruments in Dallas, Texas. Texas Instruments is a company that designs and manufactures semiconductors. I was able to get to learn the semiconductor manufacturing process and got to visit the fabs fairly regularly to understand the way the company made profit. I was able to work on several projects during my tenure here. I was able to create an application that allowed the manufacturing team to reserve tools in a fab in advance. This application was useful when very high priority products were going through the line and needed to have a tool ready to greet them. I also worked on several other smaller applications, most notably an application that allowed users to move useful files between tools in different fabs. This is useful as many of the instruments are older and need specialized software to accomplish this. 
+                    </p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!-- About Section End -->
 
     <!-- =========   Footer Section   ========= -->
     <footer>
