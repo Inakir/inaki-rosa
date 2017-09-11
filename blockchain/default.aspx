@@ -133,25 +133,31 @@
                 <div class="blete-what-we-do">
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
                         <div class="blete-icon">
-                            <i class="fa fa-mobile"></i>
+                            <i class="fa fa-refresh"></i>
                         </div>
                         <h3>SELF-REGULATING</h3>
                         <p>The Blockchain is self-regulating. This means that, unlike other systems, there doesn’t need to be a third-party to verify transactions over the network.</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s" >
                         <div class="blete-icon">
-                            <i class="fa fa-laptop"></i>
+                            <i class="fa fa-link"></i>
                         </div>
                         <h3>DECENTRALIZED</h3>
-                        <p>The Blockchain is decentralized, meaning that no single entity has can control the network. This makes applications, such as bitcoin, able to function without a governing body and still be able to have the trust of its users. <p>
+                        <p>The Blockchain is decentralized, meaning that no single entity has can control the network. This makes applications, such as bitcoin, able to function without a governing body and still be able to have the trust of its users. </p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
                         <div class="blete-icon">
-                            <i class="fa fa-search"></i>
+                            <i class="fa fa-lock"></i>
                         </div>
                         <h3>SECURE</h3>
                         <p>The Blockchain is secure by nature. It has a high Byzantine-Fault tolerance and requires immense computational power for an attacker to corrupt. </p>
->
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon">
+                            <i class="fa fa-btc"></i>
+                        </div>
+                        <h3>BITCOIN</h3>
+                        <p>The Blockchain got brought into the spotlight by its most well-known application, the cryptocurrency bitcoin. However, the applications for this technology outside of bitcoin, such as in smart contracts, are endless. </p>
                     </div>
                 </div>
                 <!-- What We Do End -->
@@ -172,12 +178,13 @@
                         <div class="blete-section-divider"></div>
                     </div>
                     <!-- Section Header End -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
+                    <div class="col-md-12 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
                         <p>
                             I did research over the Blockchain, the technology behind the phenomenon of bitcoin. I had the privilege to present to a group of developers located in Bartlesville, Oklahoma about my research. Check out the videos below for the presenation!
                         </p>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                    <br />
+                    <div class="col-md-12 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/hfN5YZ2rWl4" frameborder="0" allowfullscreen></iframe>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/uJLqNlBWcL4" frameborder="0" allowfullscreen></iframe>
                     </div>
