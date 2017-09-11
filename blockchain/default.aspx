@@ -91,12 +91,6 @@
                             <a href="#summary">Summary</a>
                         </li>
                         <li>
-                            <a href="#photos">Photos</a>
-                        </li>
-                        <li>
-                            <a href="#team">Team</a>
-                        </li>
-                        <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
                     </ul>
@@ -116,7 +110,7 @@
                     <!-- Section Header -->
 
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                        <h2>Engineering<span class="blete-highlight-text"> Career </span> Fair <span class="blete-highlight-text"> Mobile </span>App</h2>
+                        <h2>Block<span class="blete-highlight-text">Chain</span></h2>
                     </div>
                 </div>
             </div>
@@ -130,9 +124,9 @@
                 <!-- Section Header -->
 
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown" style="padding-bottom: 24px">
-                    <h2>APPLICATION <span class="blete-odd-highlight-text">OVERVIEW</span></h2>
+                    <h2>QUICK <span class="blete-odd-highlight-text">OVERVIEW</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-12 col-sm-10 col-xs-12">Texas A&M has one of the largest Career Fairs in the nation. More than 10,000 engineers attend the Engineering Career Fair every year looking to get hired by a company. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands.</h4>
+                    <h4 class="col-md-12 col-sm-10 col-xs-12">A blockchain is a public ledger of all bitcoin transactions that have ever been executed. A block is the “current” part of a blockchain which records some or all of the recent transactions, and once completed, goes into the blockchain as permanent database. Each time a block gets completed, a new block is generated. Blocks are linked to each other (like a chain) in proper linear, chronological order with every block containing a hash of the previous block. To use conventional banking as an analogy, the blockchain is like a full history of banking transactions</h4>
                 </div>
                 <!-- Section Header End -->
                 <!-- What We Do -->
@@ -141,29 +135,23 @@
                         <div class="blete-icon">
                             <i class="fa fa-mobile"></i>
                         </div>
-                        <h3>MOBILE</h3>
-                        <p>Students can look up companies live while they’re at the career fair and make notes on the phone after they’ve talked to them. </p>
+                        <h3>SELF-REGULATING</h3>
+                        <p>The Blockchain is self-regulating. This means that, unlike other systems, there doesn’t need to be a third-party to verify transactions over the network.</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
                         <div class="blete-icon">
                             <i class="fa fa-laptop"></i>
                         </div>
-                        <h3>WEBSITE COMMUNICATION</h3>
-                        <p>The app communicates with the SEC Website through an API, thus the information app is always up to date.</p>
+                        <h3>DECENTRALIZED</h3>
+                        <p>The Blockchain is decentralized, meaning that no single entity has can control the network. This makes applications, such as bitcoin, able to function without a governing body and still be able to have the trust of its users. <p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
                         <div class="blete-icon">
                             <i class="fa fa-search"></i>
                         </div>
-                        <h3>RECRUITING INFORMATION</h3>
-                        <p>Students will be able to easily find where companies are located on the floor, an issue we faced previously with paper booklets. Students can selectively show companies based on majors and positions they’re hiring for.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
-                            <i class="fa fa-smile-o"></i>
-                        </div>
-                        <h3>STUDENTS</h3>
-                        <p>This app was created to help students find a job after College. I took no monetary proceeds in making this app and it is a service that I provided to the students of the A&M College of Engineering</p>
+                        <h3>SECURE</h3>
+                        <p>The Blockchain is secure by nature. It has a high Byzantine-Fault tolerance and requires immense computational power for an attacker to corrupt. </p>
+>
                     </div>
                 </div>
                 <!-- What We Do End -->
@@ -179,216 +167,23 @@
                     <!-- Section Header -->
 
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                        <h2>APP<span class="blete-highlight-text"> SUMMARY</span></h2>
+                        <h2>BLOCKCHAIN<span class="blete-highlight-text"> VIDEOS</span></h2>
                         <br />
                         <div class="blete-section-divider"></div>
                     </div>
                     <!-- Section Header End -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                        <iframe width="325" height="525" src="https://www.youtube.com/embed/oQ2BzFb-MM0" frameborder="0" allowfullscreen></iframe>
-                    </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
                         <p>
-                            The SEC Engineering Career Fair helps more than 10,000 engineers find employment every year. This app was designed to help students find companies that are looking for candidates that fit their profile. 
-                            <br /><br />
-                            The app has several features that make it useful to student. The most useful feature is the ability to favorite companies and see them on the Reed Arena Map. One of the biggest issues in previous fairs was that students had a hard time finding the companies that they wanted to apply to. Now students can immediately know where the companies that they want to talk to are. 
-                            <br /><br />
-                            The app allows students to filter the companies that are shown based on the majors, degrees, and positions that the companies are hiring. This makes students able to find companies that they might not otherwise look for easier than before. There was no way previously for students to see what companies where offering the positions they wanted previously and this is a big improvement over that.
-                            <br /><br />
-                            The app communicates with the SEC Career Fair Website through an API that I created. Since companies are always being dropped and added to the fair it’s important that students know exactly what companies are present at the fair. Since we were previously handing out booklets with the company locations, there are many companies that are left out of the booklet if they join the fair early. 
+                            I did research over the Blockchain, the technology behind the phenomenon of bitcoin. I had the privilege to present to a group of developers located in Bartlesville, Oklahoma about my research. Check out the videos below for the presenation!
                         </p>
-                        
-                        <!--<ul>
-                            <li><i class="fa fa-check"></i></li>
-                            <li><i class="fa fa-check"></i></li>
-                            <li><i class="fa fa-check"></i></li>
-                            <li><i class="fa fa-check"></i></li>
-                            <li><i class="fa fa-check"></i></li>
-                        </ul>-->
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hfN5YZ2rWl4" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uJLqNlBWcL4" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </section>
-    
-    <!-- =========   Photos Section   ========= -->
-    <div id="photos" class="anchor"></div>
-    <section id="featured-works" class="blete-section-wrapper blete-section-work">
-        <!-- Container -->
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>APP <span class="blete-highlight-text">PHOTOS</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Here are more photos of the application!</p>
-                </div>
-                <!-- Section Header End -->
-            </div>
-        </div>
-        <!-- Container End -->
-        <!-- Featured Works Slider -->
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="blete-portfolio-work-slider-section wow fadeIn" data-wow-duration="2s">
-                    <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
-                        <!-- Work 1 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img1.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img1.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 1 End -->
-                        <!-- Work 2 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img2.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img2.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 2 End -->
-                        <!-- Work 3 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img3.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img3.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 3 End -->
-                        <!-- Work 4 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img4.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img4.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 4 End -->
-                        <!-- Work 5 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img5.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img5.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 5 End -->
-                        <!-- Work 6 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img6.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img6.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 6 End -->
-                        <!-- Work 7 -->
-                        <div class="blete-portfolio-work-item">
-                            <img src="/images/career-fair-app/img7.png" alt="work" />
-                            <div class="blete-port-work-details">
-                                <ul class="blete-work-meta">
-                                    <li class="blete-lighbox"><a href="/images/career-fair-app/img7.png" class="blete-featured-work-img"><i class="fa fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Work 7 End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Featured Works Slider -->
-    </section>
-    <!-- Featured Work End -->
-
-    <!-- =========   Team Section   ========= -->
-    <div id="team" class="anchor"></div>
-    <section id="team" class="blete-section-wrapper blete-team-section">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>THE <span class="blete-highlight-text">TEAM</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <b class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">This project could not have been completed without the help of the Student Engineers' Council and the Systems Administration team. Below is a description of the roles of the team members that worked on this project.</b>
-                </div>
-                <!-- Section Header End -->
-                <!-- Team Slider -->
-                <div id="team-slider" class="owl-carousel blete-team-carousal col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="2s">
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/team/reed.jpg" alt="Team Member 1" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>Reed Hampton</h3>
-                            <span class="blete-member-desg">Systems Administration</span>
-                            <p> Reed Hampton is the current Systems Administration Chair of the Student Engineers' Council. As such, he was in charge of gathering and testing the application internally. He also served as the liaison between the SEC and the companies when it came to gathering information for the application that was needed.</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-linkedin">
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li class="social-github">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/team/inaki.jpg" alt="Team Member 2" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>Iñaki Rosa</h3>
-                            <span class="blete-member-desg">Project Lead / Lead Developer</span>
-                            <p>    I was the project lead as well as the lead developer of this project. I was in charge of translating the needs of the students into requirements for the application. I also was able to be the primary coder and architect of the project. I started this project during my tenure as Systems Administration Chair of the Student Engineers’ Council and got to continue the project after my tenure ended.</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-linkedin">
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li class="social-github">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
-                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
-                        <div class="blete-member-img-wrapper">
-                            <img src="/images/team/derek.jpg" alt="Team Member 3" />
-                        </div>
-                        <div class="blete-member-details">
-                            <h3>Derek Warren</h3>
-                            <span class="blete-member-desg">Administrator</span>
-                            <p>    Derek was the System Administration Chair that served the year before I did. Derek served to get all of our apple certifications and hardware prepared for the project. Derek also had a heavy hand in getting our AWS resources that were necessary for the project.</p>
-                            <ul class="blete-team-social-icon">
-                                <li class="social-linkedin">
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li class="social-github">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Slides End -->
-                </div>
-                <!-- Team Slider End -->
-            </div>
-        </div>
-    </section>
-    <!-- Team Section End -->
 
     <!-- =========   Footer Section   ========= -->
     <footer>
