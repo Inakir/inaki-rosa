@@ -319,7 +319,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
                     <h2>PREVIOUS <span class="blete-odd-highlight-text">WORK</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">In this section I’m going to go over what my past work has been. I’ve had the opportunity to intern for two great companies as a Software Developer. </h4>
+                    <p style="text-align: left">In this section I’m going to go over what my past work has been. I’ve had the opportunity to intern for two great companies as a Software Developer. </h4>
                     <br><br><br>
 
                     <p style="text-align: left">
