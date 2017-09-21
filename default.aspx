@@ -17,7 +17,7 @@
     <meta charset="UTF-8" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="p:domain_verify" content="5978c0489e7e4b04aa9f6b8206f5c306"/>
+	<meta name="p:domain_verify" content="2672511aebca4c458808a023cab48e08"/>
     <!-- Title -->
 
     <title>Iñaki Rosa</title>
