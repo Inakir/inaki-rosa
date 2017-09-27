@@ -93,6 +93,12 @@
                         <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/inaki-rosa/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Inakir"><i class="fa fa-github"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <!-- navbar-collapse end-->

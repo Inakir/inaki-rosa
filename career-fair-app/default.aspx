@@ -99,6 +99,12 @@
                         <li>
                             <a href="/inaki-rosa-resume.pdf" download>Resume</a>
                         </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/inaki-rosa/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Inakir"><i class="fa fa-github"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <!-- navbar-collapse end-->
@@ -333,12 +339,7 @@
                             <span class="blete-member-desg">Systems Administration</span>
                             <p> Reed Hampton is the current Systems Administration Chair of the Student Engineers' Council. As such, he was in charge of gathering and testing the application internally. He also served as the liaison between the SEC and the companies when it came to gathering information for the application that was needed.</p>
                             <ul class="blete-team-social-icon">
-                                <li class="social-linkedin">
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li class="social-github">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -354,10 +355,10 @@
                             <p>    I was the project lead as well as the lead developer of this project. I was in charge of translating the needs of the students into requirements for the application. I also was able to be the primary coder and architect of the project. I started this project during my tenure as Systems Administration Chair of the Student Engineers’ Council and got to continue the project after my tenure ended.</p>
                             <ul class="blete-team-social-icon">
                                 <li class="social-linkedin">
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/inaki-rosa/"><i class="fa fa-linkedin"></i></a>
                                 </li>
                                 <li class="social-github">
-                                    <a href="#"><i class="fa fa-github"></i></a>
+                                    <a href="https://github.com/Inakir"><i class="fa fa-github"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -373,12 +374,6 @@
                             <span class="blete-member-desg">Administrator</span>
                             <p>    Derek was the System Administration Chair that served the year before I did. Derek served to get all of our apple certifications and hardware prepared for the project. Derek also had a heavy hand in getting our AWS resources that were necessary for the project.</p>
                             <ul class="blete-team-social-icon">
-                                <li class="social-linkedin">
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li class="social-github">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </li>
                             </ul>
                         </div>
                     </div>
