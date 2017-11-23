@@ -405,6 +405,9 @@
     <Content Include="js\selectivizr.js" />
     <Content Include="js\smooth-scroll.min.js" />
     <Content Include="js\wow.min.js" />
+    <Content Include="obj\Debug\inaki-rosa.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\inaki-rosa.dll" />
+    <Content Include="obj\Debug\inaki-rosa.pdb" />
     <Content Include="portfolio.html" />
     <Content Include="portfolio2.html" />
     <Content Include="pricing-table.html" />
@@ -976,6 +979,9 @@
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -994,6 +1000,8 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\inaki-rosa.csprojResolveAssemblyReference.cache" />
     <Content Include="bin\ApplicationInsights.config" />
     <Content Include="bin\inaki-rosa.dll.config" />
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
@@ -1121,6 +1129,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
