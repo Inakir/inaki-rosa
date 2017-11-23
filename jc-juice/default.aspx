@@ -119,13 +119,13 @@
             <!-- Slides -->
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/jc-juice/images/img-header/JC2.jpg" alt="Slider 1" />
+                <img class="sp-image" src="/jc-juice/images/img-header/JC1.jpg" alt="Slider 1" />
             </div>
             <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
 
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
-                <img class="sp-image" src="/jc-juice/images/img-header/JC1.jpg" alt="Slider 2" />
+                <img class="sp-image" src="/jc-juice/images/img-header/JC2.jpg" alt="Slider 2" />
             </div>
 
             <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
