@@ -176,33 +176,6 @@
     </section>
     <!-- About Section End -->
     
-    
-    <!-- =========   Footer Section   ========= -->
-    <!--
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>About</h3>
-                    <ul>
-                        <li><span>
-                            This website was created to document all my hobbies and passions. I hope that you can get something out of being in my website. Please feel free to contact me if you have any questions or ideas. 
-                         </span></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3>Related Post</h3>
-                    <ul>
-                        <li><a href="/">Main Page</a></li>
-                        <li><a href="/career-fair-app">Career Fair Mobile App</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    -->
-    <!-- Footer End -->
-
     <div class="thn">
         <div class="container thn">
             <div class="row">
