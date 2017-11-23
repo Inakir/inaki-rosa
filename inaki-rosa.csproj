@@ -273,6 +273,11 @@
     <Content Include="jc-juice\default.aspx" />
     <Content Include="jc-juice\fonts\fontawesome-webfont.svg" />
     <Content Include="jc-juice\font\fontawesome-webfont.svg" />
+    <Content Include="jc-juice\images\B&amp;W2.jpg" />
+    <Content Include="jc-juice\images\img-header\JC 5.jpg" />
+    <Content Include="jc-juice\images\img-header\JC 8.jpg" />
+    <Content Include="jc-juice\images\img-header\JC1.jpg" />
+    <Content Include="jc-juice\images\img-header\JC2.jpg" />
     <Content Include="jc-juice\js\bootstrap.js" />
     <Content Include="jc-juice\js\bootstrap.min.js" />
     <Content Include="jc-juice\js\custom.js" />
