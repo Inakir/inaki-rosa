@@ -148,31 +148,70 @@
     <!-- Main Slider End -->
     <!-- ===========   About Section   =========== -->
     <div id="about" class="anchor"></div>
-    <!-- =========   Summary Section   ========= -->
-    <div id="summary" class="anchor"></div>
-    <section class="blete-custom-sec blete-section-wrapper blete-description">
+    <section id="about" class="blete-custom-sec blete-section-wrapper blete-description">
         <div class="container">
             <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>ABOUT <span class="blete-highlight-text">JC JUICE</span></h2>
+            <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <h2>ABOUT <span class="blete-odd-highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Engineer by day, rapper by night.</p>
-                </div>
-                <!-- Section Header End -->
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
+                    <br><br><br>
 
-                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                    <img src="/jc-juice/images/JC 31.jpg" alt="JC Juice">
-                </div>
+                    <p style="text-align: left">
+                    I am currently studying Computer Engineering at Texas A&M University. During my time at A&M I have been heavily involved in Campus organizations, with my two biggest organizations being the Student Engineers’ Council and Fish Camp. I served as the Systems Administration Committee Chair and an Executive Council member for the SEC and I was a counselor for two years in a row in Fish Camp. 
+                    </p>
 
-                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
-                    <p>JC Juice is an up and coming hip-hop artist based in College Station, TX.</p>
-                    <p>JC was born in Manhattan, Kansas on February 22, 1996. His primary language is French, as he is a first-generation American whose family originates in Cameroon. JC moved to Texas in 2000, where he has spent the majority of his life. He attends college at Texas A&M University where he is in his final year of a Mechanical Engineering Program.</p>
-                    <p>JC started making music in his senior year of high school, along with a few neighborhood friends in his hometown of Frisco, TX. There they formed a hip-hop collective dubbed "Dark Generation". JC split from the group in 2013 when he moved to College Station. He has since continued to pursue music, collaborating with several individuals in the music community of Texas A&M.</p>
-                    <p>JC labels his music as alternative rap, as it draws influence from jazz, funk and soul. He seeks to tackle tough topics and convey deep messages through his intricate lyricism, accompanied by smooth/jazzy instrumentals. JC's music is inspired by rappers such as J Cole, Kendrick Lamar, Mac Miller, Anderson Paa, Chance the Rapper and Logic, who also place a special accent on deep lyrics. As JC says, "What I'm hoping to do is make music that people can listen to and relate to. I'm trying to say something in my rap that's true in my life and that's true in other people's lives as well.</p>
-                </div>
+                    <p style="text-align: left">
+                    I am the proud Father of a dog named Oreo. When I’m not on campus studying or with friends I’m likely hanging out with him. I love Outdoor activities and some of my hobbies including the game “Geocaching”, in which you set out to find hidden treasures in your immediate surroundings. 
+                    </p>
+
+                    <p style="text-align: left">
+                    Since I was young, I have wanted to be an inventor. My inspiration was "Stu" from the Rugrats, who was always inventing wonderful and new machines. When I grew up I realized that what I wanted to do was engineering. Computers and machines always fascinated me so I started taking Computer Science courses as a freshman in High School. At that moment I knew I had found what I wanted to do for the rest of my life. Being a Computer Engineer is a dream come true, and I hope that my work can inspire someone to try out the discipline for themselves. 
+                    </p>
+
+                    <p style="text-align: left">
+                    I encourage you to read the background section in which I go more into detail on what my responsibilities and impact has been in my community! 
+                    </p>
+
+
+                    <!-- Section Header End 
+                    <div class="col-md-1 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                        <img src="images/logo.png" alt="Custom Image" />
+                    </div>
+                    <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: left"><h2>Developer</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInDown"  style="text-align: center"><h2>Computer Engineer</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"  style="text-align: right"><h2>Aggie</h2></div>
+                    </div>
+                    <br /><br /> 
+                    <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"><h2>Geocacher</h2></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight"><h2>Father to a Dog</h2>  </div>
+                    </div>
+                    <br /> <br />
+                    <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: left"><h2>Software Engineer</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInDown"  style="text-align: center"><h2>Counselor</h2></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"  style="text-align: right"><h2>Artist</h2></div>
+                    </div>
+                    <br /><br /> 
+                    <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"><h2>Runner</h2></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight"><h2>Bilingual</h2>  </div>
+                    </div>
+                    <br /> <br />
+                        <!--<ul>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul> 
+                        -->
+                    </div>
+                </div> 
             </div>
-        </div>
     </section>
     <!-- About Section End -->
     
@@ -180,7 +219,7 @@
                     Features Section
     ================================== -->
     <div id="projects" class="anchor"></div>
-    <section id="features" class="blete-section-wrapper blete-features-section" data-stellar-background-ratio="0.5" style="padding-top: 0;">
+    <section id="features" class="blete-section-wrapper blete-features-section" data-stellar-background-ratio="0.5">
         <div id="projects" class="blete-parallax-overlay"></div>
         <div class="container">
             <div class="row">
