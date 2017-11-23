@@ -271,6 +271,32 @@
     <Content Include="jc-juice\css\slider-pro.css" />
     <Content Include="jc-juice\css\style.css" />
     <Content Include="jc-juice\default.aspx" />
+    <Content Include="jc-juice\images\288A0619 2.JPG" />
+    <Content Include="jc-juice\images\288A0729 2.JPG" />
+    <Content Include="jc-juice\images\288A5430-16.jpg" />
+    <Content Include="jc-juice\images\288A5765-46.jpg" />
+    <Content Include="jc-juice\images\288A9107-2.jpg" />
+    <Content Include="jc-juice\images\9-10-2017 pt. 2.jpg" />
+    <Content Include="jc-juice\images\9-10-2017 pt. 3.jpg" />
+    <Content Include="jc-juice\images\Alive 1.jpg" />
+    <Content Include="jc-juice\images\Alive 2.jpg" />
+    <Content Include="jc-juice\images\Alive 3.jpg" />
+    <Content Include="jc-juice\images\Alive 4.jpg" />
+    <Content Include="jc-juice\images\Alive 6.jpg" />
+    <Content Include="jc-juice\images\B&amp;W1.jpg" />
+    <Content Include="jc-juice\images\B&amp;W15.jpg" />
+    <Content Include="jc-juice\images\B&amp;W2.jpg" />
+    <Content Include="jc-juice\images\B&amp;W3.jpg" />
+    <Content Include="jc-juice\images\B&amp;W7.jpg" />
+    <Content Include="jc-juice\images\img-header\JC 5.jpg" />
+    <Content Include="jc-juice\images\img-header\JC 8.jpg" />
+    <Content Include="jc-juice\images\img-header\JC1.jpg" />
+    <Content Include="jc-juice\images\img-header\JC2.jpg" />
+    <Content Include="jc-juice\images\IMG_4348.JPG" />
+    <Content Include="jc-juice\images\JC 13.jpg" />
+    <Content Include="jc-juice\images\JC 22.jpg" />
+    <Content Include="jc-juice\images\JC 31.jpg" />
+    <Content Include="jc-juice\images\team\inaki.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom.js" />
@@ -1008,6 +1034,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="jc-juice\images\img-team\" />
+    <Folder Include="jc-juice\images\img-testimonial\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
