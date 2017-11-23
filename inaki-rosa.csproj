@@ -280,6 +280,7 @@
     <Content Include="jc-juice\images\img-header\JC1.jpg" />
     <Content Include="jc-juice\images\img-header\JC2.jpg" />
     <Content Include="jc-juice\images\JC 31.jpg" />
+    <Content Include="jc-juice\images\team\inaki.jpg" />
     <Content Include="jc-juice\js\bootstrap.js" />
     <Content Include="jc-juice\js\bootstrap.min.js" />
     <Content Include="jc-juice\js\custom.js" />

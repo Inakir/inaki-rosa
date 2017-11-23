@@ -193,27 +193,29 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juce/images/team/inaki.jpg" alt="Team Member 1" />
+                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 1" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Colin Saunders</h3>
                             <span class="blete-member-desg">Photographer, Cover Artists, Graphic Designer</span>
-                            <p>This is what Colin is</p>
-                            <li class="social-globe">
-                                    <a href="http://www.csphotography-media.com/"><i class="fa fa-camera"></i></a>
-                             </li>
+                            <p>This is what Colin is. This is what Colin is. This is what Colin is. </p>
+                            <ul class="blete-team-social-icon">
+                                <li class="social-globe">
+                                        <a href="http://www.csphotography-media.com/"><i class="fa fa-camera"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!-- Slides End -->
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juce/images/team/inaki.jpg" alt="Team Member 2" />
+                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 2" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Iñaki Rosa</h3>
                             <span class="blete-member-desg">Electronic Platform Developer</span>
-                            <p>This is what I am</p>
+                            <p>This is what I am. This is what I am. This is what I am. This is what I am. This is what I am. This is what I am. </p>
                             <ul class="blete-team-social-icon">
                                 <li class="social-linkedin">
                                     <a href="https://www.linkedin.com/in/inaki-rosa/"><i class="fa fa-linkedin"></i></a>
@@ -231,12 +233,12 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juce/images/team/derek.jpg" alt="Team Member 3" />
+                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 3" />
                         </div>
                         <div class="blete-member-details">
                             <h3>David Alvarez</h3>
                             <span class="blete-member-desg">Musician</span>
-                            <p>Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH.</p>
+                            <p>Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. </p>
                             <ul class="blete-team-social-icon"></ul>
                         </div>
                     </div>
@@ -244,12 +246,12 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juce/images/team/derek.jpg" alt="Team Member 3" />
+                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 3" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Poncho Galvan</h3>
                             <span class="blete-member-desg">Musician</span>
-                            <p>Bassist in the bands YeeHa and HYAH.</p>
+                            <p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>
                             <ul class="blete-team-social-icon"></ul>
                         </div>
                     </div>

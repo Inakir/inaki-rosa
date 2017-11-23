@@ -655,20 +655,26 @@ header.blete-page-header .blete-main-menu.minified{
 /*  ---- Team Style ----- */
 .blete-team-section{
 	overflow: hidden;
+    padding-top: 0;
+
 }
 .blete-team-slides {
 	margin: 0 auto !important;
 	text-align: center;
 }
 .blete-team-slides .blete-member-img-wrapper{
-	background: #f9f9f9;
+	background: #transparent;
 	padding: 30px;
+    background-color: transparent;
 }
 .blete-team-slides .blete-team-social-icon {
 	margin: 0 auto;
+	background: #transparent;
 }
 .blete-team-slides .blete-member-img-wrapper img{
-	border: 1px solid #f5f5f5;
+    background-color: transparent;
+	
+    border: 1px solid rgba(0,0,0,0.0);
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
@@ -677,7 +683,8 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-member-details{
-	background: #f9f9f9;
+    background-color:  #transparent;
+	background: #transparent;
 	padding-bottom: 30px;
 	display: inline-block;
 	text-align: center;
@@ -731,8 +738,6 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-member-details ul li a:hover i{
 	color: #ffffff;
 }
-
-
 
 /* ----- Skill Style ----- */
 .blete-our-skills{
