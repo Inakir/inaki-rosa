@@ -250,6 +250,7 @@
     <Content Include="images\slide1-3.png" />
     <Content Include="images\team\inaki.jpg" />
     <Content Include="images\texas_instruments.jpg" />
+    <Content Include="jc-juice\default.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom.js" />
