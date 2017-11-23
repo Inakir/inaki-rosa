@@ -271,8 +271,6 @@
     <Content Include="jc-juice\css\slider-pro.css" />
     <Content Include="jc-juice\css\style.css" />
     <Content Include="jc-juice\default.aspx" />
-    <Content Include="jc-juice\fonts\fontawesome-webfont.svg" />
-    <Content Include="jc-juice\font\fontawesome-webfont.svg" />
     <Content Include="jc-juice\images\288A0619 2.JPG" />
     <Content Include="jc-juice\images\288A0729 2.JPG" />
     <Content Include="jc-juice\images\288A5430-16.jpg" />
@@ -1060,15 +1058,6 @@
     <Content Include="jc-juice\css\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="jc-juice\css\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="jc-juice\css\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="jc-juice\fonts\fontawesome-webfont.eot" />
-    <Content Include="jc-juice\fonts\fontawesome-webfont.ttf" />
-    <Content Include="jc-juice\fonts\fontawesome-webfont.woff" />
-    <Content Include="jc-juice\fonts\fontawesome-webfont.woff2" />
-    <Content Include="jc-juice\fonts\FontAwesome.otf" />
-    <Content Include="jc-juice\font\fontawesome-webfont.eot" />
-    <Content Include="jc-juice\font\fontawesome-webfont.ttf" />
-    <Content Include="jc-juice\font\fontawesome-webfont.woff" />
-    <Content Include="jc-juice\font\FontAwesome.otf" />
     <Content Include="jc-juice\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
