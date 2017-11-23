@@ -244,8 +244,10 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
                     <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
                     <div class="blete-section-divider"></div>
-                    <!--<h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These the projects that I am passionate about</h4>-->
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These the projects that I am passionate about</h4>
                     <br /><br />
+                    <p style="text-align: center; color: red"> Currently in the process of documenting and adding all my projects, keep checking up to see the details of all the projects I'm passionate about! In the meantime, feel free to look at all these projects I do have ready. </p>
+
                 </div>
                 <!-- Section Header End -->
                 
