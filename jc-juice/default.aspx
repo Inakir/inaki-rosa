@@ -79,28 +79,30 @@
                 <!-- Navbar Toggle End -->
                 <!-- navbar-collapse start-->
                 <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
+                    <ul class="nav navbar-nav blete-menu-wrapper" style="float: left;">
+                        <li><a href="https://twitter.com/JC_lamusique?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @JC_lamusique</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                    </ul>
                     <ul class="nav navbar-nav blete-menu-wrapper">
+
                         <li class="active">
-                            <a href="#top">Home</a>
+                            <a href="#top">Top</a>
                         </li>
                         <li>
                             <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a href="#music">Music</a>
                         </li>
                         <li>
-                            <a href="#work">Work</a>
+                            <a href="#team">Team</a>
                         </li>
                         <li>
-                            <a href="/inaki-rosa-resume.pdf" download>Resume</a>
+                            <a href="#contact">Contact</a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/inaki-rosa/"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Inakir"><i class="fa fa-github"></i></a>
-                        </li>
+                        <li><a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook" ></i></a></li>
+                        <li><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram"></i></a></li>
+                        <li><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div></li>
+
                     </ul>
                 </div>
                 <!-- navbar-collapse end-->
@@ -157,8 +159,8 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                     <h2>ABOUT <span class="blete-highlight-text">JC JUICE</span></h2>
                     <div class="blete-section-divider"></div>
-                    <br />
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Engineer by day, rapper by night.</h4>
+                    <!--    <br />
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Engineer by day, rapper by night.</h4>-->
                 </div>
                 <!-- Section Header End -->
 
@@ -177,36 +179,15 @@
     </section>
     <!-- About Section End -->
 
-    <!-- =========   Music Section   ========= -->
+<!-- =========   Track Section   ========= -->
     <div id="music" class="anchor"></div>
-    <section id="team" class="blete-section-wrapper blete-team-section">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>THE <span class="blete-highlight-text">MUSIC</span></h2>
-                    <div class="blete-section-divider"></div>
-                    <br />
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Listen to this.</h4>
-                </div>
-                <!-- Section Header End -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInUp">
-                    <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="380" height="300" frameborder="0" allowtransparency="true"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =========   End Section   ========= -->
-
-<!-- =========   Photos Section   ========= -->
-    <div id="photos" class="anchor"></div>
-    <section id="featured-works" class="blete-section-wrapper blete-section-work">
+    <section id="featured-tracks" class="blete-section-wrapper blete-section">
         <!-- Container -->
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>TRACK <span class="blete-highlight-text">HIGHLIGHTS</span></h2>
+                    <h2>THE <span class="blete-highlight-text">MUSIC</span></h2>
                     <div class="blete-section-divider"></div>
                     <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Check out these new tracks</p>
                 </div>
@@ -219,6 +200,11 @@
             <div class="row-fluid">
                 <div class="blete-portfolio-work-slider-section wow fadeIn" data-wow-duration="2s">
                     <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
+                        <!-- Work 4 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 4 End -->
                         <!-- Work 1 -->
                         <div class="blete-portfolio-work-item">
                             <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
@@ -234,23 +220,12 @@
                             <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 3 End -->
-                        <!-- Work 1 -->
+                        <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
-                        <!-- Work 1 End -->
-                        <!-- Work 2 -->
-                        <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-                        </div>
-                        <!-- Work 2 End -->
-                        <!-- Work 3 -->
-                        <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-                        </div>
-                        <!-- Work 3 End -->
-                        </div>
-
+                        <!-- Work 4 End -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -258,9 +233,9 @@
     </section>
     <!-- Featured Work End -->
 
-        <!-- =========   Team Section   ========= -->
+        <!-- =========     Section   ========= -->
     <div id="team" class="anchor"></div>
-    <section id="team" class="blete-section-wrapper blete-team-section">
+    <section id="theteam" class="blete-section-wrapper blete-section">
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
@@ -345,6 +320,55 @@
     </section>
     <!-- Team Section End -->
 
+
+    
+    <!-- ========= Contact Section ========= -->
+    <section id="contact" class="blete-section-wrapper blete-contact-section" data-stellar-background-ratio="0.5">
+    <div class="blete-parallax-overlay"></div>
+        <div class="container">
+            <div class="row">
+
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown blete-section-header-parallax">
+                    <h2>CONTACT <span class="blete-highlight-text">JC JUICE</span></h2>
+                    <div class="blete-section-divider"></div>
+                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">For inquirires, please contact me through any of the mediums below.</p>
+                </div>
+                <!-- Section Header End -->
+
+                <div class="blete-contact-details">
+
+                    <!-- Address Area -->
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-contact-address wow bounceInLeft">
+                        <ul style="display:table; margin:0 auto;">
+                            <li class="blete-phone"><i class="fa fa-phone"></i>214-449-2080</li>
+                            <li class="blete-email">    <a href="mailto:jc.la.musique@gmail.com"><i class="fa fa-envelope-o"></i>jc.la.musique@gmail.com</a></li>
+                            <li class="blete-facebook"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook"></i>Connect with me on Facebook</a></li>
+                            <li class="blete-instagram"><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram"></i>Follow me on Instragram</a></li>
+                        </ul>
+                    </div>
+                    <!-- Address Area End -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- ========= Social Section ========= -->
+    <section id="social" class="blete-section-wrapper blete-contact-section" style="align-content: center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 fb-page blete-section-header wow fadeInLeft" data-href="https://www.facebook.com/jc.la.musique/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/jc.la.musique/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jc.la.musique/">JC Juice</a></blockquote></div>
+                
+                <div class="col-md-6 col-sm-12 col-xs-12 blete-section-header wow fadeInRight">
+                    <a class="twitter-timeline" data-width="380" data-height="500" data-theme="dark" href="https://twitter.com/JC_lamusique?ref_src=twsrc%5Etfw">Tweets by JC_lamusique</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========= Section End ========= -->
+
     <div class="thn">
         <div class="container thn">
             <div class="row">
@@ -378,5 +402,13 @@
     <script src="js/jquery.sliderPro.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

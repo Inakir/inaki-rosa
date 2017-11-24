@@ -275,6 +275,7 @@
     <Content Include="jc-juice\font\fontawesome-webfont.svg" />
     <Content Include="jc-juice\images\B&amp;W15.jpg" />
     <Content Include="jc-juice\images\B&amp;W2.jpg" />
+    <Content Include="jc-juice\images\favicon.png" />
     <Content Include="jc-juice\images\img-header\JC 5.jpg" />
     <Content Include="jc-juice\images\img-header\JC 8.jpg" />
     <Content Include="jc-juice\images\img-header\JC1.jpg" />

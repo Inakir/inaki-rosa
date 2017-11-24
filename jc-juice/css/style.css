@@ -384,7 +384,8 @@ a:active{
 	padding-bottom: 30px;
 }
 .blete-section-wrapper{
-	padding: 120px 0;
+	padding-top: 120px;
+	padding-bottom: 0;
 	overflow: hidden;
     background-color: #000000;
 }
@@ -655,7 +656,7 @@ header.blete-page-header .blete-main-menu.minified{
 /*  ---- Team Style ----- */
 .blete-team-section{
 	overflow: hidden;
-    padding-top: 0;
+    padding-top: 40px;
     padding-bottom: 0;
 }
 .blete-team-slides {
