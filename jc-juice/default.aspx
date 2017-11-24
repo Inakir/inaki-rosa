@@ -176,7 +176,72 @@
         </div>
     </section>
     <!-- About Section End -->
-    
+
+    <!-- =========   Music Section   ========= -->
+    <div id="music" class="anchor"></div>
+    <section id="team" class="blete-section-wrapper blete-team-section">
+        <div class="container">
+            <div class="row">
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
+                    <h2>THE <span class="blete-highlight-text">MUSIC</span></h2>
+                    <div class="blete-section-divider"></div>
+                    <br />
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Listen to this.</h4>
+                </div>
+                <!-- Section Header End -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInUp">
+                    <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="380" height="300" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========   End Section   ========= -->
+
+<!-- =========   Photos Section   ========= -->
+    <div id="photos" class="anchor"></div>
+    <section id="featured-works" class="blete-section-wrapper blete-section-work">
+        <!-- Container -->
+        <div class="container">
+            <div class="row">
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
+                    <h2>TRACK <span class="blete-highlight-text">HIGHLIGHTS</span></h2>
+                    <div class="blete-section-divider"></div>
+                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Check out these new tracks</p>
+                </div>
+                <!-- Section Header End -->
+            </div>
+        </div>
+        <!-- Container End -->
+        <!-- Featured Works Slider -->
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="blete-portfolio-work-slider-section wow fadeIn" data-wow-duration="2s">
+                    <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
+                        <!-- Work 1 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 1 End -->
+                        <!-- Work 2 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 2 End -->
+                        <!-- Work 3 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 3 End -->
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featured Works Slider -->
+    </section>
+    <!-- Featured Work End -->
+
         <!-- =========   Team Section   ========= -->
     <div id="team" class="anchor"></div>
     <section id="team" class="blete-section-wrapper blete-team-section">

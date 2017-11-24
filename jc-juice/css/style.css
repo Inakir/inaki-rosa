@@ -793,7 +793,7 @@ header.blete-page-header .blete-main-menu.minified{
 
 /* ------ Featured Work Style ------- */
 .blete-section-work {
-	background-color: #D3D7D7
+	background-color: #000;
 }
 .blete-portfolio-work-item{
 	height: 500px;
