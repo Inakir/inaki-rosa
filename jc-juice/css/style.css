@@ -656,7 +656,7 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-team-section{
 	overflow: hidden;
     padding-top: 0;
-
+    padding-bottom: 0;
 }
 .blete-team-slides {
 	margin: 0 auto !important;
@@ -796,7 +796,7 @@ header.blete-page-header .blete-main-menu.minified{
 	background-color: #000;
 }
 .blete-portfolio-work-item{
-	height: 500px;
+	height: auto;
 	position: relative;
 }
 

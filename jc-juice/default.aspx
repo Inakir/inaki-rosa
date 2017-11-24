@@ -234,7 +234,23 @@
                             <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 3 End -->
+                        <!-- Work 1 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
+                        <!-- Work 1 End -->
+                        <!-- Work 2 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 2 End -->
+                        <!-- Work 3 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 3 End -->
+                        </div>
+
                 </div>
             </div>
         </div>
