@@ -391,7 +391,7 @@ a:active{
 
 .blete-section-header{
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 .blete-odd-header{
@@ -698,7 +698,7 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-member-details span.blete-member-desg{
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
-	color: #4a4a4a;
+	color: #dadada;
 	margin-bottom: 15px;
 	display: inline-block;
 }
@@ -719,7 +719,9 @@ header.blete-page-header .blete-main-menu.minified{
 	height: 50px;
 	display: block;
 	text-align: center;
-	background-color: #eee;
+    border: solid;
+    border-color: #fff;
+	background-color: transparent;
 	transition: all 0.3s ease 0s;
 	border-radius: 50px;
 	padding: 10px;
@@ -731,7 +733,7 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-member-details ul li a i{
-	color: #bebebe;
+	color: #fff;
 	line-height: 25px;
 }
 

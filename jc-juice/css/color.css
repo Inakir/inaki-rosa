@@ -2,7 +2,7 @@
 
 
 span.blete-highlight-text{
-	color: #808080;
+	color: #dadada;
 }
 
 span.blete-highlight-header-text{
@@ -77,16 +77,16 @@ span.blete-odd-highlight-text{
 
 .blete-main-menu .navbar-nav li a:hover,
 .blete-main-menu .navbar-nav li.active a{
-    color: #90caf9;
+    color: #000000;
 }
 
 .blete-slider .sp-selected-button {
-  background-color: #500000;
+  background-color: #000000;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.62);
 }
 
 .blete-member-details h3{
-	color: #500000;
+	color: #fff;
 }
 #scrollUp:hover {
 	background-color: #500000;
@@ -94,7 +94,7 @@ span.blete-odd-highlight-text{
 }
 /* --------- Team Style ---------*/
 .blete-member-details ul li a:hover {
-	background-color: #500000;
+	background-color: #808080;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.62);
 }
 /* --------- Featured Work ---------- */
@@ -155,11 +155,13 @@ span.blete-odd-highlight-text{
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.62);
 }
 .owl-theme .owl-controls .owl-page span {
-  border: 1px solid #500000;
+  border: 1px solid #fff;
 }
 
 .owl-theme .owl-controls .owl-page.active span {
-  background-color: #500000;
+  border: 1px ;
+  border-color: #000;
+  background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.62);
 }
 

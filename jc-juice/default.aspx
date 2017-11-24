@@ -157,15 +157,16 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                     <h2>ABOUT <span class="blete-highlight-text">JC JUICE</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Engineer by day, rapper by night.</p>
+                    <br />
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Engineer by day, rapper by night.</h4>
                 </div>
                 <!-- Section Header End -->
 
-                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                    <img src="/jc-juice/images/JC 31.jpg" alt="JC Juice">
+                <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                    <img src="/jc-juice/images/B&W15.jpg" alt="JC Juice">
                 </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
+                <div class="col-md-8 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
                     <p>JC Juice is an up and coming hip-hop artist based in College Station, TX.</p>
                     <p>JC was born in Manhattan, Kansas on February 22, 1996. His primary language is French, as he is a first-generation American whose family originates in Cameroon. JC moved to Texas in 2000, where he has spent the majority of his life. He attends college at Texas A&M University where he is in his final year of a Mechanical Engineering Program.</p>
                     <p>JC started making music in his senior year of high school, along with a few neighborhood friends in his hometown of Frisco, TX. There they formed a hip-hop collective dubbed "Dark Generation". JC split from the group in 2013 when he moved to College Station. He has since continued to pursue music, collaborating with several individuals in the music community of Texas A&M.</p>
@@ -198,10 +199,10 @@
                         <div class="blete-member-details">
                             <h3>Colin Saunders</h3>
                             <span class="blete-member-desg">Photographer, Cover Artists, Graphic Designer</span>
-                            <p>This is what Colin is. This is what Colin is. This is what Colin is. </p>
+                            <!--<p>This is what Colin is. This is what Colin is. This is what Colin is. </p>-->
                             <ul class="blete-team-social-icon">
                                 <li class="social-globe">
-                                        <a href="http://www.csphotography-media.com/"><i class="fa fa-camera"></i></a>
+                                    <a href="http://www.csphotography-media.com/"><i class="fa fa-camera"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -215,7 +216,7 @@
                         <div class="blete-member-details">
                             <h3>Iñaki Rosa</h3>
                             <span class="blete-member-desg">Electronic Platform Developer</span>
-                            <p>This is what I am. This is what I am. This is what I am. This is what I am. This is what I am. This is what I am. </p>
+                            <!--<p>This is what I am. This is what I am. This is what I am. This is what I am. This is what I am. This is what I am. </p>-->
                             <ul class="blete-team-social-icon">
                                 <li class="social-linkedin">
                                     <a href="https://www.linkedin.com/in/inaki-rosa/"><i class="fa fa-linkedin"></i></a>
@@ -238,7 +239,7 @@
                         <div class="blete-member-details">
                             <h3>David Alvarez</h3>
                             <span class="blete-member-desg">Musician</span>
-                            <p>Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. </p>
+                            <!--<p>Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. </p>-->
                             <ul class="blete-team-social-icon"></ul>
                         </div>
                     </div>
@@ -251,7 +252,7 @@
                         <div class="blete-member-details">
                             <h3>Poncho Galvan</h3>
                             <span class="blete-member-desg">Musician</span>
-                            <p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>
+                            <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>-->
                             <ul class="blete-team-social-icon"></ul>
                         </div>
                     </div>
