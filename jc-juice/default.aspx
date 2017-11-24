@@ -6,12 +6,12 @@
 
 <!-- Favicon Ico -->
 <![if !IE]>
-<link rel="icon" href="/jc-juice/images/favicon.png" type="image/x-icon" />
-<link rel="shortcut icon" href="/jc-juice/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" type="image/x-icon" />
 <![endif]>
 <!-- This is needed for IE -->
-<link rel="shortcut icon" href="/jc-juice/images/favicon.png" type="image/x-icon" />
-<link rel="icon" href="/jc-juice/images/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://inaki-rosa.azurewebsites.net/jc-juice//images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="http://inaki-rosa.azurewebsites.net/jc-juice/favicon.png" type="image/x-icon" />
 
 <head>
     <meta charset="UTF-8" />
