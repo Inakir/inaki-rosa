@@ -720,7 +720,7 @@ header.blete-page-header .blete-main-menu.minified{
 	height: 50px;
 	display: block;
 	text-align: center;
-    border: solid;
+    border: 2px solid;
     border-color: #fff;
 	background-color: transparent;
 	transition: all 0.3s ease 0s;

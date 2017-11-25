@@ -79,8 +79,15 @@
                 <!-- Navbar Toggle End -->
                 <!-- navbar-collapse start-->
                 <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
-                    <ul class="nav navbar-nav blete-menu-wrapper" style="float: left;">
-                        <li><a href="https://twitter.com/JC_lamusique?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @JC_lamusique</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                        <ul class="nav navbar-nav blete-menu-wrapper" style="float: left;">
+                    <!--
+                        <li><iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6KLXNXjgZUa0ZMyo0KQZOr&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></li>
+                        
+                        <!--<li><a href="https://twitter.com/JC_lamusique?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @JC_lamusique</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                        <li><div class="fb-like" data-colorscheme="dark" data-href="https://www.facebook.com/jc.la.musique" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div></li>
+                        -->
+                        <li><a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook" ></i></a></li>
+                        <li><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                     <ul class="nav navbar-nav blete-menu-wrapper">
 
@@ -99,9 +106,10 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
-                        <li><a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook" ></i></a></li>
-                        <li><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram"></i></a></li>
-                        <li><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div></li>
+                        <!--
+                            <li><a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook" ></i></a></li>
+                            <li><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram"></i></a></li>
+                        -->
 
                     </ul>
                 </div>
@@ -166,6 +174,8 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
                     <img src="/jc-juice/images/B&W15.jpg" alt="JC Juice">
+                    <div class="fb-like" data-colorscheme="dark" data-href="https://www.facebook.com/jc.la.musique" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                    <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6KLXNXjgZUa0ZMyo0KQZOr&size=basic&theme=light&show-count=0" width="200" height="26" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
                 </div>
 
                 <div class="col-md-8 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
@@ -189,7 +199,9 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                     <h2>THE <span class="blete-highlight-text">MUSIC</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Check out these new tracks</p>
+                    <p class="col-md-9 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-1">
+                        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6KLXNXjgZUa0ZMyo0KQZOr&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                    </p>
                 </div>
                 <!-- Section Header End -->
             </div>
@@ -250,7 +262,7 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 1" />
+                            <img src="/jc-juice/images/team/noimage.jpg" alt="Team Member 1" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Colin Saunders</h3>
@@ -290,29 +302,82 @@
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 3" />
+                            <img src="/jc-juice/images/team/noimage.jpg" alt="Team Member 3" />
                         </div>
                         <div class="blete-member-details">
                             <h3>David Alvarez</h3>
-                            <span class="blete-member-desg">Musician</span>
+                            <span class="blete-member-desg">Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH, Producer</span>
                             <!--<p>Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. Drummer in the band YeeHa, Guitarist and vocalist in the band HYAH. </p>-->
-                            <ul class="blete-team-social-icon"></ul>
+                            <ul class="blete-team-social-icon">
+                                <li class="social-globe">
+                                    <li class="social-music"><a href="http://hyah.bandcamp.com/"><i class="fa fa-bandcamp"></i></a></li>
+                                    <li class="social-music"><a href="http://yeeha.bandcamp.com/"><i class="fa fa-globe"></i></a></li>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!-- Slides End -->
                     <!-- Slides -->
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
-                            <img src="/jc-juice/images/team/inaki.jpg" alt="Team Member 3" />
+                            <img src="/jc-juice/images/team/noimage.jpg" alt="Team Member 3" />
                         </div>
                         <div class="blete-member-details">
                             <h3>Poncho Galvan</h3>
-                            <span class="blete-member-desg">Musician</span>
+                            <span class="blete-member-desg">Bassist in the bands YeeHa and HYAH</span>
+                            <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>-->
+                            <ul class="blete-team-social-icon">
+                                <li class="social-music"><a href="http://hyah.bandcamp.com/"><i class="fa fa-bandcamp"></i></a></li>
+                                <li class="social-music"><a href="http://yeeha.bandcamp.com/"><i class="fa fa-bandcamp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slides End -->
+                    <!-- Slides -->
+                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
+                        <div class="blete-member-img-wrapper">
+                            <img src="/jc-juice/images/team/noimage.jpg" alt="Team Member 4" />
+                        </div>
+                        <div class="blete-member-details">
+                            <h3>Eliot Guerin</h3>
+                            <span class="blete-member-desg">Keyboardist in the band HYAH, Electronic musician under the name Taper/Fader</span>
+                            <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>-->
+                            <ul class="blete-team-social-icon">
+                                <li class="social-music"><a href="http://hyah.bandcamp.com/"><i class="fa fa-bandcamp"></i></a></li>
+                                <li class="social-music"><a href="http://soundcloud.com/taperfader/"><i class="fa fa-soundcloud"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slides End -->
+                    <!-- Slides -->
+                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
+                        <div class="blete-member-img-wrapper">
+                            <img src="/jc-juice/images/team/noimage.jpg" alt="Team Member 3" />
+                        </div>
+                        <div class="blete-member-details">
+                            <h3>Will Roberts</h3>
+                            <span class="blete-member-desg">Drummer in the band HYAH</span>
+                            <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>-->
+                            <ul class="blete-team-social-icon">
+                                <li class="social-music"><a href="http://hyah.bandcamp.com/"><i class="fa fa-bandcamp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slides End -->
+                    <!-- Slides -->
+                    <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
+                        <div class="blete-member-img-wrapper">
+                            <img src="/jc-juice/images/team/noimage.jpg" alt="Team Member 3" />
+                        </div>
+                        <div class="blete-member-details">
+                            <h3>Chris Bohanon</h3>
+                            <span class="blete-member-desg">Producer Musician</span>
                             <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>-->
                             <ul class="blete-team-social-icon"></ul>
                         </div>
                     </div>
                     <!-- Slides End -->
+
                 </div>
                 <!-- Team Slider End -->
             </div>
@@ -320,8 +385,6 @@
     </section>
     <!-- Team Section End -->
 
-
-    
     <!-- ========= Contact Section ========= -->
     <section id="contact" class="blete-section-wrapper blete-contact-section" data-stellar-background-ratio="0.5">
     <div class="blete-parallax-overlay"></div>
