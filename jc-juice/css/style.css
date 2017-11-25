@@ -716,15 +716,15 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-member-details ul li a{
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	display: block;
 	text-align: center;
     border: 2px solid;
     border-color: #fff;
 	background-color: transparent;
 	transition: all 0.3s ease 0s;
-	border-radius: 50px;
+	border-radius: 20px;
 	padding: 10px;
 	-webkit-transition: all .3s;
 	   -moz-transition: all .3s;
@@ -735,11 +735,11 @@ header.blete-page-header .blete-main-menu.minified{
 
 .blete-member-details ul li a i{
 	color: #fff;
-	line-height: 25px;
+	line-height: 35px;
 }
 
 .blete-member-details ul li a:hover i{
-	color: #ffffff;
+	color: #000000;
 }
 
 /* ----- Skill Style ----- */
@@ -1317,9 +1317,9 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-contact-section .blete-contact-address ul li{
-	padding-left: 40px;
+	padding-left: 100px;
 	margin-bottom: 25px;
-	font-size: 14px;
+	font-size: 32px;
 	position: relative;
 }
 
@@ -1330,14 +1330,15 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-contact-section .blete-contact-address ul li i{
 	color: #ffffff;
 	position: absolute;
-	font-size: 18px;
+	font-size: 32px;
 	left: 0;
 	top: 3px;
-	padding: 5px;
-	width: 30px;
+	padding: 12px;
+	width: 60px;
 	text-align: center;
-	height: 30px;
-	border-radius: 50px;
+	height: 60px;
+	border-radius: 20px;
+    border: solid 2px;
 }
 .blete-contact-section .blete-contact-form .blete-input-fields{
 	margin-bottom: 20px;
