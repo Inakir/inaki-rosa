@@ -106,6 +106,9 @@
                             <a href="#team">Team</a>
                         </li>
                         <li>
+                            <a href="#photos">Photos</a>
+                        </li>
+                        <li>
                             <a href="#contact">Contact</a>
                         </li>
                         <!--
@@ -388,15 +391,15 @@
     <!-- Team Section End -->
 
         <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="blete-section-wrapper blete-portfolio-section">
+    <section id="photos" class="blete-section-wrapper blete-portfolio-section">
         <div class="container">
             <div class="row">
 
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>OUR <span class="blete-highlight-text">PORTFOLIO</span></h2>
+                    <h2>THE <span class="blete-highlight-text">PORTFOLIO</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, tempora totam qui.</p>
+                    <!--<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, tempora totam qui.</p>-->
                 </div>
                 <!-- Section Header End -->
 
@@ -506,7 +509,7 @@
                 </div>
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin revolutions">
+                <div class="item blete-portfolio-item colin">
                     <img src="/jc-juice/images/img-portfolio/c2.jpg">
                     <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
                         <ul><li class="blete-lighbox">
@@ -526,7 +529,7 @@
                 </div>
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin revolutions">
+                <div class="item blete-portfolio-item colin">
                     <img src="/jc-juice/images/img-portfolio/c4.jpg">
                     <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
                         <ul><li class="blete-lighbox">
@@ -546,7 +549,7 @@
                 </div>
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin revolutions">
+                <div class="item blete-portfolio-item colin">
                     <img src="/jc-juice/images/img-portfolio/c6.jpg">
                     <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
                         <ul><li class="blete-lighbox">
@@ -566,7 +569,7 @@
                 </div>
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin revolutions">
+                <div class="item blete-portfolio-item colin">
                     <img src="/jc-juice/images/img-portfolio/c8.jpg">
                     <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
                         <ul><li class="blete-lighbox">
@@ -576,7 +579,7 @@
                 </div>
                 <!-- Portfolio Items End -->
                 <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin revolutions">
+                <div class="item blete-portfolio-item colin">
                     <img src="/jc-juice/images/img-portfolio/c9.jpg">
                     <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
                         <ul><li class="blete-lighbox">
