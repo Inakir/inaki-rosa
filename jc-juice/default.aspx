@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" type="image/x-icon" />
 <![endif]>
 <!-- This is needed for IE -->
-<link rel="shortcut icon" href="http://inaki-rosa.azurewebsites.net/jc-juice//images/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="http://inaki-rosa.azurewebsites.net/jc-juice/favicon.png" type="image/x-icon" />
 
 <head>
@@ -18,6 +18,12 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="p:domain_verify" content="2672511aebca4c458808a023cab48e08"/>
+    
+    <meta property="og:image" content="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" />
+    <meta property="og:description" content="JC Juice is an alternative rap artist based out of college station." />
+    <meta property="og:url"content="http://jcjuice.com" />
+    <meta property="og:title" content="JC Juice" />
+
     <!-- Title -->
 
     <title>JC Juice</title>
