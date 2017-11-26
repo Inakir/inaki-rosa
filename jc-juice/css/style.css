@@ -794,7 +794,7 @@ header.blete-page-header .blete-main-menu.minified{
 
 /* ------ Featured Work Style ------- */
 .blete-section-work {
-	background-color: #000;
+	background-color: #ffffff;
 }
 .blete-portfolio-work-item{
 	height: auto;
@@ -975,11 +975,12 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-portfolio-filter-btn-group ul li a:hover{
-	color: #818181;
+	color: #000000;
+    background-color: #dadada;
 }
 
 .blete-portfolio-filter-btn-group ul li a.selected{
-	color: #ffffff;
+	color: #fff;
 }
 .blete-portfolio-items{
 	overflow: hidden;
@@ -990,11 +991,11 @@ header.blete-page-header .blete-main-menu.minified{
 	height: 280px;
 	position: relative;
 	overflow: hidden;
+    text-align: center;
 }
 
 .blete-portfolio-items .blete-portfolio-item img{
 	height: 100%;
-	border: 1px solid #aaa;
 }
 
 .blete-portfolio-items .blete-portfolio-item .blete-portfolio-details-wrapper{
