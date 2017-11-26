@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="p:domain_verify" content="2672511aebca4c458808a023cab48e08"/>
     
-    <meta property="og:image" content="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" />
+    <!--<meta property="og:image" content="http://inaki-rosa.azurewebsites.net/jc-juice/images/favicon.png" />-->
     <meta property="og:description" content="JC Juice is an alternative rap artist based out of college station." />
     <meta property="og:url"content="http://jcjuice.com" />
     <meta property="og:title" content="JC Juice" />
