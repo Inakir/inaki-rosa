@@ -92,10 +92,10 @@
                         <!--<li><a href="https://twitter.com/JC_lamusique?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @JC_lamusique</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
                         <li><div class="fb-like" data-colorscheme="dark" data-href="https://www.facebook.com/jc.la.musique" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div></li>
                         -->
-                        <li><a href="https://soundcloud.com/jcjuicer"><i class="fa fa-soundcloud fa-2x"></i></a></li>
-                        <li><a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i></a></li>
-                        <li><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i></a></li>
                         <li><a href="https://open.spotify.com/artist/6KLXNXjgZUa0ZMyo0KQZOr"><i class="fa fa-spotify fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href="https://soundcloud.com/jcjuicer"><i class="fa fa-soundcloud fa-2x"></i></a></li>
                     </ul>
                     <ul class="nav navbar-nav blete-menu-wrapper">
 
@@ -190,7 +190,7 @@
                 </div>
 
                 <div class="col-md-8 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
-                    <p>JC Juice is an up and coming hip-hop artist based in College Station, TX.</p>
+                    <p>JC Juice is a self funded independant hip-hop artist based in College Station, TX.</p>
                     <p>JC was born in Manhattan, Kansas on February 22, 1996. His primary language is French, as he is a first-generation American whose family originates in Cameroon. JC moved to Texas in 2000, where he has spent the majority of his life. He attends college at Texas A&M University where he is in his final year of a Mechanical Engineering Program.</p>
                     <p>JC started making music in his senior year of high school, along with a few neighborhood friends in his hometown of Frisco, TX. There they formed a hip-hop collective dubbed "Dark Generation". JC split from the group in 2013 when he moved to College Station. He has since continued to pursue music, collaborating with several individuals in the music community of Texas A&M.</p>
                     <p>JC labels his music as alternative rap, as it draws influence from jazz, funk and soul. He seeks to tackle tough topics and convey deep messages through his intricate lyricism, accompanied by smooth/jazzy instrumentals. JC's music is inspired by rappers such as J Cole, Kendrick Lamar, Mac Miller, Anderson Paa, Chance the Rapper and Logic, who also place a special accent on deep lyrics. As JC says, "What I'm hoping to do is make music that people can listen to and relate to. I'm trying to say something in my rap that's true in my life and that's true in other people's lives as well.</p>
@@ -375,7 +375,7 @@
                         </div>
                     </div>
                     <!-- Slides End -->
-                    <!-- Slides -->
+                    <!-- Slides 
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
                             <img src="/jc-juice/images/team/Chris Bohanon.jpg" alt="Boheezy" />
@@ -383,7 +383,7 @@
                         <div class="blete-member-details">
                             <h3>Chris Bohanon</h3>
                             <span class="blete-member-desg">Producer Musician</span>
-                            <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>-->
+                            <!--<p>Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. Bassist in the bands YeeHa and HYAH. </p>
                             <ul class="blete-team-social-icon"></ul>
                         </div>
                     </div>
@@ -671,9 +671,10 @@
                     <div class="col-md-12 col-sm-12 col-xs-12 blete-contact-address wow bounceInLeft">
                         <ul class="blete-team-social-icon" style="display:table; margin:0 auto;">
                             <li class="social-phone"><i class="fa fa-phone"></i>214-449-2080</li>
-                            <li class="social-email">    <a href="mailto:jc.la.musique@gmail.com"><i class="fa fa-envelope-o fa-2x"></i>jc.la.musique@gmail.com</a></li>
-                            <li class="social-facebook"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i>Connect with me on Facebook</a></li>
+                            <li class="social-email">    <a href="mailto:jc_juice@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>jc_juice@jcjuiceofficial.com</a></li>
+                            
                             <li class="social-instagram"><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i>Follow me on Instragram</a></li>
+                            <li class="social-facebook"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i>Connect with me on Facebook</a></li>
                         </ul>
                     </div>
                     <!-- Address Area End -->
