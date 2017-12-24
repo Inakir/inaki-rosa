@@ -414,7 +414,6 @@
 
         <!-- Works -->
         <div class="blete-portfolio-works wow fadeIn" data-wow-duration="2s">
-
             <!-- Filter Button Start -->
             <div id="blete-portfolio-filter" class="blete-portfolio-filter-btn-group">
                 <ul>
@@ -431,36 +430,7 @@
 
             <div class="blete-portfolio-items">
 
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/msc1.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/msc1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/msc2.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/msc2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/msc3.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/msc3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
+                <!-----------------------------------------Row-------------------------------------------------->
 
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item colin aggies">
@@ -472,6 +442,7 @@
                     </div></div></div>
                 </div>
                 <!-- Portfolio Items End -->
+
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item colin aggies">
                     <img src="/jc-juice/images/img-portfolio/au2.jpg">
@@ -506,54 +477,17 @@
 
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/c1.jpg">
+                    <img src="/jc-juice/images/img-portfolio/msc2.jpg">
                     <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
                         <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/c1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                            <a href="/jc-juice/images/img-portfolio/msc2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
                         </li></ul>
                     </div></div></div>
                 </div>
                 <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/c2.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/c2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/c3.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/c3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/c4.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/c4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
-                <!-- Portfolio Items -->
-                <div class="item blete-portfolio-item colin">
-                    <img src="/jc-juice/images/img-portfolio/c5.jpg">
-                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
-                        <ul><li class="blete-lighbox">
-                            <a href="/jc-juice/images/img-portfolio/c5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
-                        </li></ul>
-                    </div></div></div>
-                </div>
-                <!-- Portfolio Items End -->
+
+                <!-----------------------------------------Row-------------------------------------------------->
+              
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item colin">
                     <img src="/jc-juice/images/img-portfolio/c6.jpg">
@@ -594,6 +528,85 @@
                     </div></div></div>
                 </div>
                 <!-- Portfolio Items End -->
+
+                                <!-----------------------------------------Row-------------------------------------------------->
+
+                <!-- Portfolio Items -->
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/c2.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/c2.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+                <!-- Portfolio Items -->
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/c3.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/c3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+                <!-- Portfolio Items -->
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/c4.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/c4.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+                <!-- Portfolio Items -->
+
+                <!-----------------------------------------Row-------------------------------------------------->
+                <!-- Portfolio Items -->
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/msc1.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/msc1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+               
+                <!-- Portfolio Items -->
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/c1.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/c1.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+
+                <!-- Portfolio Items -->
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/msc3.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/msc3.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+
+                <div class="item blete-portfolio-item colin">
+                    <img src="/jc-juice/images/img-portfolio/c5.jpg">
+                    <div class="blete-portfolio-details-wrapper"><div class="blete-portfolio-details"><div class="blete-portfolio-meta-btn">
+                        <ul><li class="blete-lighbox">
+                            <a href="/jc-juice/images/img-portfolio/c5.jpg" class="blete-featured-work-img"><i class="fa fa-search"></i></a>
+                        </li></ul>
+                    </div></div></div>
+                </div>
+                <!-- Portfolio Items End -->
+
 
                 <!-- Portfolio Items -->
                 <div class="item blete-portfolio-item colin alive">
