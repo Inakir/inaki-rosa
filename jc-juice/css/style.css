@@ -799,6 +799,7 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-portfolio-work-item{
 	height: auto;
 	position: relative;
+    text-align: center;
 }
 
 /* ------ Portfolio Image Style ------ */

@@ -620,7 +620,7 @@ header.blete-page-header .blete-main-menu.minified{
 
 
 /* ----- Slider Style ------ */
-.slider-section{
+.blete-slider{
 	overflow: hidden;
 	background-color: #28292e;
 	box-shadow: 0px 10px 40px rgba(0, 0, 0, 1);
@@ -638,13 +638,13 @@ header.blete-page-header .blete-main-menu.minified{
 	right: 0;
 }
 
-.blete-main-slides h1.slider-section-text-big{
+.blete-main-slides h1.blete-slider-text-big{
 	font-size: 48px;
 	margin-top: 0;
 	margin-bottom: 25px;
 }
 
-.blete-main-slides .slider-section-text h1 span{
+.blete-main-slides .blete-slider-text h1 span{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
@@ -659,7 +659,7 @@ header.blete-page-header .blete-main-menu.minified{
 	width: 10px;
 }
 
-.slider-section .sp-buttons {
+.blete-slider .sp-buttons {
   padding-top: 10px;
   position: absolute;
   text-align: center;
@@ -667,7 +667,7 @@ header.blete-page-header .blete-main-menu.minified{
   bottom: 20px;
 }
 
-.slider-section .sp-button {
+.blete-slider .sp-button {
   border: 1px solid #fff;
   border-radius: 50%;
   box-sizing: border-box;

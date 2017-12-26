@@ -113,13 +113,13 @@
                 Main Slider
     ================================== -->
     <div id="top" class="anchor"></div>
-    <section class="slider-pro slider-section" id="blete-slider">
+    <section class="slider-pro blete-slider" id="blete-slider">
         <div class="sp-slides">
             <!-- Slides -->
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/mountain.jpg" alt="Slider 1" />
-                <h1 class="sp-layer slider-section-text-big"
+                <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
                     Continental Divide
                 </h1>
@@ -133,9 +133,9 @@
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
-                <h1 class="sp-layer slider-section-text-big"
+                <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-vertical="-40%" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Phillips 66 Internship
+                    Phillips 66
                 </h1>
                 <p class="sp-layer"
                     data-position="center" data-vertical="-25%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
@@ -148,9 +148,9 @@
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
-                <h1 class="sp-layer slider-section-text-big"
+                <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Texas Instruments Internship
+                    Texas Instruments
                 </h1>
                 <p class="sp-layer"
                     data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
@@ -162,6 +162,7 @@
         </div>
     </section>
     <!-- Main Slider End -->
+
     <!-- ===========   About Section   =========== -->
     <div id="about" class="anchor"></div>
     <section id="about" class="section-wrapper blete-first-wrapper first-section" data-stellar-background-ratio="0.5">
