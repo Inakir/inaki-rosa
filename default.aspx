@@ -113,13 +113,13 @@
                 Main Slider
     ================================== -->
     <div id="top" class="anchor"></div>
-    <section class="slider-pro blete-slider" id="blete-slider">
+    <section class="slider-pro slider-section" id="blete-slider">
         <div class="sp-slides">
             <!-- Slides -->
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/mountain.jpg" alt="Slider 1" />
-                <h1 class="sp-layer blete-slider-text-big"
+                <h1 class="sp-layer slider-section-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
                     Continental Divide
                 </h1>
@@ -133,7 +133,7 @@
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
-                <h1 class="sp-layer blete-slider-text-big"
+                <h1 class="sp-layer slider-section-text-big"
                     data-position="center" data-vertical="-40%" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
                     Phillips 66 Internship
                 </h1>
@@ -148,7 +148,7 @@
             <div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
-                <h1 class="sp-layer blete-slider-text-big"
+                <h1 class="sp-layer slider-section-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
                     Texas Instruments Internship
                 </h1>
@@ -159,76 +159,33 @@
             </div>
 
             <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
-
         </div>
     </section>
     <!-- Main Slider End -->
     <!-- ===========   About Section   =========== -->
     <div id="about" class="anchor"></div>
-    <section id="about" class="blete-custom-sec blete-odd-wrapper blete-description">
+    <section id="about" class="section-wrapper blete-first-wrapper first-section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">
-            <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                    <h2>ABOUT <span class="blete-odd-highlight-text">IÑAKI</span></h2>
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
+                    <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
                     <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
-                    <br><br><br>
+                </div>
+                <!-- Section Header End -->
+                <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
+                    <img src="/images/headshot.jpg" alt="Inaki Rosa">
+                </div>
 
-                    <p style="text-align: left">
-                    I am currently studying Computer Engineering at Texas A&M University. During my time at A&M I have been heavily involved in Campus organizations, with my two biggest organizations being the Student Engineers’ Council and Fish Camp. I served as the Systems Administration Committee Chair and an Executive Council member for the SEC and I was a counselor for two years in a row in Fish Camp. 
-                    </p>
-
-                    <p style="text-align: left">
-                    I am the proud Father of a dog named Oreo. When I’m not on campus studying or with friends I’m likely hanging out with him. I love Outdoor activities and some of my hobbies including the game “Geocaching”, in which you set out to find hidden treasures in your immediate surroundings. 
-                    </p>
-
-                    <p style="text-align: left">
-                    Since I was young, I have wanted to be an inventor. My inspiration was "Stu" from the Rugrats, who was always inventing wonderful and new machines. When I grew up I realized that what I wanted to do was engineering. Computers and machines always fascinated me so I started taking Computer Science courses as a freshman in High School. At that moment I knew I had found what I wanted to do for the rest of my life. Being a Computer Engineer is a dream come true, and I hope that my work can inspire someone to try out the discipline for themselves. 
-                    </p>
-
-                    <p style="text-align: left">
-                    I encourage you to read the background section in which I go more into detail on what my responsibilities and impact has been in my community! 
-                    </p>
-
-
-                    <!-- Section Header End 
-                    <div class="col-md-1 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
-                        <img src="images/logo.png" alt="Custom Image" />
-                    </div>
-                    <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: left"><h2>Developer</h2></div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInDown"  style="text-align: center"><h2>Computer Engineer</h2></div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"  style="text-align: right"><h2>Aggie</h2></div>
-                    </div>
-                    <br /><br /> 
-                    <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"><h2>Geocacher</h2></div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight"><h2>Father to a Dog</h2>  </div>
-                    </div>
-                    <br /> <br />
-                    <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: left"><h2>Software Engineer</h2></div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInDown"  style="text-align: center"><h2>Counselor</h2></div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"  style="text-align: right"><h2>Artist</h2></div>
-                    </div>
-                    <br /><br /> 
-                    <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInLeft"><h2>Runner</h2></div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-text wow bounceInRight"><h2>Bilingual</h2>  </div>
-                    </div>
-                    <br /> <br />
-                        <!--<ul>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        </ul> 
-                        -->
-                    </div>
-                </div> 
+                <div class="col-md-8 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
+                    <p>I am currently studying Computer Engineering at Texas A&M University. During my time at A&M I have been heavily involved in Campus organizations, with my two biggest organizations being the Student Engineers’ Council and Fish Camp. I served as the Systems Administration Committee Chair and an Executive Council member for the SEC and I was a counselor for two years in a row in Fish Camp. </p>
+                    <p>I am the proud Father of a dog named Oreo. When I’m not on campus studying or with friends I’m likely hanging out with him. I love Outdoor activities and some of my hobbies including the game “Geocaching”, in which you set out to find hidden treasures in your immediate surroundings. </p>
+                    <p>Since I was young, I have wanted to be an inventor. My inspiration was "Stu" from the Rugrats, who was always inventing wonderful and new machines. When I grew up I realized that what I wanted to do was engineering. Computers and machines always fascinated me so I started taking Computer Science courses as a freshman in High School. At that moment I knew I had found what I wanted to do for the rest of my life. Being a Computer Engineer is a dream come true, and I hope that my work can inspire someone to try out the discipline for themselves. </p>
+                    <p>I encourage you to read the background section in which I go more into detail on what my responsibilities and impact has been in my community!</p>
+                </div>
             </div>
+        </div>
     </section>
     <!-- About Section End -->
     
@@ -236,17 +193,16 @@
                     Features Section
     ================================== -->
     <div id="projects" class="anchor"></div>
-    <section id="features" class="blete-even-wrapper blete-features-section" data-stellar-background-ratio="0.5">
+    <section id="features" class="section-wrapper blete-second-wrapper second-section">
         <div id="projects" class="blete-parallax-overlay"></div>
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header blete-section-header-parallax wow slideInDown">
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-second-header blete-section-header-parallax wow slideInDown">
                     <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
                     <div class="blete-section-divider"></div>
                     <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These the projects that I am passionate about</h4>
                     <br /><br />
-                    <p style="text-align: center; color: red"> Currently in the process of documenting and adding all my projects, keep checking up to see the details of all the projects I'm passionate about! In the meantime, feel free to look at all these projects I do have ready. </p>
 
                 </div>
                 <!-- Section Header End -->
@@ -319,15 +275,13 @@
 
         <!-- ===========   About Section   =========== -->
     <div id="work" class="anchor"></div>
-    <section id="work" class="blete-custom-sec blete-odd-wrapper blete-description">
+    <section id="work" class="section-wrapper blete-third-wrapper third-section">
         <div class="container">
             <div class="row">
             <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
-                    <h2>PREVIOUS <span class="blete-odd-highlight-text">WORK</span></h2>
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-third-header wow fadeInDown">
+                    <h2>PREVIOUS <span class="blete-third-highlight-text">WORK</span></h2>
                     <div class="blete-section-divider"></div>
-                    <p style="text-align: left">In this section I’m going to go over what my past work has been. I’ve had the opportunity to intern for two great companies as a Software Developer.</p>
-                        
                     <p style="text-align: left">
                     <br />My most recent internship was at Phillips 66 in Bartlesville Oklahoma. Phillips 66 is a midstream energy company with pipelines and midstream facilities all across the United States. During my internship I was able to gain an in depth knowledge over the energy value chain, something that I never thought I would do as a Computer Engineer. I was able to do several projects while I interned here. The most exciting part of the internship was getting the ability to research Blockchain technology and how it can impact not just Phillips 66, but the energy industry as a whole. My official title was Operational Development under Application Services. The role saw me developing and maintain the applications used by the company internally. My first project was to rewrite the batch job that notifies users when an account they manage is about to expire. I was able to significantly improve the time that it took to run from ~20 minutes to 3 minutes. I was also able to reduce the total lines of code from ~800 to ~300 lines. This was an exciting project and I got to see the impact it had almost immediately. Lastly, I created an application that allowed the Lubrication R&D team to submit data they received from research into a database. This data needed to be formatted specifically and fit numerous amounts of tests so that it could be formatted correctly by the analyzing software. 
                     </p>

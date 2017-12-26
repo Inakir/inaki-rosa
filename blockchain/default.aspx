@@ -110,12 +110,12 @@
 
     <!-- =========   Title Section   ========= -->
     <div id="title" class="anchor"></div>
-    <section id="Title" class="blete-section-wrapper blete-section-work">
+    <section id="Title" class="section-wrapper blete-title-wrapper title-section">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
 
-                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                         <h2>Block<span class="blete-highlight-text">Chain</span></h2>
                     </div>
                 </div>
@@ -124,13 +124,13 @@
 
     <!-- =========   Overview Section   ========= -->
     <div id="overview" class="anchor"></div>
-    <section id="about" class="blete-odd-wrapper">
+    <section id="about" class="section-wrapper blete-first-wrapper first-section">
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
 
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown" style="padding-bottom: 24px">
-                    <h2>QUICK <span class="blete-odd-highlight-text">OVERVIEW</span></h2>
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown" style="padding-bottom: 24px">
+                    <h2>QUICK <span class="blete-highlight-text">OVERVIEW</span></h2>
                     <div class="blete-section-divider"></div>
                     <h4 class="col-md-12 col-sm-10 col-xs-12">A blockchain is a public ledger of all bitcoin transactions that have ever been executed. A block is the “current” part of a blockchain which records some or all of the recent transactions, and once completed, goes into the blockchain as permanent database. Each time a block gets completed, a new block is generated. Blocks are linked to each other (like a chain) in proper linear, chronological order with every block containing a hash of the previous block. To use conventional banking as an analogy, the blockchain is like a full history of banking transactions</h4>
                 </div>
@@ -173,14 +173,12 @@
     
     <!-- =========   Videos Section   ========= -->
     <div id="videos" class="anchor"></div>
-    <section id="videos" class="blete-even-wrapper">
+    <section id="videos" class="section-wrapper blete-second-wrapper second-section">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
-
-                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                         <h2>BLOCKCHAIN<span class="blete-highlight-text"> VIDEOS</span></h2>
-                        <br />
                         <div class="blete-section-divider"></div>
                     </div>
                     <!-- Section Header End -->

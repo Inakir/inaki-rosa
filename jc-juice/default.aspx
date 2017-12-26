@@ -225,25 +225,25 @@
                     <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
                         <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 4 End -->
                         <!-- Work 1 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 1 End -->
                         <!-- Work 2 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 2 End -->
-                        <!-- Work 3 -->
+                        <!-- Work 3 
                         <div class="blete-portfolio-work-item">
                             <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 3 End -->
-                        <!-- Work 4 -->
+                        <!-- Work 4 
                         <div class="blete-portfolio-work-item">
                             <iframe src="https://open.spotify.com/embed/track/4WXTEtOAW1ABxD5XDspWyN" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
@@ -680,16 +680,21 @@
 
                 <div class="blete-contact-details">
                     <!-- Address Area -->
-                    <div class="col-md-12 col-sm-12 col-xs-12 blete-contact-address wow bounceInLeft">
+                    <div class="col-md-8 col-sm-12 col-xs-12 blete-contact-address wow bounceInLeft">
                         <ul class="blete-team-social-icon" style="display:table; margin:0 auto;">
                             <li class="social-phone"><i class="fa fa-phone"></i>214-449-2080</li>
-                            <li class="social-email">    <a href="mailto:jc_juice@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>jc_juice@jcjuiceofficial.com</a></li>
+                            <li class="social-email">    <a href="mailto:jcjuice@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>jcjuice@jcjuiceofficial.com</a></li>
                             
                             <li class="social-instagram"><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i>Follow me on Instragram</a></li>
                             <li class="social-facebook"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i>Connect with me on Facebook</a></li>
                         </ul>
                     </div>
                     <!-- Address Area End -->
+                    <!-- Insta -->
+                    <div class="col-md-3 col-sm-8 col-xs-12 blete-contact-form wow bounceInRight"> <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bc8kKcJliDm/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 20px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Bc8kKcJliDm/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Juice (@jcjuice)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-12-21T01:45:43+00:00">Dec 20, 2017 at 5:45pm PST</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script></div>
+                    <!-- Insta End -->
+
+
                 </div>
 
             </div>
@@ -701,11 +706,8 @@
     <section id="social" class="blete-section-wrapper blete-contact-section" style="align-content: center;">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12 col-xs-12 fb-page blete-section-header" data-href="https://www.facebook.com/jc.la.musique/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/jc.la.musique/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jc.la.musique/">JC Juice</a></blockquote></div>
-                <div class="col-md-4 col-sm-12 col-xs-12 blete-contact-address">
-                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bc8kKcJliDm/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Bc8kKcJliDm/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Juice (@jcjuice)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-12-21T01:45:43+00:00">Dec 20, 2017 at 5:45pm PST</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-                </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 blete-section-header">
+                <div class="col-md-6 col-sm-12 col-xs-12 blete-section-header fb-page" data-href="https://www.facebook.com/jc.la.musique/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/jc.la.musique/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jc.la.musique/">JC Juice</a></blockquote></div>
+                <div class="col-md-6 col-sm-12 col-xs-12 blete-section-header">
                     <a class="twitter-timeline" data-width="380" data-height="500" data-theme="dark" href="https://twitter.com/JC_lamusique?ref_src=twsrc%5Etfw">Tweets by JC_lamusique</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>

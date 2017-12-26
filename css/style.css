@@ -367,31 +367,31 @@ a:active{
 
 
 /* ------ Section Header Style ------ */
-.blete-even-wrapper{
+.section-wrapper{
 	padding: 120px 0;
 	overflow: hidden;
-    background-color: #D6D3C4;
-    color: #332C2C;
-}
-
-.blete-odd-wrapper{
-	padding: 120px 0;
-	overflow: hidden;
-    background-color: #332C2C;
-    color: #FFFFFF;
-	padding-bottom: 30px;
-}
-.blete-section-wrapper{
-	padding: 120px 0;
-	overflow: hidden;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 1);
 }
 
 .blete-section-header{
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
-.blete-odd-header{
+.blete-title-header{
+	text-align: center;
+}
+
+.blete-first-header{
+	text-align: center;
+}
+
+.blete-second-header{
+	text-align: center;
+}
+
+.blete-third-header{
+    color: black;
 	text-align: center;
 }
 
@@ -401,7 +401,19 @@ a:active{
 	font-size: 30px;
 }
 
-.blete-odd-header h1{
+.blete-first-header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-second-header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-third-header h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
@@ -413,7 +425,19 @@ a:active{
 	font-size: 30px;
 }
 
-.blete-odd-header h2{
+.blete-first-header h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-second-header h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-third-header h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
@@ -425,7 +449,19 @@ a:active{
 	font-size: 30px;
 }
 
-.blete-odd-header h1 span{
+.blete-first-header h1 span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-second-header h1 span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blete-third-header h1 span{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
@@ -529,7 +565,7 @@ a:active{
     width: 100%;
     padding: 5px 0 5px !important;
     margin-bottom: 0;
-    z-index: 10;
+    z-index: 4;
     -webkit-transition: all .35s;
        -moz-transition: all .35s;
         -ms-transition: all .35s;
@@ -572,10 +608,10 @@ header.blete-page-header .blete-main-menu{
 
 /* ------ Minified Menu ------ */
 .blete-main-menu.minified{
-	background-color: #500000;
 	padding: 0;
 	position: fixed;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.43);
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.75);
+    z-index: 6;
 }
 
 header.blete-page-header .blete-main-menu.minified{
@@ -584,10 +620,11 @@ header.blete-page-header .blete-main-menu.minified{
 
 
 /* ----- Slider Style ------ */
-.blete-slider{
+.slider-section{
 	overflow: hidden;
 	background-color: #28292e;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.43);
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 1);
+    z-index: 5;
 }
 
 .blete-main-slides .blete-img-overlay{
@@ -601,14 +638,13 @@ header.blete-page-header .blete-main-menu.minified{
 	right: 0;
 }
 
-.blete-main-slides h1.blete-slider-text-big{
+.blete-main-slides h1.slider-section-text-big{
 	font-size: 48px;
-	color: #ffffff;
 	margin-top: 0;
 	margin-bottom: 25px;
 }
 
-.blete-main-slides .blete-slider-text h1 span{
+.blete-main-slides .slider-section-text h1 span{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
@@ -617,14 +653,13 @@ header.blete-page-header .blete-main-menu.minified{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 30px !important;
-	color: #ffffff;
 	margin-bottom: 0;
 }
 .sp-arrow {
 	width: 10px;
 }
 
-.blete-slider .sp-buttons {
+.slider-section .sp-buttons {
   padding-top: 10px;
   position: absolute;
   text-align: center;
@@ -632,7 +667,7 @@ header.blete-page-header .blete-main-menu.minified{
   bottom: 20px;
 }
 
-.blete-slider .sp-button {
+.slider-section .sp-button {
   border: 1px solid #fff;
   border-radius: 50%;
   box-sizing: border-box;
@@ -644,10 +679,6 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 /* ----- Features Style ------- */
-.blete-features-section .container{
-	position: relative;
-	z-index: 1;
-}
 
 /*  ---- Team Style ----- */
 .blete-team-section{
@@ -750,7 +781,7 @@ header.blete-page-header .blete-main-menu.minified{
 	font-weight: 700;
 	color: #3a3a3a;
 	display: inline-block;
-	z-index: 3;
+	z-index: 4;
 	margin-top: 60px;
 }
 
@@ -1144,6 +1175,7 @@ header.blete-page-header .blete-main-menu.minified{
 	font-size: 14px;
 	margin-right: 10px;
 }
+
 /* --------- Testimonial Style --------- */
 .blete-testimonial-section{
 	position: relative;
@@ -1503,21 +1535,49 @@ footer ul li a i{
 	background-color: rgba(255, 255, 255, 0.25);
 	border-radius: 50px;
 	padding: 10px;
+    
 }
 
 /* --------- Parallax Section ----------- */
 
-.blete-features-section{
+.title-section{
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
 	padding-bottom: 30px;
 	overflow: hidden;
+    z-index: 4;
 }
-.blete-features-section h2 {
-    
+
+.first-section{
+	position: relative;
+	padding-bottom: 30px;
+	overflow: hidden;
+    z-index: 3;
+    object-fit: contain;
 }
+
+.second-section{
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 30px;
+	overflow: hidden;
+    z-index: 2;
+}
+
+.third-section{
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 30px;
+	overflow: hidden;
+    z-index: 1;
+}
+
 .blete-counter-section{
 	background-color: #56ACCB;
 	background-attachment: fixed;

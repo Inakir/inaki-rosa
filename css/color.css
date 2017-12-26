@@ -2,15 +2,36 @@
 
 
 span.blete-highlight-text{
-	color: #500000;
+	color: rgba(0, 0, 0, 0.62);
 }
+
+/*-------------------------Slider Stuff Start-------------------------*/
 
 span.blete-highlight-header-text{
-	color: #90caf9;
+	color: #black;
 }
 
-span.blete-odd-highlight-text{
-	color: firebrick;
+.blete-main-slides h1.slider-section-text-big{
+	color: #fccdd3;
+}
+
+.blete-main-slides p{
+	color: #bbc4ef;
+}
+
+/*-------------------------Slider Stuff End-------------------------*/
+
+
+span.blete-first-highlight-text{
+	color: rgba(0, 0, 0, 0.62);
+}
+
+span.blete-second-highlight-text{
+	color: rgba(0, 0, 0, 0.62);
+}
+
+span.blete-third-highlight-text{
+	color: rgba(0, 0, 0, 0.62);
 }
 
 .blete-button-solid{
@@ -75,9 +96,14 @@ span.blete-odd-highlight-text{
 	background-color: #500000;
 }
 
+.blete-main-menu.minified {
+    background-color: rgba(101, 52, 255, .50);
+    background-color: rgba(187, 196, 239, .50);
+}
+
 .blete-main-menu .navbar-nav li a:hover,
 .blete-main-menu .navbar-nav li.active a{
-    color: #90caf9;
+    color: #000000;
 }
 
 .blete-slider .sp-selected-button {
@@ -176,4 +202,26 @@ span.blete-odd-highlight-text{
 }
 .blete-contact-section .blete-contact-address ul li i {
 	background-color: #500000;
+}
+
+/* ------ Section Header Style ------ */
+
+.blete-title-wrapper{
+    background-color: #fccdd3;
+    color: #FFFFFF;
+}
+
+.blete-first-wrapper{
+    background-color: #6534ff;
+    color: #FFFFFF;
+}
+
+.blete-second-wrapper{
+    background-color: #62bcfa;
+    color: #FFFFFF;
+}
+
+.blete-third-wrapper{
+    background-color: #fccdd3;
+    color: #FFFFFF;
 }

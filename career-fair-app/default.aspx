@@ -116,12 +116,12 @@
 
     <!-- =========   Title Section   ========= -->
     <div id="title" class="anchor"></div>
-    <section id="Title" class="blete-section-wrapper blete-section-work">
+    <section id="Title" class="section-wrapper blete-title-wrapper title-section">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
 
-                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                         <h2>Engineering<span class="blete-highlight-text"> Career </span> Fair <span class="blete-highlight-text"> Mobile </span>App</h2>
                     </div>
                 </div>
@@ -130,13 +130,13 @@
 
     <!-- =========   Overview Section   ========= -->
     <div id="overview" class="anchor"></div>
-    <section id="about" class="blete-odd-wrapper">
+    <section id="about" class="section-wrapper blete-first-wrapper first-section">
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
 
-                <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown" style="padding-bottom: 24px">
-                    <h2>APPLICATION <span class="blete-odd-highlight-text">OVERVIEW</span></h2>
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown" style="padding-bottom: 24px">
+                    <h2>APPLICATION <span class="blete-highlight-text">OVERVIEW</span></h2>
                     <div class="blete-section-divider"></div>
                     <h4 class="col-md-12 col-sm-10 col-xs-12">Texas A&M has one of the largest Career Fairs in the nation. More than 10,000 engineers attend the Engineering Career Fair every year looking to get hired by a company. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands.</h4>
                 </div>
@@ -179,12 +179,12 @@
     
     <!-- =========   Summary Section   ========= -->
     <div id="summary" class="anchor"></div>
-    <section id="summary" class="blete-even-wrapper">
+    <section id="summary" class="section-wrapper blete-second-wrapper second-section">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
 
-                    <div class="col-md-12 col-sm-12 col-xs-12 blete-odd-header wow fadeInDown">
+                    <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                         <h2>APP<span class="blete-highlight-text"> SUMMARY</span></h2>
                         <br />
                         <div class="blete-section-divider"></div>
@@ -218,7 +218,7 @@
     
     <!-- =========   Photos Section   ========= -->
     <div id="photos" class="anchor"></div>
-    <section id="featured-works" class="blete-section-wrapper blete-section-work">
+    <section id="featured-works" class="section-wrapper blete-third-wrapper third-section blete-section-work">
         <!-- Container -->
         <div class="container">
             <div class="row">
@@ -315,21 +315,21 @@
     </section>
     <!-- Featured Work End -->
 
-    <!-- =========   Team Section   ========= -->
+    <!-- =========   Team Section   ========= 
     <div id="team" class="anchor"></div>
-    <section id="team" class="blete-section-wrapper blete-team-section">
+    <section id="team" class="section-wrapper blete-team-section">
         <div class="container">
             <div class="row">
-                <!-- Section Header -->
+                <!-- Section Header 
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                     <h2>THE <span class="blete-highlight-text">TEAM</span></h2>
                     <div class="blete-section-divider"></div>
                     <b class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">This project could not have been completed without the help of the Student Engineers' Council and the Systems Administration team. Below is a description of the roles of the team members that worked on this project.</b>
                 </div>
-                <!-- Section Header End -->
-                <!-- Team Slider -->
+                <!-- Section Header End 
+                <!-- Team Slider 
                 <div id="team-slider" class="owl-carousel blete-team-carousal col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="2s">
-                    <!-- Slides -->
+                    <!-- Slides 
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
                             <img src="/images/team/reed.jpg" alt="Team Member 1" />
@@ -343,8 +343,8 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
+                    <!-- Slides End 
+                    <!-- Slides 
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
                             <img src="/images/team/inaki.jpg" alt="Team Member 2" />
@@ -363,8 +363,8 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- Slides End -->
-                    <!-- Slides -->
+                    <!-- Slides End 
+                    <!-- Slides 
                     <div class="blete-team-slides col-md-12 col-sm-12 col-xs-12">
                         <div class="blete-member-img-wrapper">
                             <img src="/images/team/derek.jpg" alt="Team Member 3" />
@@ -377,9 +377,9 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- Slides End -->
+                    <!-- Slides End 
                 </div>
-                <!-- Team Slider End -->
+                <!-- Team Slider End 
             </div>
         </div>
     </section>
