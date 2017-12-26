@@ -219,7 +219,7 @@
         </div>
         <!-- Container End -->
         <!-- Featured Works Slider -->
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding-left: 60px;">
             <div class="row-fluid">
                 <div class="blete-portfolio-work-slider-section wow fadeIn" data-wow-duration="2s">
                     <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
@@ -238,6 +238,18 @@
                             <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 2 End -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="250" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
                         <!-- Work 3 
                         <div class="blete-portfolio-work-item">
                             <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
