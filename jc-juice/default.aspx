@@ -208,7 +208,7 @@
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>THE <span class="blete-highlight-text">MUSICs</span></h2>
+                    <h2>THE <span class="blete-highlight-text">MUSIC</span></h2>
                     <div class="blete-section-divider"></div>
                     <p class="col-md-12 col-sm-12 col-xs-12 col-md-offset-0 col-sm-offset-1">
                         <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6KLXNXjgZUa0ZMyo0KQZOr&size=detail&theme=dark&show-count=0" width="168" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
