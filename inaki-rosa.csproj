@@ -162,6 +162,7 @@
     <Content Include="bin\System.Web.Webpages.dll" />
     <Content Include="bin\System.Web.Webpages.Razor.dll" />
     <Content Include="blockchain\default.aspx" />
+    <Content Include="data-visualization\default.aspx" />
     <Content Include="career-fair-app\default.aspx" />
     <Content Include="contact.html" />
     <Content Include="css\animate.css" />

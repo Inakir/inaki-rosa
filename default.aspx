@@ -202,7 +202,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-second-header blete-section-header-parallax wow slideInDown">
                     <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">These the projects that I am passionate about</h4>
+                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Click any of these projects to find out more information.</h4>
                     <br /><br />
 
                 </div>
@@ -214,15 +214,29 @@
                     <!-------------------------------Left Group----------------------------------------------------->
                     
                     <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
-                        <a href="/career-fair-app" class="page_link">
+                        <a href="/jc-juice" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
-                                    <i class="fa fa-mobile"></i>        
+                                    <i class="fa fa-music"></i>        
                                 </div>
                                 <div class="blete-blurb-text">
-                                    <h3>Engineering Career Fair App</h3>
+                                    <h3>JC Juice</h3>
                                     <p>
-                                        Texas A&M has one of the largest Career Fairs in the nation. Yearly we help more than 10,000 engineers get hired through the fair. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands. Click on the icon for more info!
+                                        JC Juice is a self funded independant hip-hop artist based out of College Station, TX. I got to design and implement his artist website.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/blockchain" class="page_link">
+                            <div class="blete-blurb-icon-left-square">
+                                <div class="blete-icon">
+                                    <i class="fa fa-link"></i>
+                                </div>
+                                <div class="blete-blurb-text">
+                                    <h3>Blockchain</h3>
+                                    <p>
+                                        I did research over the Blockchain, the technology behind the phenomenon of bitcoin. I had the privilege to present to a group of developers located in Bartlesville, Oklahoma about my research.
                                     </p>
                                 </div>
                             </div>
@@ -232,27 +246,24 @@
                     <!---------------------------------- Middle Group ---------------------------------------->
 
                     <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
-                        
-                        <a href="/blockchain" class="page_link">
+                        <a href="/career-fair-app" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
-                                    <i class="fa fa-link"></i>
+                                    <i class="fa fa-mobile"></i>        
                                 </div>
                                 <div class="blete-blurb-text">
-                                    <h3>Blockchain</h3>
+                                    <h3>Engineering Career Fair App</h3>
                                     <p>
-                                        I did research over the Blockchain, the technology behind the phenomenon of bitcoin. I had the privilege to present to a group of developers located in Bartlesville, Oklahoma about my research. Click for more information!
+                                        Texas A&M has one of the largest Career Fairs in the nation. Yearly we help more than 10,000 engineers get hired through the fair. I created a mobile application that allows students to have all the company recruiting information they need at the palm of their hands.
                                     </p>
                                 </div>
                             </div>
                         </a>
-
                     </div>
 
                     <!---------------------------------- Right Group ---------------------------------------->
 
                     <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight">
-
                         <a href="/space-simulation/index.html" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
@@ -261,7 +272,7 @@
                                 <div class="blete-blurb-text">
                                     <h3>Space Simulation</h3>
                                     <p>
-                                        This project involves making a space simulation of the moon exploding using JavaScript libraries. The simulation features the moon exploding and fragmenting across the galaxy as well as a space station with survival pods. Click for more info!
+                                        This project involves making a space simulation of the moon exploding using JavaScript libraries. The simulation features the moon exploding and fragmenting across the galaxy as well as a space station with survival pods.
                                     </p>
                                 </div>
                             </div>
