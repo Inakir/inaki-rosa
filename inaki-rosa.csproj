@@ -162,6 +162,8 @@
     <Content Include="bin\System.Web.Webpages.dll" />
     <Content Include="bin\System.Web.Webpages.Razor.dll" />
     <Content Include="blockchain\default.aspx" />
+    <Content Include="css\data-viz.css" />
+    <Content Include="data-visualization\test\default.aspx" />
     <Content Include="data-visualization\default.aspx" />
     <Content Include="career-fair-app\default.aspx" />
     <Content Include="contact.html" />
@@ -1073,6 +1075,7 @@
     <Content Include="jc-juice\font\fontawesome-webfont.ttf" />
     <Content Include="jc-juice\font\fontawesome-webfont.woff" />
     <Content Include="jc-juice\font\FontAwesome.otf" />
+    <Content Include="data-visualization\dummydata.csv" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

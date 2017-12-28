@@ -19,20 +19,17 @@
         var margin = {top: height*0.1, right: width * 0.08, bottom: height * 0.06, left: width * 0.08};
         width = width - margin.left - margin.right;
         height = height - margin.top - margin.bottom;
-
         var svg = d3.select("#viz").append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("class", "chart")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
         var background = svg.append("rect")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .attr("transform", "translate(" + (-margin.left) + "," + (-margin.top) + ")")
             .attr("fill", "white")
-
         var radius = 2;
         var defaultColor = "black";
         var highlightColor = "magenta";
@@ -40,7 +37,6 @@
         var activeForces = []
         var counter = 0
         var barYactive = false;
-
         d3.csv("/data-visualization/dummydata.csv", function (error, data) {
             if (error) throw error;
     
@@ -75,13 +71,11 @@
             simulation
                 .nodes(data)
                 .on("tick", ticked);
-
             initSim()
-
-            /* 0st Frame */
+            /* basic simulation functions */
             function initSim() {
                 simulation
-                    .force("x", d3.forceX(function (d) {
+                    .force("x", d3.forceX(function(d) {
                         return randomX(Math.random())
                     }))
                     .force("y", d3.forceY(function(d) {
@@ -89,26 +83,25 @@
                     }))
                     .alphaMin(0.5)
                     .stop()
-
-                // Simulates 100 ticks, this is how we get the initial random distribution of circles
+                // loop through simulation ticks to land in a stable state with randomly distributed nodes
                 for (var i = 0; i < 100; ++i) simulation.tick()
                 activeForces.push("x", "y")
                 return simulation
             }
-
-            /* 1st Frame */
             function baseSim(alphaMin) {
+                /* creates basic petri dish of nodes */
+        
                 removeForces()
-                var petriRadius = 2         //Radius of the petri of dots
+                radius = 2
         
                 simulation
                     .stop()
                     .force("charge", d3.forceManyBody().strength(-2))
-                    .force("x", d3.forceX(width/2).strength(0.12))      //Drags the dots to the center of the screen
-                    .force("y", d3.forceY(height/2).strength(0.12))     
-                    .force("collide", d3.forceCollide(petriRadius))
-                    .alphaMin(alphaMin)                                 //Alpha is decay. It's scale is [0,1]. Alphamin is the minimum it will decay to. 
-                    .alpha(1)                                           //The bigger the difference alpha-alphamin is, the more time will pass
+                    .force("x", d3.forceX(width/2).strength(0.12))
+                    .force("y", d3.forceY(height/2).strength(0.12))
+                    .force("collide", d3.forceCollide(radius))
+                    .alphaMin(alphaMin)
+                    .alpha(1)
                     .restart()
                 activeForces.push("charge", "x", "y", "collide")
         
@@ -380,7 +373,6 @@
                         return d.color
                     })
             }
-
             // from https://bl.ocks.org/mbostock/b1f0ee970299756bc12d60aedf53c13b
             function isolate(force, filter) {
                 var initialize = force.initialize;
@@ -412,17 +404,17 @@
             // })
             // define trigger functions
             var triggerState;
-            frame1 = function() {
+            window._trigger1 = function() {
                 highlight(function(d) { return false })
                 fade(function(d) { return false })
                 if (triggerState != "base") {
-                    baseSim(0.5)
+                    baseSim(0.1)
                     updateNodes()
                     triggerState = "base"
                 }
         
             }
-            frame2 = function() {
+            window._trigger2 = function() {
                 highlight(function(d) { return d.kon == "kvinna"; })
                 fade(function(d) { return false })
                 if (triggerState != "sexes") {
@@ -431,7 +423,7 @@
                 }
                 updateNodes()
             }
-            frame3 = function() {
+            window._trigger3 = function() {
                 highlight(function(d) { return false; })
                 fade(function(d) { return false; })
                 if (triggerState != "age") {
@@ -444,7 +436,7 @@
                 }
                 triggerState = "age"
             }
-            frame4 = function() {
+            window._trigger4 = function() {
                 highlight(function(d) { return d.alder >= 50; })
                 fade(function(d) { return false })
                 if (triggerState != "age") {
@@ -452,7 +444,7 @@
                 }
                 age()
             }
-            frame5 = function() {
+            window._trigger5 = function() {
                 highlight(function(d) { return d.alder <= 18; })
                 fade(function(d) { return false })
                 if (triggerState != "age") {
@@ -460,7 +452,7 @@
                 }
                 age()
             }
-            frame6 = function() {
+            window._trigger6 = function() {
                 var filterOut = function(d) { return d.inkomstgrupp == null }
                 highlight(filterOut)
                 fade(function(d) { return false })
@@ -470,7 +462,7 @@
                 }
                 updateNodes()
             }
-            frame7 = function() {
+            window._trigger7 = function() {
         
                 var filterIn = function(d) { return d.inkomstgrupp != null }
                 var filterOut = function(d) { return d.inkomstgrupp == null }
@@ -501,7 +493,7 @@
                 triggerState = "breakout"
         
             }
-            frame8 = function() {
+            window._trigger8 = function() {
                 highlight(function(d) { return d.inkomstgrupp == 0; })
                 fade(function(d) { return d.inkomstgrupp == null })
                 if (triggerState != "income") {
@@ -511,7 +503,7 @@
                 updateNodes()
         
             }
-            frame9 = function() {
+            window._trigger9 = function() {
                 highlight(function(d) { return d.inkomstgrupp == 1; })
                 fade(function(d) { return d.inkomstgrupp == null })
                 if (triggerState != "income") {
@@ -521,7 +513,7 @@
                 updateNodes()
         
             }
-            frame10 = function() {
+            window._trigger10 = function() {
                 highlight(function(d) { return d.inkomstgrupp == 2; })
                 fade(function(d) { return d.inkomstgrupp == null })
                 if (triggerState != "income") {
@@ -530,7 +522,7 @@
                 }
                 updateNodes()
             }
-            frame11 = function() {
+            window._trigger11 = function() {
                 highlight(function(d) { return d.inkomstgrupp == 3; })
                 fade(function(d) { return d.inkomstgrupp == null })
                 if (triggerState != "income") {
@@ -539,7 +531,7 @@
                 }
                 updateNodes()
             }
-            frame12 = function() {
+            window._trigger12 = function() {
                 highlight(function(d) { return d.inkomstgrupp == 4; })
                 fade(function(d) { return d.inkomstgrupp == null })
                 if (triggerState != "income") {
@@ -549,7 +541,7 @@
         
                 updateNodes()
             }
-            frame13 = function() {    
+            window._trigger13 = function() {    
                 highlight(function(d) { return d.inkomstgrupp == 4 && d.kon == "kvinna"; })
                 fade(function(d) { return d.inkomstgrupp == null })
                 if (triggerState != "income") {
@@ -559,7 +551,7 @@
         
                 updateNodes()
             }
-            frame14 = function() {
+            window._trigger14 = function() {
         
                 highlight(function(d) { return d.inkomstgrupp == 5; })
                 fade(function(d) { return d.inkomstgrupp == null })
@@ -570,7 +562,7 @@
         
                 updateNodes()
             }
-            frame15 = function() {
+            window._trigger15 = function() {
                 highlight(function(d) { return d.kapitalgrupp == 1 })
                 fade(function(d) { return d.kapitalgrupp == null })
                 if (triggerState != "capital") {
@@ -580,7 +572,7 @@
         
                 updateNodes()
             }
-            frame16 = function() {
+            window._trigger16 = function() {
         
                 highlight(function(d) { return d.kapitalgrupp == 2 })
                 fade(function(d) { return d.kapitalgrupp == null })
@@ -591,7 +583,7 @@
         
                 updateNodes()
             }
-            frame17 = function() {
+            window._trigger17 = function() {
         
                 highlight(function(d) { return d.kapitalgrupp == 3 })
                 fade(function(d) { return d.kapitalgrupp == null })
@@ -602,7 +594,7 @@
         
                 updateNodes()
             }
-            frame18 = function() {
+            window._trigger18 = function() {
                 counter = 0;
                 var filterFunction = function(d) {
                     if (d.kapitalgrupp == 3 && counter < 4) {
@@ -622,7 +614,7 @@
                 updateNodes()
                 counter = 0;
             }
-            frame19 = function() {
+            window._trigger19 = function() {
                 highlight(function(d) { return d.kapitalgrupp == 4 })
                 fade(function(d) { return d.kapitalgrupp == null })
                 if (triggerState != "capital") {
@@ -632,7 +624,7 @@
         
                 updateNodes()
             }
-            frame20 = function() {
+            window._trigger20 = function() {
                 counter = 0;
                 var filterFunction = function(d) {
                     if (d.kapitalgrupp == 4 && counter < 24) {
@@ -652,7 +644,7 @@
                 updateNodes()
                 counter = 0;
             }
-            frame21 = function() {
+            window._trigger21 = function() {
                 highlight(function(d) { return d.kapitalgrupp == 5 })
                 fade(function(d) { return d.kapitalgrupp == null })
                 if (triggerState != "capital") {
@@ -662,7 +654,7 @@
         
                 updateNodes()
             }
-            frame22 = function() {
+            window._trigger22 = function() {
                 highlight(function(d) { return false; })
                 fade(function(d) { return false; })
                 if (triggerState != "base") {
@@ -671,7 +663,7 @@
                 }
                 updateNodes()
             }
-            frame23 = function() {
+            window._trigger23 = function() {
                 highlight(function(d) { return d.batchkod == "M" })
                 fade(function(d) { return false; })
                 if (triggerState != "moss") {
@@ -681,7 +673,7 @@
                 updateNodes()
         
             }
-            frame24 = function() {
+            window._trigger24 = function() {
         
                 highlight(function(d) { return d.batchkod == "M" })
                 fade(function(d) { return false; })
@@ -701,7 +693,7 @@
                 }
                 triggerState = "role"
             }
-            frame25 = function() {
+            window._trigger25 = function() {
                 highlight(function(d) { return d.roll == "L" })
                 fade(function(d) { return d.roll == null })
                 updateNodes()
@@ -710,7 +702,7 @@
                     triggerState = "role"
                 }
             }
-            frame26 = function() {
+            window._trigger26 = function() {
                 highlight(function(d) { return d.roll == "Sec" })
                 fade(function(d) { return d.roll == null })
                 updateNodes()
@@ -719,7 +711,7 @@
                     triggerState = "role"
                 }
             }
-            frame27 = function() {
+            window._trigger27 = function() {
                 highlight(function(d) { return d.roll == "D" })
                 fade(function(d) { return d.roll == null })
                 updateNodes()
@@ -728,7 +720,7 @@
                     triggerState = "role"
                 }
             }
-            frame28 = function() {
+            window._trigger28 = function() {
                 highlight(function(d) { return d.roll == "S" })
                 fade(function(d) { return d.roll == null })
                 updateNodes()
@@ -737,7 +729,7 @@
                     triggerState = "role"
                 }
             }
-            frame29 = function() {
+            window._trigger29 = function() {
                 highlight(function(d) { return d.land != "Sverige" })
                 fade(function(d) { return false; })
                 updateNodes()
@@ -746,7 +738,7 @@
                     triggerState = "base"
                 }
             }
-            frame30 = function() {
+            window._trigger30 = function() {
                 var filterIn = function(d) { return d.land == "Sverige" }
                 var filterOut = function(d) { return d.land != "Sverige" }
                 highlight(filterOut)
@@ -773,7 +765,7 @@
                 }
                 triggerState = "kvar"
             }
-            var triggers = [frame1, frame2, frame3, frame4, frame5, frame6, frame7, frame8, frame9, frame10, frame11, frame12, frame13, frame14, frame15, frame16, frame17, frame18, frame19, frame20, frame21, frame22, frame23, frame24, frame25, frame26, frame27, frame28, frame29, frame30]
+            var triggers = [window._trigger1, window._trigger2, window._trigger3, window._trigger4, window._trigger5, window._trigger6, window._trigger7, window._trigger8, window._trigger9, window._trigger10, window._trigger11, window._trigger12, window._trigger13, window._trigger14, window._trigger15, window._trigger16, window._trigger17, window._trigger18, window._trigger19, window._trigger20, window._trigger21, window._trigger22, window._trigger23, window._trigger24, window._trigger25, window._trigger26, window._trigger27, window._trigger28, window._trigger29, window._trigger30]
             var navCount = -1
             d3.select("#left")
                 .on("click", function() {
@@ -781,7 +773,6 @@
                     triggers[navCount]()
                     console.log(navCount)
                 })
-
             d3.select("#right")
                 .on("click", function() {
                     navCount += 1
@@ -789,7 +780,7 @@
                     console.log(navCount)
                 })
             // window._vizData = data
-            frameRandom = function() {
+            window._triggerRandom = function() {
                 triggers[Math.floor(Math.random() * triggers.length)]()
             }
         })
