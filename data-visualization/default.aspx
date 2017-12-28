@@ -35,13 +35,12 @@
         radius = 3,
         spawnRad = 200,
 
-        numNodes = 3000,            // total number of nodes
+        numNodes = 2000,            // total number of nodes
         numClusters = 7,            // number of  clusters
 
         color = d3.scale.category10().domain(d3.range(numClusters));
 
     // The largest node for each cluster.
-    var temp = 0;
     var clusters = [
         { cluster: 0, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
         { cluster: 1, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
@@ -115,18 +114,14 @@
             .attr("cy", function (d) { return d.y; });
 
         cluster1
-            .each(cluster(e.alpha * e.alpha))
-            .each(collide(.5))
             .attr("cx", function (d) { return d.x; })
             .attr("cy", function (d) { return d.y; });
-
     }
 
     // Move d to be adjacent to the cluster node.
     function cluster(alpha) {
         return function (d) {
             var cluster = clusters[d.cluster];
-            if (cluster === d) return;
             var x = d.x - cluster.x,
                 y = d.y - cluster.y,
                 l = Math.sqrt(x * x + y * y),
@@ -144,6 +139,13 @@
     // Resolves collisions between d and all other circles.
     function collide(alpha) {
         var quadtree = d3.geom.quadtree(nodes);
+        quadtree.add(clusters[0]);
+        quadtree.add(clusters[1]);
+        quadtree.add(clusters[2]);
+        quadtree.add(clusters[3]);
+        quadtree.add(clusters[4]);
+        quadtree.add(clusters[5]);
+        quadtree.add(clusters[6]);
         return function (d) {
             var r = d.radius + radius + Math.max(padding, clusterPadding),
                 nx1 = d.x - r,
@@ -160,8 +162,10 @@
                         l = (l - r) / l * alpha;
                         d.x -= x *= l;
                         d.y -= y *= l;
-                        quad.point.x += x;
-                        quad.point.y += y;
+                        if (quad.point != clusters[d.cluster]) {    //If the quad point is a cluster node, it doesn't feel any force
+                            quad.point.x += x;
+                            quad.point.y += y;
+                        }
                     }
                 }
                 return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
