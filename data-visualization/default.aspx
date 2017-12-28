@@ -32,16 +32,25 @@
         padding = 5,                     // separation between same-color nodes
         clusterPadding = 60,             // separation between different-color nodes
         clusterRad = 20,
-        radius = 5;
+        radius = 3,
+        spawnRad = 200,
 
-    var numNodes = 1000, // total number of nodes
-        numClusters = 7; // number of  clusters
+        numNodes = 3000,            // total number of nodes
+        numClusters = 7,            // number of  clusters
 
-    var color = d3.scale.category10()
-        .domain(d3.range(numClusters));
+        color = d3.scale.category10().domain(d3.range(numClusters));
 
     // The largest node for each cluster.
-    var clusters = new Array(numClusters);
+    var temp = 0;
+    var clusters = [
+        { cluster: 0, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
+        { cluster: 1, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
+        { cluster: 2, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
+        { cluster: 3, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
+        { cluster: 4, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
+        { cluster: 5, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2},
+        { cluster: 6, radius: clusterRad, x: Math.cos(cluster / numClusters * 2 * Math.PI) * spawnRad + width / 2, y: Math.sin(cluster / numClusters * 2 * Math.PI) * spawnRad + height / 2}
+    ];
 
     var nodes = d3.range(numNodes).map(function () {
         var i = Math.floor(Math.random() * numClusters),
@@ -49,20 +58,23 @@
             d = {
                 cluster: i,
                 radius: r,
-                x: Math.cos(i / numClusters * 2 * Math.PI) * numNodes + width / 2 + Math.random(),
-                y: Math.sin(i / numClusters * 2 * Math.PI) * numNodes + height / 2 + Math.random()
+                time: 5,
+                x: Math.cos(i / numClusters * 2 * Math.PI) * (spawnRad+200) + width / 2 + Math.random(),
+                y: Math.sin(i / numClusters * 2 * Math.PI) * (spawnRad+200) + height / 2 + Math.random()
             };
-        if (!clusters[i] || (r > clusters[i].radius)) {
-            d.radius = clusterRad;
-            clusters[i] = d;
-        }
         return d;
     });
 
-    var force = d3.layout.force()
+    var force1 = d3.layout.force()
         .nodes(nodes)
         .size([width, height])
-        .gravity(.03)
+        .charge(0)
+        .on("tick", tick)
+        .start();
+
+    var force2 = d3.layout.force()
+        .nodes(clusters)
+        .size([width, height])
         .charge(0)
         .on("tick", tick)
         .start();
@@ -71,14 +83,25 @@
         .attr("width", width)
         .attr("height", height);
 
-    var node = svg.selectAll("circle")
+    var node = svg.selectAll("node")
         .data(nodes)
+        .enter().append("circle")
+        .style("fill", function (d) { return color(d.cluster); });
+
+    var cluster1 = svg.selectAll("cluster1")
+        .data(clusters)
         .enter().append("circle")
         .style("fill", function (d) { return color(d.cluster); });
 
     node.transition()
         .duration(750)
-        .delay(function (d, i) { return i * numClusters; })
+        .attrTween("r", function (d) {
+            var i = d3.interpolate(0, d.radius);
+            return function (t) { return d.radius = i(t); };
+        });
+
+    cluster1.transition()
+        .duration(750)
         .attrTween("r", function (d) {
             var i = d3.interpolate(0, d.radius);
             return function (t) { return d.radius = i(t); };
@@ -86,10 +109,17 @@
 
     function tick(e) {
         node
-            .each(cluster(10 * e.alpha * e.alpha))
+            .each(cluster(e.alpha * e.alpha))
             .each(collide(.5))
             .attr("cx", function (d) { return d.x; })
             .attr("cy", function (d) { return d.y; });
+
+        cluster1
+            .each(cluster(e.alpha * e.alpha))
+            .each(collide(.5))
+            .attr("cx", function (d) { return d.x; })
+            .attr("cy", function (d) { return d.y; });
+
     }
 
     // Move d to be adjacent to the cluster node.
