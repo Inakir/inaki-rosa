@@ -12,7 +12,7 @@ span.blete-highlight-header-text{
 }
 
 .blete-main-slides h1.blete-slider-text-big{
-	color: #fccdd3;
+	color: white;
 }
 
 .blete-main-slides p{
@@ -96,23 +96,22 @@ span.blete-third-highlight-text{
 	background-color: #500000;
 }
 
-.blete-main-menu.minified {
-    background-color: rgba(101, 52, 255, .50);
-    background-color: rgba(187, 196, 239, .50);
+.blete-main-menu .navbar-nav li a{
+    color: inherit;
 }
 
 .blete-main-menu .navbar-nav li a:hover,
 .blete-main-menu .navbar-nav li.active a{
-    color: #000000;
+    text-shadow: 7.5px 7.5px 7px rgba(0, 0, 0, 0.45);
 }
 
 .blete-slider .sp-selected-button {
-  background-color: #500000;
+  background-color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.62);
 }
 
 .blete-member-details h3{
-	color: #500000;
+	color: black;
 }
 #scrollUp:hover {
 	background-color: #500000;
@@ -206,22 +205,36 @@ span.blete-third-highlight-text{
 
 /* ------ Section Header Style ------ */
 
+/*-Main stuff that you would actually change-*/
+
+/*Main menu when it's at the very top*/
+.blete-main-menu{
+    background-color: transparent;
+    color: white;
+}
+
+/*Main menu when it's not at the top*/
+.blete-main-menu.minified {
+    background-color: rgba(255, 255, 255, .75);
+    color: #000;
+}
+
 .blete-title-wrapper{
-    background-color: #fccdd3;
+    background-color: #ffffff;
     color: #FFFFFF;
 }
 
 .blete-first-wrapper{
-    background-color: #6534ff;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: black;
 }
 
 .blete-second-wrapper{
-    background-color: #62bcfa;
-    color: #FFFFFF;
+    background-color: white;
+    color: black;
 }
 
 .blete-third-wrapper{
-    background-color: #fccdd3;
+    background-color: white;
     color: #FFFFFF;
 }

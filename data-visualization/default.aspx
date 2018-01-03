@@ -411,6 +411,7 @@
             //     // console.log(d.kapitalgrupp)
             // })
             // define trigger functions
+
             var triggerState;
             frame1 = function() {
                 highlight(function(d) { return false })
