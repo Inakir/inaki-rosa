@@ -46,7 +46,7 @@ header.blete-page-header{
 }
 /* ------ Typography Style----- */
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
     line-height: 1.2;
     margin-top: 0;
@@ -81,9 +81,10 @@ h5{
 }
 
 a,p,li,input,textarea{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
     line-height: 1.5;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -305,6 +306,7 @@ a:active{
 .blete-blurb-icon-left-square{
 	overflow: hidden;
 	margin-bottom: 50px;
+    height: 100%;
 }
 
 .blete-blurb-icon-left-square .blete-icon{
@@ -396,73 +398,73 @@ a:active{
 }
 
 .blete-section-header h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-first-header h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-second-header h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-third-header h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-section-header h2{
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .blete-first-header h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .blete-second-header h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .blete-third-header h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .blete-section-header h1 span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-first-header h1 span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-second-header h1 span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
 
 .blete-third-header h1 span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
@@ -488,14 +490,14 @@ a:active{
 }
 
 .blete-section-header-parallax h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	color: #ffffff;
 }
 
 .blete-section-header-parallax h1 span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
@@ -645,7 +647,7 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-main-slides .blete-slider-text h1 span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 }
 
@@ -965,6 +967,8 @@ header.blete-page-header .blete-main-menu.minified{
 	padding-bottom: 30px;
 }
 
+/*======================================== Start Features ==============================================================*/
+/*======================================== End Features ==============================================================*/
 
 
 /* ----- Portfolio Style ------- */
@@ -996,14 +1000,15 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-portfolio-filter-btn-group ul li a:hover{
-	color: #818181;
+    background-color: #000000;
+	color: #ffffff;
 }
 
 .blete-portfolio-filter-btn-group ul li a.selected{
 	color: #ffffff;
 }
 .blete-portfolio-items{
-	overflow: hidden;
+	height: auto;
 }
 
 .blete-portfolio-items .blete-portfolio-item{
@@ -1011,6 +1016,7 @@ header.blete-page-header .blete-main-menu.minified{
 	height: 280px;
 	position: relative;
 	overflow: hidden;
+    text-align: center;
 }
 
 .blete-portfolio-items .blete-portfolio-item img{
@@ -1047,6 +1053,7 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-portfolio-item .blete-portfolio-details .blete-portfolio-meta-btn{
 	margin-bottom: 20px;
 	text-align: center;
+
 }
 
 .blete-portfolio-details .blete-portfolio-meta-btn ul{
@@ -1056,7 +1063,7 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-portfolio-details .blete-portfolio-meta-btn ul li{
 	width: 50px;
 	height: 50px;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(0, 0, 0, 0.7);
 	float: left;
 	margin-right: 10px;
 	opacity: 0;
@@ -1093,11 +1100,13 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-portfolio-details .blete-portfolio-meta-btn ul li a{
 	display: block;
 	text-align: center;
+
 }
 .blete-portfolio-details .blete-portfolio-meta-btn ul li a i{
 	font-size: 30px;
 	color: #ffffff;
 	line-height: 35px;
+
 }
 
 .blete-portfolio-item .blete-portfolio-details h3{

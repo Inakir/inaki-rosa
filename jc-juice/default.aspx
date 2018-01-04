@@ -112,7 +112,7 @@
                             <a href="#team">Team</a>
                         </li>
                         <li>
-                            <a href="#photos">Photos</a>
+                            <a href="#photos">GALLERY</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
@@ -396,14 +396,14 @@
     </section>
     <!-- Team Section End -->
 
-        <!-- ======= Portfolio Section ======= -->
+    <!-- ======= GALLERY Section ======= -->
     <section id="photos" class="blete-section-wrapper blete-portfolio-section">
         <div class="container">
             <div class="row">
 
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>THE <span class="blete-highlight-text">PORTFOLIO</span></h2>
+                    <h2>PHOTO <span class="blete-highlight-text">GALLERY</span></h2>
                     <div class="blete-section-divider"></div>
                     <!--<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, tempora totam qui.</p>-->
                 </div>
@@ -662,7 +662,7 @@
         </div>
         <!-- Works End -->
     </section>
-    <!-- Portfolio Section End -->
+    <!-- Gallery Section End -->
 
     <!-- ========= Contact Section ========= -->
     <section id="contact" class="blete-section-wrapper blete-contact-section" data-stellar-background-ratio="0.5">

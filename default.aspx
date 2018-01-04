@@ -190,12 +190,9 @@
     </section>
     <!-- About Section End -->
     
-    <!-- =============================
-                    Features Section
-    ================================== -->
+    <!-- =============================       Features Section       ================================== -->
     <div id="projects" class="anchor"></div>
     <section id="features" class="section-wrapper blete-second-wrapper second-section">
-        <div id="projects" class="blete-parallax-overlay"></div>
         <div class="container">
             <div class="row">
                 <!-- Section Header -->
@@ -204,16 +201,32 @@
                     <div class="blete-section-divider"></div>
                     <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Click any of these projects to find out more information.</h4>
                     <br /><br />
-
                 </div>
-                <!-- Section Header End -->
+            </div>
+            <!-- Section Header End -->
+
+            <!-- Filter Button Start  -->
+            <div class="blete-portfolio-works wow fadeIn" data-wow-duration="2s">
+                <!-- Filter Button Start -->
+                <div id="blete-portfolio-filter" class="blete-portfolio-filter-btn-group">
+                    <ul>
+                        <li>
+                            <a href="#" class="selected" data-filter="*">ALL</a> 
+                            <a href="#" data-filter=".site">Websites</a>
+                            <a href="#" data-filter=".mobile">Mobile</a>
+                            <a href="#" data-filter=".presentations">Presentations</a>
+                            <a href="#" data-filter=".D3">D3 JS</a> 
+                            <a href="#" data-filter=".three">Three.JS</a>
+                            <a href="#" data-filter=".cannon">Cannon JS</a>
+                        </li>
+                    </ul>
+                </div>
+            <!-- Filter Button End -->
                 
                 <!-- Features -->
-                <div class="blete-features">
+                <div class="blete-portfolio-items">
                     
-                    <!-------------------------------Left Group----------------------------------------------------->
-                    
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft">
+                    <div class ="item blete-portfolio-item site">
                         <a href="/jc-juice" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
@@ -227,7 +240,9 @@
                                 </div>
                             </div>
                         </a>
-
+                    </div>
+                        
+                    <div class ="item blete-portfolio-item presentations">
                         <a href="/blockchain" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
@@ -243,9 +258,7 @@
                         </a>
                     </div>
 
-                    <!---------------------------------- Middle Group ---------------------------------------->
-
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s">
+                    <div class ="item blete-portfolio-item mobile">
                         <a href="/career-fair-app" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
@@ -261,9 +274,7 @@
                         </a>
                     </div>
 
-                    <!---------------------------------- Right Group ---------------------------------------->
-
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight">
+                    <div class ="item blete-portfolio-item site three cannon">
                         <a href="/space-simulation/index.html" class="page_link">
                             <div class="blete-blurb-icon-left-square">
                                 <div class="blete-icon">
@@ -285,7 +296,7 @@
     </section>
     <!-- Features Section End -->
 
-        <!-- ===========   About Section   =========== -->
+    <!-- ===========   About Section   =========== -->
     <div id="work" class="anchor"></div>
     <section id="work" class="section-wrapper blete-third-wrapper third-section">
         <div class="container">
