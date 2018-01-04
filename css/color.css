@@ -238,3 +238,7 @@ span.blete-third-highlight-text{
     background-color: white;
     color: #FFFFFF;
 }
+
+.navbar-toggle {
+    color: black;
+}
