@@ -307,6 +307,10 @@ a:active{
 	overflow: hidden;
 	margin-bottom: 50px;
     height: 100%;
+	padding: 20px;
+}
+.blete-blurb-icon-left-square:hover{
+    padding: 0;
 }
 
 .blete-blurb-icon-left-square .blete-icon{
@@ -332,8 +336,15 @@ a:active{
 
 .blete-blurb-icon-left-square .blete-blurb-text{
 	float: left;
-	width: 260px;
+	width: auto;
+    height: 100%;
 }
+
+.blete-blurb-icon-left-square .blete-blurb-text:hover{
+	padding: 20px;
+    background-color: rgba(0, 0, 0, .75);
+}
+
 
 .blete-blurb-icon-left-square .blete-blurb-text h3{
 	font-size: 16px;
@@ -364,7 +375,8 @@ a:active{
 }
 
 .blete-blurb-icon-left-square .blete-blurb-text p{
-	
+	font-size: 15px;
+    width: 100%;
 }
 
 
@@ -976,7 +988,6 @@ header.blete-page-header .blete-main-menu.minified{
 	padding-top: 80px;
 }
 .blete-portfolio-filter-btn-group{
-	margin-bottom: 40px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -1008,20 +1019,46 @@ header.blete-page-header .blete-main-menu.minified{
 	color: #ffffff;
 }
 .blete-portfolio-items{
-	height: auto;
+    text-align: center;
 }
 
 .blete-portfolio-items .blete-portfolio-item{
-	width: 25%;
-	height: 280px;
-	position: relative;
+    min-width: 300px;
+    max-width: 400px;
+    height: 255px;
+    padding-top: 30px;
 	overflow: hidden;
-    text-align: center;
+    text-align: left;
+}
+
+.blete-portfolio-items .blete-portfolio-item .jcjuice {
+    background-image:url("/jc-juice/images/B&W2.jpg");
+    background-size: cover;
+}
+
+.blete-portfolio-items .blete-portfolio-item .blockchain {
+    background-image:url("/images/blockchain.png");
+    background-size: cover;
+}
+
+.blete-portfolio-items .blete-portfolio-item .cf {
+    background-image:url("/images/career-fair-app/img2.png");
+    background-size: cover;
+}
+
+.blete-portfolio-items .blete-portfolio-item .space {
+    background-image:url("/space-simulation/images/homescreenBG.png");
+    background-size: cover;
+}
+
+.blete-portfolio-items .blete-portfolio-item .d3 {
+    background-image:url("/images/d3.png");
+    background-size: cover;
 }
 
 .blete-portfolio-items .blete-portfolio-item img{
 	height: 100%;
-	border: 1px solid #aaa;
+    width: 100%;
 }
 
 .blete-portfolio-items .blete-portfolio-item .blete-portfolio-details-wrapper{
@@ -1053,7 +1090,6 @@ header.blete-page-header .blete-main-menu.minified{
 .blete-portfolio-item .blete-portfolio-details .blete-portfolio-meta-btn{
 	margin-bottom: 20px;
 	text-align: center;
-
 }
 
 .blete-portfolio-details .blete-portfolio-meta-btn ul{
@@ -1174,7 +1210,10 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-custom-sec-text ul li{
-	margin-bottom: 10px;
+	font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: -16px;
 }
 
 .blete-custom-sec-text ul li:last-child{
@@ -1182,8 +1221,8 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 .blete-custom-sec-text ul li i{
-	font-size: 14px;
-	margin-right: 10px;
+	font-size: 16px;
+	margin-right: 32px;
 }
 
 /* --------- Testimonial Style --------- */

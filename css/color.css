@@ -1,13 +1,13 @@
 /* --------- color Style ---------- */
 
 
-span.blete-highlight-text{
-	color: rgba(0, 0, 0, 0.62);
+span.highlight-text{
+	color: rgba(0, 0, 0, 0.75);
 }
 
 /*-------------------------Slider Stuff Start-------------------------*/
 
-span.blete-highlight-header-text{
+span.highlight-header-text{
 	color: #black;
 }
 
@@ -78,22 +78,31 @@ span.blete-third-highlight-text{
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.62);
 }
 .blete-blurb-icon-left-square {
-	padding: 20px;
-	border: double 3px #000000
+    color: transparent;
+    background-color: rgba(0, 0, 0, 1);
 }
+
+.blete-blurb-icon-left-square:hover {
+    color: white;
+}
+
 .blete-blurb-icon-left-square .blete-icon:hover {
 	background-color: #000000;
 }
 .blete-blurb-round-icon:hover h3{
-	color: #000000;
+	color: #ffffff;
 }
 
 .blete-blurb-icon-left-square:hover .blete-blurb-text h3{
-	color: #000000;
+	color: #ffffff;
+}
+
+.blete-blurb-icon-left-square .blete-blurb-text h3:after{
+	background-color: transparent;
 }
 
 .blete-blurb-icon-left-square:hover .blete-blurb-text h3:after{
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 .blete-main-menu .navbar-nav li a{

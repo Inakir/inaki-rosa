@@ -196,6 +196,7 @@
     <Content Include="images\700.jpg" />
     <Content Include="images\abouths.jpg" />
     <Content Include="images\arrow_top.png" />
+    <Content Include="images\blockchain.png" />
     <Content Include="images\career-fair-app\img1.PNG" />
     <Content Include="images\career-fair-app\img2.png" />
     <Content Include="images\career-fair-app\img3.PNG" />
@@ -203,6 +204,7 @@
     <Content Include="images\career-fair-app\img5.PNG" />
     <Content Include="images\career-fair-app\img6.PNG" />
     <Content Include="images\career-fair-app\img7.PNG" />
+    <Content Include="images\d3.png" />
     <Content Include="images\favicon.png" />
     <Content Include="images\features.png" />
     <Content Include="images\gvscreen.png" />

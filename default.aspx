@@ -170,9 +170,8 @@
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                    <h2>ABOUT <span class="blete-highlight-text">IÑAKI</span></h2>
+                    <h2>ABOUT <span class="highlight-text">IÑAKI</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Hello, my name Iñaki Rosa de la Fuente. Welcome to my website!</h4>
                 </div>
                 <!-- Section Header End -->
                 <div class="col-md-4 col-sm-6 col-xs-12 blete-custom-sec-img wow bounceInLeft">
@@ -180,10 +179,19 @@
                 </div>
 
                 <div class="col-md-8 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight">
-                    <p>I am currently studying Computer Engineering at Texas A&M University. During my time at A&M I have been heavily involved in Campus organizations, with my two biggest organizations being the Student Engineers’ Council and Fish Camp. I served as the Systems Administration Committee Chair and an Executive Council member for the SEC and I was a counselor for two years in a row in Fish Camp. </p>
-                    <p>I am the proud Father of a dog named Oreo. When I’m not on campus studying or with friends I’m likely hanging out with him. I love Outdoor activities and some of my hobbies including the game “Geocaching”, in which you set out to find hidden treasures in your immediate surroundings. </p>
-                    <p>Since I was young, I have wanted to be an inventor. My inspiration was "Stu" from the Rugrats, who was always inventing wonderful and new machines. When I grew up I realized that what I wanted to do was engineering. Computers and machines always fascinated me so I started taking Computer Science courses as a freshman in High School. At that moment I knew I had found what I wanted to do for the rest of my life. Being a Computer Engineer is a dream come true, and I hope that my work can inspire someone to try out the discipline for themselves. </p>
-                    <p>I encourage you to read the background section in which I go more into detail on what my responsibilities and impact has been in my community!</p>
+                    <p>Hello, my name Iñaki. Welcome to my website!</p>
+                    <p>Here are some quick facts about me:</p>
+                    <br />
+                    <ul>    
+                        <li><i class="fa fa-microchip"></i>I graduated with a degree in Computer Engineering from Texas A&M University. </li>
+                        <li><i class="fa fa-microchip"></i>I am the proud father of a black lab named Oreo.</li>
+                        <li><i class="fa fa-microchip"></i>Some of my favorite hobbies include geocaching.</li>
+                        <li><i class="fa fa-microchip"></i>This website is my playground, I come here to develop my skills.</li>
+                        <li><i class="fa fa-microchip"></i>My carrer inspiration came from "Stu" from the Rugrats.</li>
+                        <li><i class="fa fa-microchip"></i>I was the Systems Administrator of the Student Engineers' Council at A&M.</li>
+                        <li><i class="fa fa-microchip"></i>I've worked at two companies as an application developer.</li>
+                        <li><i class="fa fa-microchip"></i>I currently work for Texas Instruments as a developer (hence the microchips).</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -197,10 +205,8 @@
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-second-header blete-section-header-parallax wow slideInDown">
-                    <h2>MY <span class="blete-highlight-text">PROJECTS</span></h2>
+                    <h2>MY <span class="highlight-text">PROJECTS</span></h2>
                     <div class="blete-section-divider"></div>
-                    <h4 class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Click any of these projects to find out more information.</h4>
-                    <br /><br />
                 </div>
             </div>
             <!-- Section Header End -->
@@ -215,9 +221,9 @@
                             <a href="#" data-filter=".site">Websites</a>
                             <a href="#" data-filter=".mobile">Mobile</a>
                             <a href="#" data-filter=".presentations">Presentations</a>
-                            <a href="#" data-filter=".D3">D3 JS</a> 
-                            <a href="#" data-filter=".three">Three.JS</a>
-                            <a href="#" data-filter=".cannon">Cannon JS</a>
+                            <a href="#" data-filter=".d3">D3.js</a> 
+                            <a href="#" data-filter=".three">Three.js</a>
+                            <a href="#" data-filter=".cannon">Cannon.js</a>
                         </li>
                     </ul>
                 </div>
@@ -225,29 +231,20 @@
                 
                 <!-- Features -->
                 <div class="blete-portfolio-items">
-                    
-                    <div class ="item blete-portfolio-item site">
+                    <div class ="col-md-4 col-sm-12 col-xs-12 item blete-portfolio-item site">
                         <a href="/jc-juice" class="page_link">
-                            <div class="blete-blurb-icon-left-square">
-                                <div class="blete-icon">
-                                    <i class="fa fa-music"></i>        
-                                </div>
+                            <div class="blete-blurb-icon-left-square jcjuice">
                                 <div class="blete-blurb-text">
                                     <h3>JC Juice</h3>
-                                    <p>
-                                        JC Juice is a self funded independant hip-hop artist based out of College Station, TX. I got to design and implement his artist website.
-                                    </p>
+                                    <p>I designed and implemented the website of JC Juice, a hip-hop artist based out of College Station, TX.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                         
-                    <div class ="item blete-portfolio-item presentations">
+                    <div class ="col-md-4 col-sm-12 col-xs-12 item blete-portfolio-item presentations">
                         <a href="/blockchain" class="page_link">
-                            <div class="blete-blurb-icon-left-square">
-                                <div class="blete-icon">
-                                    <i class="fa fa-link"></i>
-                                </div>
+                            <div class="blete-blurb-icon-left-square blockchain">
                                 <div class="blete-blurb-text">
                                     <h3>Blockchain</h3>
                                     <p>
@@ -258,12 +255,9 @@
                         </a>
                     </div>
 
-                    <div class ="item blete-portfolio-item mobile">
+                    <div class ="col-md-4 col-sm-12 col-xs-12 item blete-portfolio-item mobile">
                         <a href="/career-fair-app" class="page_link">
-                            <div class="blete-blurb-icon-left-square">
-                                <div class="blete-icon">
-                                    <i class="fa fa-mobile"></i>        
-                                </div>
+                            <div class="blete-blurb-icon-left-square cf">
                                 <div class="blete-blurb-text">
                                     <h3>Engineering Career Fair App</h3>
                                     <p>
@@ -274,16 +268,26 @@
                         </a>
                     </div>
 
-                    <div class ="item blete-portfolio-item site three cannon">
+                    <div class ="col-md-4 col-sm-12 col-xs-12  item blete-portfolio-item site three cannon">
                         <a href="/space-simulation/index.html" class="page_link">
-                            <div class="blete-blurb-icon-left-square">
-                                <div class="blete-icon">
-                                    <i class="fa fa-space-shuttle"></i>
-                                </div>
+                            <div class="blete-blurb-icon-left-square space">
                                 <div class="blete-blurb-text">
                                     <h3>Space Simulation</h3>
                                     <p>
                                         This project involves making a space simulation of the moon exploding using JavaScript libraries. The simulation features the moon exploding and fragmenting across the galaxy as well as a space station with survival pods.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class ="col-md-4 col-sm-12 col-xs-12  item blete-portfolio-item d3">
+                        <a href="/data-visualization" class="page_link">
+                            <div class="blete-blurb-icon-left-square d3">
+                                <div class="blete-blurb-text">
+                                    <h3>D3 Project</h3>
+                                    <p>
+                                        Currently in progress. Feel free to click and check out my progress though!
                                     </p>
                                 </div>
                             </div>
@@ -303,7 +307,7 @@
             <div class="row">
             <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-third-header wow fadeInDown">
-                    <h2>PREVIOUS <span class="blete-third-highlight-text">WORK</span></h2>
+                    <h2>PREVIOUS <span class="highlight-text">WORK</span></h2>
                     <div class="blete-section-divider"></div>
                     <p style="text-align: left">
                     <br />My most recent internship was at Phillips 66 in Bartlesville Oklahoma. Phillips 66 is a midstream energy company with pipelines and midstream facilities all across the United States. During my internship I was able to gain an in depth knowledge over the energy value chain, something that I never thought I would do as a Computer Engineer. I was able to do several projects while I interned here. The most exciting part of the internship was getting the ability to research Blockchain technology and how it can impact not just Phillips 66, but the energy industry as a whole. My official title was Operational Development under Application Services. The role saw me developing and maintain the applications used by the company internally. My first project was to rewrite the batch job that notifies users when an account they manage is about to expire. I was able to significantly improve the time that it took to run from ~20 minutes to 3 minutes. I was also able to reduce the total lines of code from ~800 to ~300 lines. This was an exciting project and I got to see the impact it had almost immediately. Lastly, I created an application that allowed the Lubrication R&D team to submit data they received from research into a database. This data needed to be formatted specifically and fit numerous amounts of tests so that it could be formatted correctly by the analyzing software. 
