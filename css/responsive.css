@@ -151,7 +151,7 @@
     text-align: center;
   }
   .navbar-toggle {
-    border: 1px solid #fff;
+    border: 1px solid #000000;
   }
 
   .navbar-toggle .icon-bar {
@@ -159,7 +159,7 @@
     display: block;
     height: 2px;
     width: 22px;
-    background-color: #fff;
+    background-color: #000000;
   }
 
   .navbar-collapse {
