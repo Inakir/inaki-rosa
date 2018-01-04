@@ -225,42 +225,42 @@
                     <div id="featured-work-slider" class="owl-carousel blete-portfolio-works-slider">
                         <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" width="225" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/artist/6KLXNXjgZUa0ZMyo0KQZOr" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 4 End -->
                         <!-- Work 1 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 1 End -->
                         <!-- Work 2 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 2 End -->
                         <!-- Work 3 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/2EU0XdZWbmkbWGw0FHxlTd" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/2EU0XdZWbmkbWGw0FHxlTd" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 3 End -->
                         <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/3CwjsbxVAj6Ie0nXPal2P1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/3CwjsbxVAj6Ie0nXPal2P1" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 4 End -->
                         <!-- Work 5 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/6DwGpt0MfJP7Lbhd4ZCnvm" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/6DwGpt0MfJP7Lbhd4ZCnvm" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 5 End -->
                         <!-- Work 6 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/0cZQWCRcJkoZwBY0UQ03Xg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/0cZQWCRcJkoZwBY0UQ03Xg" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 6 End -->
                         <!-- Work 7 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/5qV8jFXWD0g03nQj37qdUd" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe class="JC-Spotify" src="https://open.spotify.com/embed/track/5qV8jFXWD0g03nQj37qdUd" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 7 End -->
                     </div>
@@ -696,12 +696,11 @@
                 <div class="blete-contact-details">
                     <!-- Address Area -->
                     <div class="col-md-8 col-sm-12 col-xs-12 blete-contact-address wow bounceInLeft">
-                        <ul class="blete-team-social-icon" style="display:table; margin:0 auto;">
-                            <li class="social-phone"><i class="fa fa-phone"></i>214-449-2080</li>
-                            <li class="social-email">    <a href="mailto:jcjuice@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>jcjuice@jcjuiceofficial.com</a></li>
-                            
-                            <li class="social-instagram"><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i>Follow me on Instragram</a></li>
-                            <li class="social-facebook"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i>Connect with me on Facebook</a></li>
+                        <ul class="blete-team-social-icon">
+                            <li class="contact"><i class="fa fa-phone"></i>214-449-2080</li>
+                            <li class="contact"><a href="mailto:jcjuice@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>jcjuice@jcjuiceofficial.com</a></li>
+                            <li class="contact"><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i>Follow me on Instragram</a></li>
+                            <li class="contact"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i>Connect with me on Facebook</a></li>
                         </ul>
                     </div>
                     <!-- Address Area End -->

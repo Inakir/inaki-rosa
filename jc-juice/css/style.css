@@ -672,6 +672,7 @@ header.blete-page-header .blete-main-menu.minified{
 	margin: 0 auto;
 	background: #transparent;
 }
+
 .blete-team-slides .blete-member-img-wrapper img{
     background-color: transparent;
 	
@@ -798,6 +799,7 @@ header.blete-page-header .blete-main-menu.minified{
 }
 .blete-portfolio-work-item{
 	height: auto;
+    margin: 0px;
 	position: relative;
     text-align: center;
 }
@@ -1311,24 +1313,37 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 /* -------- Contact Style ------- */
-.
+
 .blete-contact-section h2{
 
 }
+
+.blete-contact-section{
+    text-align: center;
+}
+
+.blete-contact-section .blete-contact-address{
+	margin-bottom: 25px;
+}
+
+.blete-contact-section .blete-contact-address ul.blete-team-social-icon{
+    margin:0 auto;
+	display:table; 
+    text-align: left;
+}
+
 .blete-contact-section .blete-contact-address p{
-	
 	margin-bottom: 25px;
 }
 
 .blete-contact-section .blete-contact-address ul li{
 	padding-left: 100px;
 	margin-bottom: 35px;
-	font-size: 25px;
+	font-size: 22px;
 	position: relative;
 }
 
 .blete-contact-section .blete-contact-address ul li:last-child{
-	margin-bottom: 0;
 }
 
 .blete-contact-section .blete-contact-address ul li i{
@@ -1344,6 +1359,13 @@ header.blete-page-header .blete-main-menu.minified{
 	border-radius: 20px;
     border: solid 2px;
 }
+
+.blete-contact-section .blete-contact-form{
+    display: inline-block;
+    float: none;
+    
+}
+
 .blete-contact-section .blete-contact-form .blete-input-fields{
 	margin-bottom: 20px;
 	color: #FFF;
@@ -1394,7 +1416,6 @@ header.blete-page-header .blete-main-menu.minified{
 	     -o-transition: all .35s;
 	        transition: all .35s;
 }
-
 
 .blete-contact-section .blete-contact-form .blete-input-fields input[type='submit']:hover{
 	color: #ffffff;
@@ -1555,4 +1576,11 @@ footer ul li a i{
 .page_link {
      color: inherit; 
      text-decoration: none;
+}
+
+.JC-Spotify {
+    width: 300px;
+    height: 380px;
+    frameborder: 0px; 
+    allowtransparency: true;
 }
