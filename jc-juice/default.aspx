@@ -230,24 +230,39 @@
                         <!-- Work 4 End -->
                         <!-- Work 1 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="225" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/track/25oGftDbXX3M3t63QYcZBl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 1 End -->
                         <!-- Work 2 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="225" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/track/1aqzfKnNenAl4xJjIkRtCQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 2 End -->
-                        <!-- Work 3 
+                        <!-- Work 3 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/6vmjR40PiFBh7rKCZYT16r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/track/2EU0XdZWbmkbWGw0FHxlTd" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 3 End -->
-                        <!-- Work 4 
+                        <!-- Work 4 -->
                         <div class="blete-portfolio-work-item">
-                            <iframe src="https://open.spotify.com/embed/track/4WXTEtOAW1ABxD5XDspWyN" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            <iframe src="https://open.spotify.com/embed/track/3CwjsbxVAj6Ie0nXPal2P1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                         </div>
                         <!-- Work 4 End -->
+                        <!-- Work 5 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/6DwGpt0MfJP7Lbhd4ZCnvm" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 5 End -->
+                        <!-- Work 6 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/0cZQWCRcJkoZwBY0UQ03Xg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 6 End -->
+                        <!-- Work 7 -->
+                        <div class="blete-portfolio-work-item">
+                            <iframe src="https://open.spotify.com/embed/track/5qV8jFXWD0g03nQj37qdUd" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <!-- Work 7 End -->
                     </div>
                 </div>
             </div>
