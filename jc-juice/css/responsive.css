@@ -315,13 +315,16 @@
     margin-bottom: 50px;
   }
 
+  .JC-Spotify {
+      width: 225px;
+  }
 
 }
 
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 400px) and (max-width: 767px) {
 
 /* ------- Home Page ------ */
   /* ---------- Portfolio --------- */
