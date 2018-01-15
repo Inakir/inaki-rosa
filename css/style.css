@@ -1051,6 +1051,21 @@ header.blete-page-header .blete-main-menu.minified{
     background-size: cover;
 }
 
+.blete-portfolio-items .blete-portfolio-item .reghub {
+    background-image:url("/images/reghub.png");
+    background-size: cover;
+}
+
+.blete-portfolio-items .blete-portfolio-item .vibes {
+    background-image:url("/images/senior.jpg");
+    background-size: cover;
+}
+
+.blete-portfolio-items .blete-portfolio-item .sec {
+    background-image:url("/images/sec.png");
+    background-size: cover;
+}
+
 .blete-portfolio-items .blete-portfolio-item .d3 {
     background-image:url("/images/d3.png");
     background-size: cover;

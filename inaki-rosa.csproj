@@ -250,6 +250,9 @@
     <Content Include="images\img-work\work7.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\preloader.gif" />
+    <Content Include="images\reghub.png" />
+    <Content Include="images\sec.png" />
+    <Content Include="images\senior.jpg" />
     <Content Include="images\slide1-1.png" />
     <Content Include="images\slide1-2.png" />
     <Content Include="images\slide1-3.png" />
@@ -309,6 +312,7 @@
     <Content Include="jc-juice\images\img-portfolio\r2.jpg" />
     <Content Include="jc-juice\images\JC 31.jpg" />
     <Content Include="jc-juice\images\preloader.gif" />
+    <Content Include="jc-juice\images\shiner.JPG" />
     <Content Include="jc-juice\images\team\Colin Saunders.jpg" />
     <Content Include="jc-juice\images\team\David Alvarez.jpg" />
     <Content Include="jc-juice\images\team\Eliot Guerin.jpg" />

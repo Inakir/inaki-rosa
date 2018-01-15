@@ -205,7 +205,7 @@
             <div class="row">
                 <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-second-header blete-section-header-parallax wow slideInDown">
-                    <h2>MY <span class="highlight-text">PROJECTS</span></h2>
+                    <h2>MY <span class="highlight-text">PORTFOLIO</span></h2>
                     <div class="blete-section-divider"></div>
                 </div>
             </div>
@@ -220,10 +220,12 @@
                             <a href="#" class="selected" data-filter="*">ALL</a> 
                             <a href="#" data-filter=".site">Websites</a>
                             <a href="#" data-filter=".mobile">Mobile</a>
-                            <a href="#" data-filter=".presentations">Presentations</a>
+                            <a href="#" data-filter=".ruby">Ruby on Rails</a>
                             <a href="#" data-filter=".d3">D3.js</a> 
                             <a href="#" data-filter=".three">Three.js</a>
                             <a href="#" data-filter=".cannon">Cannon.js</a>
+                            <a href="#" data-filter=".presentations">Presentations</a>
+                            <a href="#" data-filter=".engineering">Engineering</a>
                         </li>
                     </ul>
                 </div>
@@ -281,6 +283,45 @@
                         </a>
                     </div>
 
+                    <div class ="col-md-4 col-sm-12 col-xs-12  item blete-portfolio-item site ruby">
+                        <a href="https://registration.sec.tamu.edu/" class="page_link">
+                            <div class="blete-blurb-icon-left-square reghub">
+                                <div class="blete-blurb-text">
+                                    <h3>Registration Hub</h3>
+                                    <p>
+                                        The Student Engineers' Council needed a way to register participants for their events. I created a website using Ruby on Rails to satisfy this need, as well as providing functionality to keep track of the registrants. 
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class ="col-md-4 col-sm-12 col-xs-12  item blete-portfolio-item site">
+                        <a href="http://sec.tamu.edu/" " class="page_link">
+                            <div class="blete-blurb-icon-left-square sec">
+                                <div class="blete-blurb-text">
+                                    <h3>Student Engineers' Council</h3>
+                                    <p>
+                                        I got to redesign and implement a brand new website for the Student Engineers' Council.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class ="col-md-4 col-sm-12 col-xs-12  item blete-portfolio-item site engineering">
+                        <a href="https://sites.google.com/a/tamu.edu/team-03---csce-483-f-16/home" class="page_link">
+                            <div class="blete-blurb-icon-left-square vibes">
+                                <div class="blete-blurb-text">
+                                    <h3>Good Vibes</h3>
+                                    <p>
+                                        This was my senior design project. My team and I designed a hat to assist hearing impaired individuals detect the direction of sounds.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                     <div class ="col-md-4 col-sm-12 col-xs-12  item blete-portfolio-item d3">
                         <a href="/data-visualization" class="page_link">
                             <div class="blete-blurb-icon-left-square d3">
@@ -293,6 +334,7 @@
                             </div>
                         </a>
                     </div>
+
                 </div>
                 <!-- Features End -->
             </div>

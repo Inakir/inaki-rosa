@@ -103,6 +103,9 @@
                             <a href="#top">Top</a>
                         </li>
                         <li>
+                            <a href="#announcments">Announcements</a>
+                        </li>
+                        <li>
                             <a href="#about">About</a>
                         </li>
                         <li>
@@ -112,7 +115,7 @@
                             <a href="#team">Team</a>
                         </li>
                         <li>
-                            <a href="#photos">GALLERY</a>
+                            <a href="#photos">Gallery</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
@@ -166,11 +169,38 @@
             <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
         </div>
     </section>
+
+    <!-- ===========   Announcments Section   =========== -->
+    <div id="announcments" class="anchor"></div>
+    <!-- =========   Summary Section   ========= -->
+    <section class="blete-custom-sec blete-section-wrapper blete-description">
+        <div class="container">
+            <div class="row">
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
+                    <h2>Announcements<span class="blete-highlight-text"></span></h2>
+                    <div class="blete-section-divider"></div>
+                </div>
+                <!-- Section Header End -->
+                
+                <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-img wow bounceInLeft" style="text-align: center;">
+                    <img src="/jc-juice/images/shiner.jpg" alt="JC Juice" style="max-height: 475px;">
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 blete-custom-sec-text wow bounceInRight" style="text-align: center;">
+                    <div class="fb-post" data-href="https://www.facebook.com/colin.saunders.180/posts/1924849897557755?pnref=story" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/colin.saunders.180/posts/1924849897557755" class="fb-xfbml-parse-ignore"><p>BIG things are happening in College Station.  &#x1f50a; Get your tickets NOW! &#x1f3a4;</p>Posted by <a href="https://www.facebook.com/colin.saunders.180">Colin Saunders</a> on&nbsp;<a href="https://www.facebook.com/colin.saunders.180/posts/1924849897557755">Monday, December 11, 2017</a></blockquote></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+
     <!-- Main Slider End -->
     <!-- ===========   About Section   =========== -->
     <div id="about" class="anchor"></div>
     <!-- =========   Summary Section   ========= -->
-    <div id="summary" class="anchor"></div>
     <section class="blete-custom-sec blete-section-wrapper blete-description">
         <div class="container">
             <div class="row">
