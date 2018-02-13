@@ -102,9 +102,9 @@
                         <li class="active">
                             <a href="#top">Top</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a href="#announcments">Announcements</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a href="#about">About</a>
                         </li>
