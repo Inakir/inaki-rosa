@@ -728,7 +728,7 @@
                     <div class="col-md-8 col-sm-12 col-xs-12 blete-contact-address wow bounceInLeft">
                         <ul class="blete-team-social-icon">
                             <li class="contact"><i class="fa fa-phone"></i>214-449-2080</li>
-                            <li class="contact"><a href="mailto:jcjuice@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>jcjuice@jcjuiceofficial.com</a></li>
+                            <li class="contact"><a href="mailto:contact@jcjuiceofficial.com"><i class="fa fa-envelope-o fa-2x"></i>contact@jcjuiceofficial.com</a></li>
                             <li class="contact"><a href="https://www.instagram.com/jcjuice/"><i class="fa fa-instagram fa-2x"></i>Follow me on Instragram</a></li>
                             <li class="contact"> <a href="https://www.facebook.com/jc.la.musique/"><i class="fa fa-facebook fa-2x"></i>Connect with me on Facebook</a></li>
                         </ul>
