@@ -170,18 +170,18 @@
         </div>
     </section>
 
-    <!-- ===========   Announcments Section   =========== -->
+    <!-- ===========   Announcments Section   =========== 
     <div id="announcments" class="anchor"></div>
-    <!-- =========   Summary Section   ========= -->
+    <!-- =========   Summary Section   ========= 
     <section class="blete-custom-sec blete-section-wrapper blete-description">
         <div class="container">
             <div class="row">
-                <!-- Section Header -->
+                <!-- Section Header 
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
                     <h2>Announcements<span class="blete-highlight-text"></span></h2>
                     <div class="blete-section-divider"></div>
                 </div>
-                <!-- Section Header End -->
+                <!-- Section Header End 
                 
                 <div class="col-md-6 col-sm-12 col-xs-12 blete-custom-sec-img wow bounceInLeft" style="text-align: center;">
                     <img src="/jc-juice/images/shiner.jpg" alt="JC Juice" style="max-height: 475px;">
