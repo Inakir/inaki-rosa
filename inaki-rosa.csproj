@@ -258,6 +258,8 @@
     <Content Include="images\slide1-3.png" />
     <Content Include="images\team\inaki.jpg" />
     <Content Include="images\texas_instruments.jpg" />
+    <Content Include="images\titles\blockchain.jpeg" />
+    <Content Include="images\titles\careerfair.jpg" />
     <Content Include="jc-juice\css\animate.css" />
     <Content Include="jc-juice\css\animated.css" />
     <Content Include="jc-juice\css\bootstrap.css" />

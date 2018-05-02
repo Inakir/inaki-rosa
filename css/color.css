@@ -73,6 +73,20 @@ span.blete-third-highlight-text{
 	color: #000000
 }
 
+.work-feature h3{
+    color: black !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.blete-blurb-round-icon .feature-highlight{
+	background-color: black !important;
+}
+
+.blete-blurb-round-icon:hover .feature-highlight{
+	background-color: white !important;
+}
+
 .blete-blurb-round-icon:hover .blete-icon{
 	background-color: #000000;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.62);
@@ -89,7 +103,35 @@ span.blete-third-highlight-text{
 .blete-blurb-icon-left-square .blete-icon:hover {
 	background-color: #000000;
 }
+
+.blete-blurb-round-icon .feature-highlight {
+	color: black !important;
+}
+
 .blete-blurb-round-icon:hover h3{
+	color: #ffffff;
+}
+
+.blete-blurb-round-icon feature-highlight i {
+	color: #ffffff !important;
+}
+
+.blete-blurb-round-icon:hover .feature-highlight i{
+	color: #000000 !important;
+}
+
+.blete-blurb-round-icon .blete-icon i {
+	color: #ffffff;
+}
+
+.blete-blurb-round-icon:hover .blete-icon i{
+	color: #ffffff;
+}
+
+.blete-blurb-round-icon:hover .blete-icon{
+	border: 1px solid rgba(0,0,0,0);
+}
+.blete-blurb-round-icon h3{
 	color: #ffffff;
 }
 
@@ -224,8 +266,29 @@ span.blete-third-highlight-text{
 
 /*Main menu when it's not at the top*/
 .blete-main-menu.minified {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .95);
     color: #000;
+}
+
+.portfolio-item-title{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.blockchain-title h2{
+    color: white;
+}
+
+.careerfair-title h2{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .blete-title-wrapper{

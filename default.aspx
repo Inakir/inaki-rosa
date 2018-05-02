@@ -67,7 +67,7 @@
     <header>
         <!-- Navigation Menu start-->
         <nav class="navbar blete-main-menu" role="navigation">
-            <div class="container">
+            <div class="container nav-bar-container ">
                 <!-- Navbar Toggle -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -183,14 +183,13 @@
                     <p>Here are some quick facts about me:</p>
                     <br />
                     <ul>    
-                        <li><i class="fa fa-microchip"></i>I graduated with a degree in Computer Engineering from Texas A&M University. </li>
                         <li><i class="fa fa-microchip"></i>I am the proud father of a black lab named Oreo.</li>
-                        <li><i class="fa fa-microchip"></i>Some of my favorite hobbies include geocaching.</li>
                         <li><i class="fa fa-microchip"></i>This website is my playground, I come here to develop my skills.</li>
                         <li><i class="fa fa-microchip"></i>My carrer inspiration came from "Stu" from the Rugrats.</li>
                         <li><i class="fa fa-microchip"></i>I was the Systems Administrator of the Student Engineers' Council at A&M.</li>
-                        <li><i class="fa fa-microchip"></i>I've worked at two companies as an application developer.</li>
-                        <li><i class="fa fa-microchip"></i>I currently work for Texas Instruments as a developer (hence the microchips).</li>
+                        <li><i class="fa fa-microchip"></i>Graduated with a Computer Engineering from Texas A&M University. </li>
+                        <li><i class="fa fa-microchip"></i>I am currently working as a software developer.</li>
+                        <!--<li><i class="fa fa-microchip"></i>I currently work for Texas Instruments as a developer (hence the microchips).</li>-->
                     </ul>
                 </div>
             </div>
@@ -356,7 +355,7 @@
                     </p>
 
                     <p style="text-align: left">
-                    <br />My first internship ever was Texas Instruments in Dallas, Texas. Texas Instruments is a company that designs and manufactures semiconductors. I was able to get to learn the semiconductor manufacturing process and got to visit the fabs fairly regularly to understand the way the company made profit. I was able to work on several projects during my tenure here. I was able to create an application that allowed the manufacturing team to reserve tools in a fab in advance. This application was useful when very high priority products were going through the line and needed to have a tool ready to greet them. I also worked on several other smaller applications, most notably an application that allowed users to move useful files between tools in different fabs. This is useful as many of the instruments are older and need specialized software to accomplish this. 
+                    <br />My first internship was with Texas Instruments in Dallas, Texas. Texas Instruments is a company that designs and manufactures semiconductors. I was able to get to learn the semiconductor manufacturing process and got to visit the fabs fairly regularly to understand the way the company made profit. I was able to work on several projects during my tenure there. I created an application that allowed the manufacturing team to reserve tools in a fab in advance. This application was useful when very high priority products were going through the line and needed to have a tool ready to greet them. I also worked on several other smaller applications, most notably an application that allowed users to move useful files between tools in different fabs. This is useful as many of the instruments need specialized software to accomplish these tasks. 
                     </p>
                 </div>
             </div> 

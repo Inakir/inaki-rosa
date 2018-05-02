@@ -110,17 +110,16 @@
 
     <!-- =========   Title Section   ========= -->
     <div id="title" class="anchor"></div>
-    <section id="Title" class="section-wrapper blete-title-wrapper title-section">
-            <div class="container">
-                <div class="row">
-                    <!-- Section Header -->
-
-                    <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
-                        <h2>Block<span class="blete-highlight-text">Chain</span></h2>
-                    </div>
+    <section id="Title" class="section-wrapper portfolio-item-title title-section blockchain-title">
+        <div class="container">
+            <div class="row">
+                <!-- Section Header -->
+                <div class="col-md-12 col-sm-12 col-xs-12 blete-section-header wow fadeInDown">
+                    <h2>Block<span class="blete-highlight-text">Chain</span></h2>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     <!-- =========   Overview Section   ========= -->
     <div id="overview" class="anchor"></div>
@@ -137,29 +136,29 @@
                 <!-- Section Header End -->
                 <!-- What We Do -->
                 <div class="blete-what-we-do">
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInLeft">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-refresh"></i>
                         </div>
                         <h3>SELF-REGULATING</h3>
                         <p>The Blockchain is self-regulating. This means that, unlike other systems, there doesn’t need to be a third-party to verify transactions over the network.</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s" >
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInLeft" data-wow-delay=".5s" >
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-link"></i>
                         </div>
                         <h3>DECENTRALIZED</h3>
                         <p>The Blockchain is decentralized, meaning that no single entity has can control the network. This makes applications, such as bitcoin, able to function without a governing body and still be able to have the trust of its users. </p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-lock"></i>
                         </div>
                         <h3>SECURE</h3>
                         <p>The Blockchain is secure by nature. It has a high Byzantine-Fault tolerance and requires immense computational power for an attacker to corrupt. </p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-btc"></i>
                         </div>
                         <h3>BITCOIN</h3>

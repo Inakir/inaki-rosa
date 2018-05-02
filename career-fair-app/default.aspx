@@ -116,7 +116,7 @@
 
     <!-- =========   Title Section   ========= -->
     <div id="title" class="anchor"></div>
-    <section id="Title" class="section-wrapper blete-title-wrapper title-section">
+    <section id="Title" class="section-wrapper careerfair-title portfolio-item-title title-section">
             <div class="container">
                 <div class="row">
                     <!-- Section Header -->
@@ -143,29 +143,29 @@
                 <!-- Section Header End -->
                 <!-- What We Do -->
                 <div class="blete-what-we-do">
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInLeft">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-mobile"></i>
                         </div>
                         <h3>MOBILE</h3>
                         <p>Students can look up companies live while they’re at the career fair and make notes on the phone after they’ve talked to them. </p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInLeft" data-wow-delay=".5s">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInLeft" data-wow-delay=".5s">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-laptop"></i>
                         </div>
                         <h3>WEBSITE COMMUNICATION</h3>
                         <p>The app communicates with the SEC Website through an API, thus the information app is always up to date.</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-search"></i>
                         </div>
                         <h3>RECRUITING INFORMATION</h3>
                         <p>Students will be able to easily find where companies are located on the floor, an issue we faced previously with paper booklets. Students can selectively show companies based on majors and positions they’re hiring for.</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blete-icon">
+                    <div class="col-md-3 col-sm-3 col-xs-12 blete-blurb-round-icon work-feature wow bounceInRight" data-wow-delay=".5s">
+                        <div class="blete-icon feature-highlight">
                             <i class="fa fa-smile-o"></i>
                         </div>
                         <h3>STUDENTS</h3>
@@ -218,7 +218,7 @@
     
     <!-- =========   Photos Section   ========= -->
     <div id="photos" class="anchor"></div>
-    <section id="featured-works" class="section-wrapper blete-third-wrapper third-section blete-section-work">
+    <section id="featured-works" class="section-wrapper blete-second-wrapper second-section blete-section-work">
         <!-- Container -->
         <div class="container">
             <div class="row">

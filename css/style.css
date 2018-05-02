@@ -265,7 +265,6 @@ a:active{
 .blete-blurb-round-icon .blete-icon i{
 	line-height: 100px;
 	font-size: 36px;
-	color: #ffffff;
 }
 
 .blete-blurb-round-icon .blete-icon{
@@ -276,18 +275,9 @@ a:active{
 	        transition: all .35s linear;
 }
 
-.blete-blurb-round-icon:hover .blete-icon{
-	border: 1px solid rgba(0,0,0,0);
-}
-
-.blete-blurb-round-icon:hover .blete-icon i{
-	color: #ffffff;
-}
-
 .blete-blurb-round-icon h3{
 	text-align: center;
 	font-size: 18px;
-	color: #ffffff;
 	margin-top: 0;
 	margin-bottom: 15px;
 	-webkit-transition: all .3s linear;
@@ -588,6 +578,10 @@ a:active{
 
 header.blete-page-header .blete-main-menu{
 	position: relative;
+}
+
+.nav-bar-container {
+    width: 100% !important;
 }
 
 .blete-main-menu .navbar-nav{
@@ -1029,6 +1023,13 @@ header.blete-page-header .blete-main-menu.minified{
     padding-top: 30px;
 	overflow: hidden;
     text-align: left;
+}
+
+.blockchain-title {
+    background-image:url("/images/titles/blockchain.jpeg");
+}
+.careerfair-title{
+    background-image:url("/images/titles/careerfair.jpg");
 }
 
 .blete-portfolio-items .blete-portfolio-item .jcjuice {
