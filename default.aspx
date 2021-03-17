@@ -184,11 +184,10 @@
                     <br />
                     <ul>    
                         <li><i class="fa fa-microchip"></i>I am the proud father of a black lab named Oreo.</li>
-                        <li><i class="fa fa-microchip"></i>This website is my playground, I come here to develop my skills.</li>
                         <li><i class="fa fa-microchip"></i>My carrer inspiration came from "Stu" from the Rugrats.</li>
-                        <li><i class="fa fa-microchip"></i>I was the Systems Administrator of the Student Engineers' Council at A&M.</li>
-                        <li><i class="fa fa-microchip"></i>Graduated with a Computer Engineering from Texas A&M University. </li>
-                        <li><i class="fa fa-microchip"></i>I am currently working as a software developer.</li>
+                        <li><i class="fa fa-microchip"></i>I got to manage the Career Fair Website for the Engineering Career Fair at Texas A&M.</li>
+                        <li><i class="fa fa-microchip"></i>I am currently working as a software developer for Texas Instruments.</li>
+                        <li><i class="fa fa-microchip"></i>My favorite hobbies include climbing and playing ultimate frisbee.</li>
                         <!--<li><i class="fa fa-microchip"></i>I currently work for Texas Instruments as a developer (hence the microchips).</li>-->
                     </ul>
                 </div>
@@ -348,15 +347,16 @@
             <div class="row">
             <!-- Section Header -->
                 <div class="col-md-12 col-sm-12 col-xs-12 blete-third-header wow fadeInDown">
-                    <h2>PREVIOUS <span class="highlight-text">WORK</span></h2>
+                    <h2><span class="highlight-text">WORK</span></h2>
                     <div class="blete-section-divider"></div>
                     <p style="text-align: left">
-                    <br />My most recent internship was at Phillips 66 in Bartlesville Oklahoma. Phillips 66 is a midstream energy company with pipelines and midstream facilities all across the United States. During my internship I was able to gain an in depth knowledge over the energy value chain, something that I never thought I would do as a Computer Engineer. I was able to do several projects while I interned here. The most exciting part of the internship was getting the ability to research Blockchain technology and how it can impact not just Phillips 66, but the energy industry as a whole. My official title was Operational Development under Application Services. The role saw me developing and maintain the applications used by the company internally. My first project was to rewrite the batch job that notifies users when an account they manage is about to expire. I was able to significantly improve the time that it took to run from ~20 minutes to 3 minutes. I was also able to reduce the total lines of code from ~800 to ~300 lines. This was an exciting project and I got to see the impact it had almost immediately. Lastly, I created an application that allowed the Lubrication R&D team to submit data they received from research into a database. This data needed to be formatted specifically and fit numerous amounts of tests so that it could be formatted correctly by the analyzing software. 
+                    <br />I currently work as a software developer for Texas Instruments. I previously interned with them in 2016 before starting work full time in 2016. I have done 4 different roles at the company. I worked developing tools for the electrical engineers. Then, I got to work in the fabs writing automation and helping our semiconductors chips get created. My next role was working as an Ecommerce engineer, working directly with TI.com. I got to work with a team configuring new languages and currencies into the website. My current role is in business applications, where I mostly help maintain web applications to help the TI sales team. 
+                    <!--<br />My most recent internship was at Phillips 66 in Bartlesville Oklahoma. Phillips 66 is a midstream energy company with pipelines and midstream facilities all across the United States. During my internship I was able to gain an in depth knowledge over the energy value chain, something that I never thought I would do as a Computer Engineer. I was able to do several projects while I interned here. The most exciting part of the internship was getting the ability to research Blockchain technology and how it can impact not just Phillips 66, but the energy industry as a whole. My official title was Operational Development under Application Services. The role saw me developing and maintain the applications used by the company internally. My first project was to rewrite the batch job that notifies users when an account they manage is about to expire. I was able to significantly improve the time that it took to run from ~20 minutes to 3 minutes. I was also able to reduce the total lines of code from ~800 to ~300 lines. This was an exciting project and I got to see the impact it had almost immediately. Lastly, I created an application that allowed the Lubrication R&D team to submit data they received from research into a database. This data needed to be formatted specifically and fit numerous amounts of tests so that it could be formatted correctly by the analyzing software. -->
                     </p>
 
-                    <p style="text-align: left">
+                    <!--<p style="text-align: left">
                     <br />My first internship was with Texas Instruments in Dallas, Texas. Texas Instruments is a company that designs and manufactures semiconductors. I was able to get to learn the semiconductor manufacturing process and got to visit the fabs fairly regularly to understand the way the company made profit. I was able to work on several projects during my tenure there. I created an application that allowed the manufacturing team to reserve tools in a fab in advance. This application was useful when very high priority products were going through the line and needed to have a tool ready to greet them. I also worked on several other smaller applications, most notably an application that allowed users to move useful files between tools in different fabs. This is useful as many of the instruments need specialized software to accomplish these tasks. 
-                    </p>
+                    </p>-->
                 </div>
             </div> 
         </div>
@@ -371,7 +371,7 @@
                     <h3>About</h3>
                     <ul>
                         <li><span>
-                            This website was created to document all my hobbies and passions. I hope that you can get something out of being in my website. Please feel free to contact me if you have any questions or ideas. 
+                        contact@inakirosa.com 
                          </span></li>
                     </ul>
                 </div>
