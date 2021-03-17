@@ -130,7 +130,7 @@
             </div>
             <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
 
-            <div class="sp-slide blete-main-slides">
+            <!--<div class="sp-slide blete-main-slides">
                 <div class="blete-img-overlay"></div>
                 <img class="sp-image" src="/images/img-header/p66.jpeg" alt="Slider 2" />
                 <h1 class="sp-layer blete-slider-text-big"
@@ -141,7 +141,7 @@
                     data-position="center" data-vertical="-25%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
                     <span class="blete-highlight-header-text">Bartlesville</span>, Oklahoma
                 </p>
-            </div>
+            </div>-->
 
             <!----------------------------------------------------------------------End Slide------------------------------------------------------------------------------------->
 
@@ -150,7 +150,7 @@
                 <img class="sp-image" src="/images/img-header/ti.jpg" alt="Slider 3" />
                 <h1 class="sp-layer blete-slider-text-big"
                     data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-                    Texas Instruments
+                    Texas Instruments Internship
                 </h1>
                 <p class="sp-layer"
                     data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
